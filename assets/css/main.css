@@ -4074,3 +4074,24 @@
 			margin-top: 0;
 			padding-top: 0;
 		}
+
+/* Talks grid */
+
+	.talks-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2em;
+		max-width: 1200px;
+	}
+
+	.talks-grid iframe {
+		aspect-ratio: 16 / 9;
+		height: auto;
+	}
+
+	@media screen and (max-width: 980px) {
+		.talks-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+
