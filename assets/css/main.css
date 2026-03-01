@@ -4095,3 +4095,30 @@
 		}
 	}
 
+/* Publications list */
+
+	.pub-entry {
+		border-bottom: solid 1px rgba(210, 215, 217, 0.75);
+		padding: 1.25em 0;
+	}
+
+	.pub-entry:last-child {
+		border-bottom: none;
+	}
+
+	.pub-title {
+		font-weight: 700;
+		font-size: 1.05em;
+		margin-bottom: 0.3em;
+	}
+
+	.pub-meta {
+		color: #7f888f;
+		font-size: 0.9em;
+		margin-bottom: 0.5em;
+	}
+
+	.pub-links {
+		margin-top: 0.4em;
+	}
+
