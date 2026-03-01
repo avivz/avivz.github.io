@@ -55,7 +55,7 @@
 		}
 
 		checkSidebarBreakpoint();
-		window.matchMedia(breakpoints.large).addListener(checkSidebarBreakpoint);
+		window.matchMedia(breakpoints.large).addEventListener('change', checkSidebarBreakpoint);
 
 		// Toggle button.
 		var toggle = document.createElement('a');
