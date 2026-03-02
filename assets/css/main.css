@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700&display=swap");
 
 /*
 	Editorial by HTML5 UP
@@ -3992,7 +3992,7 @@
 		user-select: none;
 		color: #3d4449;
 		font-family: "Roboto Slab", serif;
-		font-family: 400;
+		font-weight: 400;
 		letter-spacing: 0.075em;
 		list-style: none;
 		margin-bottom: 0;
@@ -4091,13 +4091,22 @@
 	.talks-grid {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		gap: 2em;
+		column-gap: 2em;
+		row-gap: 0;
 		max-width: 1200px;
+	}
+
+	.talks-grid > div {
+		display: grid;
+		grid-row: span 3;
+		grid-template-rows: subgrid;
+		margin-bottom: 1.5em;
 	}
 
 	.talks-grid iframe {
 		aspect-ratio: 16 / 9;
 		height: auto;
+		border: none;
 	}
 
 	@media screen and (max-width: 980px) {

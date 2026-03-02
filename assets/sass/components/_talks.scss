@@ -1,0 +1,28 @@
+/* Talks grid */
+
+.talks-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 2em;
+	row-gap: 0;
+	max-width: 1200px;
+}
+
+.talks-grid > div {
+	display: grid;
+	grid-row: span 3;
+	grid-template-rows: subgrid;
+	margin-bottom: 1.5em;
+}
+
+.talks-grid iframe {
+	aspect-ratio: 16 / 9;
+	height: auto;
+	border: none;
+}
+
+@media screen and (max-width: 980px) {
+	.talks-grid {
+		grid-template-columns: 1fr;
+	}
+}
