@@ -4141,3 +4141,16 @@
 		margin-top: 0.4em;
 	}
 
+	.pub-bibtex {
+		background: #f5f6f7;
+		border: 1px solid rgba(210, 215, 217, 0.75);
+		border-radius: 4px;
+		padding: 1em;
+		margin-top: 0.5em;
+		font-size: 0.82em;
+		line-height: 1.5;
+		overflow-x: auto;
+		white-space: pre;
+		font-family: 'Courier New', Courier, monospace;
+	}
+
