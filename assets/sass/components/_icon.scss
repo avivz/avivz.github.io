@@ -15,3 +15,10 @@
 			display: none;
 		}
 	}
+
+	/* FA4 icon content values (v4-shims requires .fa prefix which the theme doesn't use) */
+	.fa-envelope-o:before { content: '\f0e0'; }
+	.fa-graduation-cap:before { content: '\f19d'; }
+	.fa-medium:before { content: '\f23a'; }
+	.fa-home:before { content: '\f015'; }
+	.fa-phone:before { content: '\f095'; }

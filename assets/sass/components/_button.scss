@@ -79,6 +79,14 @@
 			}
 		}
 
+		&.tight {
+			font-size: 0.8em;
+			padding: 1.0em;
+			height: 2.0em;
+			line-height: 0.0em;
+			text-transform: none;
+		}
+
 		&.disabled,
 		&:disabled {
 			@include vendor('pointer-events', 'none');
