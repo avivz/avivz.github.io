@@ -3377,7 +3377,8 @@ button:disabled,
   flex-shrink: 0;
   display: block;
   margin: 0 0 2em 4em;
-  width: 50%;
+  width: 40%;
+  max-width: 19em;
 }
 #banner .image img {
   height: 100%;
@@ -3421,16 +3422,18 @@ button:disabled,
     -webkit-flex-shrink: 0;
     -ms-flex-shrink: 0;
     flex-shrink: 0;
-    margin: 0 0 4em 0;
-    height: 25em;
-    max-height: 50vh;
-    min-height: 18em;
-    width: 100%;
+    margin: 0 auto 4em auto;
+    height: auto;
+    max-height: 35vh;
+    min-height: 0;
+    width: 65%;
+    max-width: 19em;
   }
 }
 @media screen and (orientation: portrait) and (max-width: 480px) {
   #banner .image {
-    max-height: 35vh;
+    max-height: 30vh;
+    width: 50%;
   }
 }
 
