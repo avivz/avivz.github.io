@@ -2965,14 +2965,14 @@ button:disabled,
 }
 
 .pub-talk {
-  color: #cc0000 !important;
+  color: #64748b !important;
   text-decoration: none;
   border-bottom: none;
-  font-size: 0.9em;
+  font-size: 0.85em;
   margin-right: 1em;
 }
 .pub-talk:hover {
-  color: #e60000 !important;
+  color: #2563eb !important;
 }
 .pub-talk i {
   margin-right: 0.2em;
