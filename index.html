@@ -90,11 +90,13 @@
                 at <a href="https://www.huji.ac.il">The Hebrew University</a>.
               </p>
               <h3>Research Interests</h3>
-              <p>
-                The Economics of Computational Systems and Protocols.
-                <br />Cryptocurrencies, Multi-Agent Systems, Game Theory,
-                Mechanism Design, Networks.
-              </p>
+              <div class="research-tags">
+                <span class="research-tag">Blockchains</span>
+                <span class="research-tag">Security</span>
+                <span class="research-tag">Mechanism Design</span>
+                <span class="research-tag">Networks</span>
+                <span class="research-tag">AI</span>
+              </div>
             </div>
             <span class="image object">
               <img src="images/AvivZohar.jpg" alt="Aviv Zohar" loading="lazy" />
@@ -108,80 +110,76 @@
             </header>
             <div class="posts">
               <article>
-                <a
-                  href="https://medium.com/@avivzohar/the-spectre-protocol-7dbbebb707b5"
-                  class="image"
-                  ><img
-                    src="images/SPECTRE1.jpg"
-                    alt="The SPECTRE Protocol"
-                    loading="lazy"
-                /></a>
-                <h3>The SPECTRE Protocol</h3>
+                <h3><a href="publications.html#speculative-dos">Speculative DoS Attacks in Ethereum</a></h3>
                 <p>
-                  Our protocol for a fast, scalable, and secure cryptocurrency.
-                  Joint work with Yonatan Sompolinsky and Yoad Lewenberg. See
-                  the
-                  <a
-                    href="https://medium.com/@avivzohar/the-spectre-protocol-7dbbebb707b5"
-                    >Medium post</a
-                  >,
-                  <a href="https://eprint.iacr.org/2016/1159.pdf">full paper</a
-                  >, and an
-                  <a href="https://www.youtube.com/watch?v=DzXH4I8ncVs"
-                    >interview</a
-                  >
-                  on Epicenter Bitcoin
+                  Ethereum nodes can be forced to waste computation on
+                  speculatively executed transactions that ultimately revert.
+                  <br />[YQZG] USENIX Sec’24.
                 </p>
               </article>
               <article>
-                <a href="pubs/2016/btc_hijack.pdf" class="image"
-                  ><img
-                    src="images/HijackBitcoin.jpg"
-                    alt="Hijacking Bitcoin"
-                    loading="lazy"
-                /></a>
-                <h3>Hijacking Bitcoin: Routing Attacks on Cryptocurrencies</h3>
+                <h3><a href="publications.html#uncle-maker">Uncle Maker</a></h3>
                 <p>
-                  Our paper on the vulnerabilities of Bitcoin to attacks at
-                  the network routing level. Joint Work with Maria Apostolaki
-                  and Laurent Vanbever. See the
-                  <a href="https://btc-hijack.ethz.ch/">project page</a> at ETH,
-                  and the
-                  <a href="pubs/2016/btc_hijack.pdf">IEEE S&P '17 paper</a>.
+                  An attack exploiting Ethereum’s timestamp manipulation to
+                  systematically orphan competitors’ blocks.
+                  <br />[YSZ] CCS’23.
                 </p>
               </article>
               <article>
-                <a href="pubs/2016/OptSelfishMining.pdf" class="image"
-                  ><img
-                    src="images/OptimalSelfishMining.jpg"
-                    alt="Optimal Selfish Mining"
-                    loading="lazy"
-                /></a>
-                <h3>Optimal Selfish Mining</h3>
+                <h3><a href="publications.html#fee-market">Redesigning Bitcoin’s Fee Market</a></h3>
                 <p>
-                  Our work on the (lack of) resilience of Bitcoin to strategic
-                  mining attacks. We find the optimal way miners can exploit the
-                  protocol for their own gain. Work with Ayelet Sapirstein and
-                  Yonatan Sompolinsky.
-                  <a href="pubs/2016/OptSelfishMining.pdf">Paper from FC'16</a>.
+                  A mechanism design approach to Bitcoin’s transaction fee
+                  system, proposing alternatives to the first-price auction.
+                  <br />[LSZ] TEAC’22.
                 </p>
               </article>
               <article>
-                <a href="pubs/2015/sec15-paper-heilman_final.pdf" class="image"
-                  ><img
-                    src="images/EclipseAttack.jpg"
-                    alt="Eclipse Attacks on Bitcoin"
-                    loading="lazy"
-                /></a>
-                <h3>Eclipse Attacks on Bitcoin’s Peer-to-Peer Network</h3>
+                <h3><a href="publications.html#phantom-ghostdag">PHANTOM GHOSTDAG</a></h3>
                 <p>
-                  We show how attackers might disrupt Bitcoin's P2P network
-                  using an eclipse attack, and propose some changes to alleviate
-                  the problem. Joint work with Ethan Heilman, Alison Kendler,
-                  and Sharon Goldberg.
-                  <a href="pubs/2015/sec15-paper-heilman_final.pdf"
-                    >The paper from USENIX SEC '15</a
-                  >.
+                  A DAG-based generalization of Nakamoto consensus that allows
+                  high throughput without sacrificing security. Deployed in Kaspa.
+                  <br />[SWZ] AFT’21.
+                </p>
+              </article>
+              <article>
+                <h3><a href="publications.html#flood-loot">Flood &amp; Loot</a></h3>
+                <p>
+                  A systemic attack on the Lightning Network where an attacker
+                  floods channels then loots them as timeouts expire.
+                  <br />[HZ] AFT’20.
+                </p>
+              </article>
+              <article>
+                <h3><a href="publications.html#hijacking-bitcoin">Hijacking Bitcoin</a></h3>
+                <p>
+                  How BGP routing attacks can partition Bitcoin’s network,
+                  delay block propagation, and enable double spending.
+                  <br />[AZV] S&amp;P’17.
+                </p>
+              </article>
+              <article>
+                <h3><a href="publications.html#selfish-mining">Optimal Selfish Mining</a></h3>
+                <p>
+                  Computing the optimal strategy for miners who deviate from
+                  the Bitcoin protocol to increase their revenue.
+                  <br />[SSZ] FC’16.
+                </p>
+              </article>
+              <article>
+                <h3><a href="publications.html#ghost">The GHOST Protocol</a></h3>
+                <p>
+                  A modification to Bitcoin’s longest-chain rule that accounts
+                  for off-chain blocks, enabling faster and more secure
+                  confirmation. Adopted by Ethereum.
+                  <br />[SZ] FC’15.
+                </p>
+              </article>
+              <article>
+                <h3><a href="publications.html#eclipse-attacks">Eclipse Attacks on Bitcoin</a></h3>
+                <p>
+                  Showing how an attacker can monopolize a node’s connections
+                  to isolate it from the network.
+                  <br />[HKZG] USENIX Sec’15.
                 </p>
               </article>
             </div>

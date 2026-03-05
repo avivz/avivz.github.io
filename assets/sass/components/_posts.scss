@@ -25,7 +25,6 @@
 			border: 1px solid _palette(border);
 			border-radius: 0.75em;
 			padding: 1.5em;
-			overflow: hidden;
 
 			&:hover {
 				box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
@@ -36,20 +35,12 @@
 				margin-bottom: 0;
 			}
 
-			.image {
-				display: block;
-				margin: -1.5em -1.5em _size(element-margin) -1.5em;
-				border-radius: 0;
-
-				img {
-					display: block;
-					width: 100%;
-					border-radius: 0;
-				}
+			h3 {
+				margin-bottom: 0.5em;
 			}
 		}
 
-		@include breakpoint(xlarge) {
+		@include breakpoint(large) {
 			article {
 				width: calc(50% - 1em);
 			}
@@ -61,10 +52,6 @@
 			article {
 				width: calc(50% - 0.75em);
 				padding: 1.25em;
-
-				.image {
-					margin: -1.25em -1.25em _size(element-margin) -1.25em;
-				}
 			}
 		}
 

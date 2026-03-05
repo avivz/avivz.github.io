@@ -21,12 +21,29 @@
 			width: 50%;
 		}
 
+		.research-tags {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.5em;
+			margin: 0 0 _size(element-margin) 0;
+		}
+
+		.research-tag {
+			background: _palette(bg-highlight);
+			color: _palette(fg-medium);
+			border-radius: 0.3em;
+			padding: 0.2em 0.7em;
+			font-size: 0.85em;
+			font-weight: 500;
+			line-height: 1.6;
+		}
+
 		.image {
 			@include vendor('flex-grow', '0');
 			@include vendor('flex-shrink', '0');
 			display: block;
 			margin: 0 0 _size(element-margin) (_size(element-margin) * 2);
-			width: 40%;
+			width: 28%;
 
 			img {
 				height: 100%;
