@@ -3002,6 +3002,26 @@ button:disabled,
   margin-top: 0.4em;
 }
 
+.pub-talks {
+  margin-top: 0.3em;
+}
+
+.pub-talk {
+  color: #cc0000 !important;
+  text-decoration: none;
+  border-bottom: none;
+  font-size: 0.9em;
+  margin-right: 1em;
+}
+
+.pub-talk:hover {
+  color: #e60000 !important;
+}
+
+.pub-talk i {
+  margin-right: 0.2em;
+}
+
 .pub-bibtex {
   background: #f5f6f7;
   border: 1px solid rgba(210, 215, 217, 0.75);
