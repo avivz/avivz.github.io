@@ -10,10 +10,12 @@
 }
 
 .pub-title {
-	font-weight: 600;
-	font-size: 1.05em;
+	font-family: _font(family-heading);
+	font-weight: _font(weight-heading);
+	font-size: 1.1em;
+	line-height: 1.5;
 	margin-bottom: 0.3em;
-	color: #1e293b;
+	color: _palette(fg-bold);
 }
 
 .pub-meta {
