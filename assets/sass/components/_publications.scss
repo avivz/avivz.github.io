@@ -1,7 +1,7 @@
 /* Publications list */
 
 .pub-entry {
-	border-bottom: solid 1px rgba(210, 215, 217, 0.75);
+	border-bottom: solid 1px rgba(226, 232, 240, 0.75);
 	padding: 1.25em 0;
 }
 
@@ -10,13 +10,14 @@
 }
 
 .pub-title {
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 1.05em;
 	margin-bottom: 0.3em;
+	color: #1e293b;
 }
 
 .pub-meta {
-	color: #7f888f;
+	color: #64748b;
 	font-size: 0.9em;
 	margin-bottom: 0.5em;
 }
@@ -25,7 +26,7 @@
 	background: none;
 	border: none;
 	box-shadow: none;
-	color: #6b7fa3 !important;
+	color: #4b7cc4 !important;
 	font-family: inherit;
 	font-size: 0.85em;
 	font-weight: inherit;
@@ -42,14 +43,14 @@
 
 	&:hover {
 		background: none;
-		color: #f56a6a !important;
+		color: #2563eb !important;
 	}
 }
 
 .pub-medium {
 	display: inline-block;
 	margin-right: 0.25em;
-	color: #f56a6a !important;
+	color: #2563eb !important;
 	text-decoration: none;
 	border-bottom: none;
 	font-size: 0.9em;
@@ -80,9 +81,9 @@
 }
 
 .pub-bibtex {
-	background: #f5f6f7;
-	border: 1px solid rgba(210, 215, 217, 0.75);
-	border-radius: 4px;
+	background: #f8fafc;
+	border: 1px solid rgba(226, 232, 240, 0.75);
+	border-radius: 0.5em;
 	padding: 1em;
 	margin-top: 0.5em;
 	font-size: 0.82em;
