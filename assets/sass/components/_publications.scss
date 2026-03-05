@@ -56,6 +56,30 @@
 	font-size: 0.9em;
 }
 
+.pub-link {
+	display: inline-block;
+	background: #f1f5f9;
+	color: #2563eb !important;
+	border: none;
+	border-bottom: none;
+	border-radius: 0.3em;
+	padding: 0.15em 0.6em;
+	font-size: 0.82em;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 1.6;
+	transition: background 0.2s, color 0.2s;
+	box-shadow: none;
+
+	&:hover {
+		background: #dbeafe;
+		color: #1d4ed8 !important;
+		border-bottom: none;
+	}
+}
+
 .pub-links {
 	margin-top: 0.4em;
 }

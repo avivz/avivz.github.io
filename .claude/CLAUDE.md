@@ -49,7 +49,7 @@ Each publication in `publications.html` follows this pattern:
     </button>
   </div>
   <div class="pub-links">
-    <a href="pubs/YEAR/file.pdf" class="button tight">PDF</a>
+    <a href="pubs/YEAR/file.pdf" class="pub-link">PDF</a>
     <!-- optional: arXiv, ACM, Springer links -->
   </div>
   <div class="pub-talks">
