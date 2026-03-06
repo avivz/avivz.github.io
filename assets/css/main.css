@@ -946,6 +946,11 @@ body.camera-ready .highlighter-pink {
   background: none !important;
   opacity: 1 !important;
 }
+/* Date: show only the replacement in normal flow */
+body.camera-ready .title-block .date .handwritten-fix {
+  position: static !important;
+  transform: none !important;
+}
 /* Handwritten-fix: show as regular text */
 body.camera-ready .handwritten-fix {
   font-family: 'Computer Modern Serif', Georgia, serif;
@@ -966,4 +971,8 @@ body.camera-ready .circle-text {
 /* ink-only: elements that are pure annotations with no clean equivalent */
 body.camera-ready .ink-only {
   display: none !important;
+}
+body.camera-ready .filename-line {
+  display: block !important;
+  visibility: hidden;
 }

@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
   var prevMonth = months[prev.getMonth()] + ' ' + prev.getFullYear();
   var dateEl = document.getElementById('dynamic-date');
   if (dateEl) {
-    dateEl.innerHTML = '<span class="struck">' + prevMonth + '<br></span>' +
-      '<span class="handwritten-fix">' + curMonth + '</span>';
+    dateEl.innerHTML = '<span class="struck">' + prevMonth + '</span>' +
+      '<span class="handwritten-fix" style="position:absolute; left:50%; transform:translateX(-50%); top:1.3em; white-space:nowrap;">' + curMonth + '</span>';
   }
 
   // ===== Scroll Fade-in via IntersectionObserver =====
