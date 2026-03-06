@@ -823,6 +823,71 @@ a.body-link:hover {
 .fade-in.delay-2 { transition-delay: 0.2s; }
 .fade-in.delay-3 { transition-delay: 0.15s; }
 
+/* ===== Inline Ink Wipe-In (draft mode only) ===== */
+/* Pure-ink elements: hidden until parent fade-in is visible */
+body:not(.camera-ready) .fade-in:not(.margin-note):not(.visible) .insert-text,
+body:not(.camera-ready) .fade-in:not(.margin-note):not(.visible) .handwritten-fix,
+body:not(.camera-ready) .fade-in:not(.margin-note):not(.visible) .caret-mark::before,
+body:not(.camera-ready) .fade-in:not(.margin-note):not(.visible) .circle-text::after {
+  opacity: 0;
+  clip-path: inset(0 100% 0 0);
+}
+body:not(.camera-ready) .fade-in:not(.margin-note).visible .insert-text,
+body:not(.camera-ready) .fade-in:not(.margin-note).visible .handwritten-fix {
+  animation: ink-text-reveal 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) 0.5s forwards;
+  opacity: 0;
+}
+body:not(.camera-ready) .fade-in:not(.margin-note).visible .caret-mark::before,
+body:not(.camera-ready) .fade-in:not(.margin-note).visible .circle-text::after {
+  animation: ink-text-reveal 0.5s cubic-bezier(0.22, 0.61, 0.36, 1) 0.6s forwards;
+  opacity: 0;
+}
+
+/* Decoration-on-text: animate only the background, text stays visible */
+body:not(.camera-ready) .fade-in:not(.margin-note):not(.visible) .struck {
+  background-size: 0% 10px;
+  background-position: left 55%;
+}
+body:not(.camera-ready) .fade-in:not(.margin-note).visible .struck {
+  background-size: 0% 10px;
+  background-position: left 55%;
+  animation: strike-wipe 0.6s ease 0.5s forwards;
+}
+@keyframes strike-wipe {
+  from { background-size: 0% 10px; background-position: left 55%; }
+  to   { background-size: 100% 10px; background-position: left 55%; }
+}
+
+body:not(.camera-ready) .fade-in:not(.margin-note):not(.visible) .pen-underline {
+  background-size: 0% 5px;
+}
+body:not(.camera-ready) .fade-in:not(.margin-note).visible .pen-underline {
+  background-size: 0% 5px;
+  animation: underline-wipe 0.6s ease 0.5s forwards;
+}
+@keyframes underline-wipe {
+  from { background-size: 0% 5px; }
+  to   { background-size: 100% 5px; }
+}
+
+body:not(.camera-ready) .fade-in:not(.margin-note):not(.visible) .highlighter,
+body:not(.camera-ready) .fade-in:not(.margin-note):not(.visible) .highlighter-green,
+body:not(.camera-ready) .fade-in:not(.margin-note):not(.visible) .highlighter-pink {
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+}
+body:not(.camera-ready) .fade-in:not(.margin-note).visible .highlighter,
+body:not(.camera-ready) .fade-in:not(.margin-note).visible .highlighter-green,
+body:not(.camera-ready) .fade-in:not(.margin-note).visible .highlighter-pink {
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  animation: highlight-wipe 0.6s ease 0.5s forwards;
+}
+@keyframes highlight-wipe {
+  from { background-size: 0% 100%; }
+  to   { background-size: 100% 100%; }
+}
+
 /* ===== Camera-Ready Toggle Button ===== */
 .version-toggle {
   position: fixed;
@@ -867,10 +932,12 @@ body.camera-ready .insert-text {
   position: static;
   display: inline;
   font-family: 'Computer Modern Serif', Georgia, serif;
-  color: #1a1a1a;
+  color: inherit;
   font-size: inherit;
+  line-height: inherit;
   white-space: normal;
   transform: none;
+  pointer-events: auto;
 }
 /* Remove highlight backgrounds */
 body.camera-ready .highlighter,
@@ -882,7 +949,9 @@ body.camera-ready .highlighter-pink {
 /* Handwritten-fix: show as regular text */
 body.camera-ready .handwritten-fix {
   font-family: 'Computer Modern Serif', Georgia, serif;
-  color: #1a1a1a;
+  color: inherit;
+  font-size: inherit;
+  top: 0;
   transform: none !important;
 }
 /* pen-underline: remove underline SVG but keep text visible */

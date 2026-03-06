@@ -14,22 +14,22 @@ document.addEventListener('DOMContentLoaded', function() {
   var prevMonth = months[prev.getMonth()] + ' ' + prev.getFullYear();
   var dateEl = document.getElementById('dynamic-date');
   if (dateEl) {
-    dateEl.innerHTML = '<span class="struck">' + prevMonth + '</span>' +
-      '<br><span class="handwritten-fix">' + curMonth + '</span>';
+    dateEl.innerHTML = '<span class="struck">' + prevMonth + '<br></span>' +
+      '<span class="handwritten-fix">' + curMonth + '</span>';
   }
 
   // ===== Scroll Fade-in via IntersectionObserver =====
-  var observer = new IntersectionObserver(function(entries) {
+  window._fadeObserver = new IntersectionObserver(function(entries) {
     entries.forEach(function(entry) {
       if (entry.isIntersecting) {
         entry.target.classList.add('visible');
-        observer.unobserve(entry.target);
+        window._fadeObserver.unobserve(entry.target);
       }
     });
   }, { threshold: 0.15 });
 
   document.querySelectorAll('.fade-in').forEach(function(el) {
-    observer.observe(el);
+    window._fadeObserver.observe(el);
   });
 
   // ===== Active Nav Link Highlighting =====
@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   // ===== Margin Note Positioning =====
+  window.positionMarginNotes = positionMarginNotes;
   function positionMarginNotes() {
     var notes = document.querySelectorAll('.margin-note[data-align]');
 
@@ -137,164 +138,17 @@ document.addEventListener('DOMContentLoaded', function() {
   btn.textContent = 'See camera ready version';
   var transitioning = false;
 
-  // Elements that can be clip-path erased (have visible width/content)
-  var clipSelectors = [
-    '.margin-note',
-    '.struck',
-    '.handwritten-fix',
-    '.insert-text',
-    '.highlighter', '.highlighter-green', '.highlighter-pink',
-    '.pen-underline',
-    'svg[aria-hidden="true"]'
-  ];
-  // Elements that should fade (zero-width, pseudo-element-based)
-  var fadeSelectors = [
-    '.caret-mark',
-    '.circle-text'
-  ];
-
-  function collectAndSort(selectors) {
-    var els = [];
-    selectors.forEach(function(sel) {
-      document.querySelectorAll(sel).forEach(function(el) { els.push(el); });
-    });
-    els.sort(function(a, b) {
-      return a.getBoundingClientRect().top - b.getBoundingClientRect().top;
-    });
-    return els;
-  }
-
-  function eraseToClean() {
-    var clipEls = collectAndSort(clipSelectors);
-    var fadeEls = collectAndSort(fadeSelectors);
-    var allCount = clipEls.length + fadeEls.length;
-    var totalDuration = 900;
-    var perElement = 300;
-    var stagger = allCount > 1 ? totalDuration / allCount : 0;
-
-    // Build a merged list sorted by position for consistent stagger
-    var allEls = [];
-    clipEls.forEach(function(el) { allEls.push({el: el, mode: 'clip'}); });
-    fadeEls.forEach(function(el) { allEls.push({el: el, mode: 'fade'}); });
-    allEls.sort(function(a, b) {
-      return a.el.getBoundingClientRect().top - b.el.getBoundingClientRect().top;
-    });
-
-    allEls.forEach(function(item, i) {
-      var delay = i * stagger;
-      var el = item.el;
-      // Cancel any running CSS animation (ink-text-reveal uses clip-path
-      // with forwards fill, which overrides inline styles)
-      el.style.animation = 'none';
-      if (item.mode === 'clip') {
-        el.style.transition = 'none';
-        el.style.clipPath = 'inset(-2px -2px -2px -2px)';
-        el.offsetHeight;
-        el.style.transition = 'clip-path ' + perElement + 'ms ease-in ' + delay + 'ms';
-        el.style.clipPath = 'inset(-2px -2px -2px 110%)';
-      } else {
-        el.style.transition = 'none';
-        el.style.opacity = '1';
-        el.offsetHeight;
-        el.style.transition = 'opacity ' + perElement + 'ms ease-in ' + delay + 'ms';
-        el.style.opacity = '0';
+  function replayPageAnimations() {
+    // Reset all fade-in elements and re-observe them
+    document.querySelectorAll('.fade-in').forEach(function(el) {
+      el.classList.remove('visible');
+      el.style.animation = '';
+      el.style.clipPath = '';
+      el.style.opacity = '';
+      el.style.transition = '';
+      if (window._fadeObserver) {
+        window._fadeObserver.observe(el);
       }
-    });
-
-    var finishTime = totalDuration + perElement + 50;
-    setTimeout(function() {
-      // Brief crossfade on content to smooth the text reflow
-      var mcs = document.querySelectorAll('.mc, .main-content');
-      mcs.forEach(function(mc) {
-        mc.style.transition = 'none';
-        mc.style.opacity = '0';
-        mc.offsetHeight;
-      });
-      document.body.classList.add('camera-ready');
-      allEls.forEach(function(item) {
-        item.el.style.transition = '';
-        item.el.style.clipPath = '';
-        item.el.style.opacity = '';
-        item.el.style.animation = '';
-      });
-      requestAnimationFrame(function() {
-        mcs.forEach(function(mc) {
-          mc.style.transition = 'opacity 250ms ease';
-          mc.style.opacity = '1';
-        });
-        setTimeout(function() {
-          mcs.forEach(function(mc) {
-            mc.style.transition = '';
-            mc.style.opacity = '';
-          });
-          transitioning = false;
-        }, 300);
-      });
-    }, finishTime);
-  }
-
-  function drawBackIn() {
-    // Crossfade content while text reflows back
-    var mcs = document.querySelectorAll('.mc, .main-content');
-    mcs.forEach(function(mc) {
-      mc.style.transition = 'none';
-      mc.style.opacity = '0';
-      mc.offsetHeight;
-    });
-    document.body.classList.remove('camera-ready');
-    requestAnimationFrame(function() {
-      mcs.forEach(function(mc) {
-        mc.style.transition = 'opacity 250ms ease';
-        mc.style.opacity = '1';
-      });
-      setTimeout(function() {
-        mcs.forEach(function(mc) {
-          mc.style.transition = '';
-          mc.style.opacity = '';
-        });
-      }, 300);
-      var clipEls = collectAndSort(clipSelectors);
-      var fadeEls = collectAndSort(fadeSelectors);
-      var totalDuration = 900;
-      var perElement = 350;
-
-      var allEls = [];
-      clipEls.forEach(function(el) { allEls.push({el: el, mode: 'clip'}); });
-      fadeEls.forEach(function(el) { allEls.push({el: el, mode: 'fade'}); });
-      allEls.sort(function(a, b) {
-        return a.el.getBoundingClientRect().top - b.el.getBoundingClientRect().top;
-      });
-      var stagger = allEls.length > 1 ? totalDuration / allEls.length : 0;
-
-      allEls.forEach(function(item, i) {
-        var delay = i * stagger;
-        var el = item.el;
-        el.style.animation = 'none';
-        if (item.mode === 'clip') {
-          el.style.transition = 'none';
-          el.style.clipPath = 'inset(-2px -2px -2px 110%)';
-          el.offsetHeight;
-          el.style.transition = 'clip-path ' + perElement + 'ms ease-out ' + delay + 'ms';
-          el.style.clipPath = 'inset(-2px -2px -2px -2px)';
-        } else {
-          el.style.transition = 'none';
-          el.style.opacity = '0';
-          el.offsetHeight;
-          el.style.transition = 'opacity ' + perElement + 'ms ease-out ' + delay + 'ms';
-          el.style.opacity = '1';
-        }
-      });
-
-      var finishTime = totalDuration + perElement + 50;
-      setTimeout(function() {
-        allEls.forEach(function(item) {
-          item.el.style.transition = '';
-          item.el.style.clipPath = '';
-          item.el.style.opacity = '';
-          item.el.style.animation = '';
-        });
-        transitioning = false;
-      }, finishTime);
     });
   }
 
@@ -302,13 +156,32 @@ document.addEventListener('DOMContentLoaded', function() {
     if (transitioning) return;
     transitioning = true;
     var goingClean = !document.body.classList.contains('camera-ready');
-    if (goingClean) {
-      btn.textContent = 'See latest draft version';
-      eraseToClean();
-    } else {
-      btn.textContent = 'See camera ready version';
-      drawBackIn();
-    }
+    btn.textContent = goingClean ? 'See latest draft version' : 'See camera ready version';
+
+    // Fade out the page
+    document.body.style.transition = 'opacity 200ms ease';
+    document.body.style.opacity = '0';
+
+    setTimeout(function() {
+      // Toggle state while hidden
+      if (goingClean) {
+        document.body.classList.add('camera-ready');
+      } else {
+        document.body.classList.remove('camera-ready');
+      }
+      // Reset animations so they replay on the new state
+      replayPageAnimations();
+      // Reposition margin notes after layout change
+      if (window.positionMarginNotes) window.positionMarginNotes();
+
+      // Fade back in
+      document.body.style.opacity = '1';
+      setTimeout(function() {
+        document.body.style.transition = '';
+        document.body.style.opacity = '';
+        transitioning = false;
+      }, 250);
+    }, 220);
   });
   document.body.appendChild(btn);
 })();
