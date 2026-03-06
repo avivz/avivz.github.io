@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<article>
+  <header class="project-hero">
+    {% if page.status %}<div class="project-status {% if page.status == 'active' %}status-active{% elsif page.status == 'completed' %}status-completed{% endif %}">{{ page.status }}</div>{% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="project-subtitle">{{ page.subtitle }}</p>{% endif %}
+    {% if page.collaborators %}
+    <p class="project-collab">{% for c in page.collaborators %}{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+    {% endif %}
+    {% if page.tags.size > 0 %}
+    <div class="post-tags">
+      {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+    </div>
+    {% endif %}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  {% if page.papers or page.links %}
+  <aside class="project-resources">
+    <h2>Resources</h2>
+    <ul>
+      {% for paper in page.papers %}
+      <li><a href="{{ paper.url }}">{{ paper.title }}</a></li>
+      {% endfor %}
+      {% for link in page.links %}
+      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </aside>
+  {% endif %}
+
+  <div class="post-footer">
+    <a href="/" class="back-link"><span class="arrow">&larr;</span> Main site</a>
+  </div>
+</article>
