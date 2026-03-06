@@ -136,26 +136,29 @@ document.addEventListener('DOMContentLoaded', function() {
   var panel = document.createElement('div');
   panel.className = 'floating-toc-panel';
 
-  // Header row: title + hamburger toggle
-  var header = document.createElement('div');
-  header.className = 'toc-header';
-  var title = document.createElement('span');
-  title.className = 'toc-label';
-  title.textContent = 'Table of Contents';
-  var hamburger = document.createElement('button');
-  hamburger.className = 'toc-hamburger';
-  hamburger.setAttribute('aria-label', 'Toggle table of contents');
-  hamburger.innerHTML = '&#9776;';
-  header.appendChild(title);
-  header.appendChild(hamburger);
-  panel.appendChild(header);
+  // Paper-clip button (always visible, acts as toggle)
+  var clipBtn = document.createElement('button');
+  clipBtn.className = 'toc-clip-btn';
+  clipBtn.setAttribute('aria-label', 'Toggle table of contents');
+  clipBtn.innerHTML =
+    '<svg viewBox="0 0 56 22" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">' +
+      '<path d="M1 15 C1 19 4 21 7 21 L44 21 C50 21 54 17 54 11 C54 5 50 1 44 1' +
+      ' L12 1 C8 1 5 4 5 7 C5 10 8 13 12 13 L40 13 C42 13 43.5 12 43.5 11' +
+      ' C43.5 10 42 9 40 9 L12 9"' +
+      ' fill="none" stroke="#aaa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>' +
+    '</svg>';
+  panel.appendChild(clipBtn);
 
-  // Collapsible body
+  // Post-it note
+  var postit = document.createElement('div');
+  postit.className = 'toc-postit';
+
+  // Collapsible body inside the post-it
   var body = document.createElement('div');
   body.className = 'toc-body';
 
   var tocItems = [
-    { label: 'Abstract',           section: '#abstract' },
+    { label: 'Abstract',               section: '#abstract' },
     { label: '1\u2002Selected Papers', section: '#selected-papers' },
     { label: '2\u2002Contact',         section: '#contact' },
     { sep: true },
@@ -275,7 +278,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 220);
   });
   body.appendChild(toggleBtn);
-  panel.appendChild(body);
+
+  postit.appendChild(body);
+  panel.appendChild(postit);
 
   // Auto-collapse when viewport is too narrow for the panel + content
   var isOpen = false;
@@ -288,7 +293,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   setOpen(shouldAutoOpen());
 
-  hamburger.addEventListener('click', function(e) {
+  clipBtn.addEventListener('click', function(e) {
     e.stopPropagation();
     setOpen(!isOpen);
   });
