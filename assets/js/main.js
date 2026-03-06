@@ -135,8 +135,16 @@ document.addEventListener('DOMContentLoaded', function() {
 (function() {
   var btn = document.createElement('button');
   btn.className = 'version-toggle';
-  btn.textContent = 'See camera ready version';
   var transitioning = false;
+
+  // Restore saved state on page load (no animation, just apply)
+  var saved = localStorage.getItem('camera-ready');
+  if (saved === '1') {
+    document.body.classList.add('camera-ready');
+    btn.textContent = 'See latest draft version';
+  } else {
+    btn.textContent = 'See camera ready version';
+  }
 
   function replayPageAnimations() {
     // Reset all fade-in elements and re-observe them
@@ -157,6 +165,7 @@ document.addEventListener('DOMContentLoaded', function() {
     transitioning = true;
     var goingClean = !document.body.classList.contains('camera-ready');
     btn.textContent = goingClean ? 'See latest draft version' : 'See camera ready version';
+    localStorage.setItem('camera-ready', goingClean ? '1' : '0');
 
     // Fade out the page
     document.body.style.transition = 'opacity 200ms ease';
