@@ -37,9 +37,33 @@ The site is a LaTeX-style academic preprint marked up by hand — as if the auth
 - Paper boxes: #f5f5f5 bg, #ccc border
 
 ### Layout
-- 3-column CSS Grid: 200px margin | 650px content | 200px margin
+- **Page grid**: 5-column CSS Grid (`1fr 200px 650px 200px 1fr`) — outer `1fr` columns center the content
+- **Section row**: 3-column inner grid (`200px 650px 200px`) for `.ml` / `.mc` / `.mr` columns
 - Running header with small-caps and faint rules
 - Footer: "1 of 1" right-aligned
+
+### Camera-Ready Toggle
+A floating button (`.version-toggle`) lets visitors switch between the annotated "draft" and a clean "camera-ready" view. State is persisted via `localStorage('camera-ready')`. In camera-ready mode (`body.camera-ready`), all ink — margin notes, strikethroughs, carets, circles, highlighters, SVG doodles — is hidden, struck text is restored to normal, and the page looks like a clean typeset document.
+
+### Ink Annotations Vocabulary
+Beyond margin notes, the annotation layer uses these inline elements:
+- **`.struck`** — Hand-drawn wavy strikethrough (SVG background). Tilt randomized by JS.
+- **`.pen-underline`** — Irregular SVG underline stroke.
+- **`.caret-mark` + `.insert-text`** — Zero-width caret with text floating above between lines.
+- **`.handwritten-fix`** — Inline correction at end of phrase, Caveat font. Tilt randomized by JS.
+- **`.circle-text`** — Text with a hand-drawn circle around it (SVG `::after`). `.blue-circle` variant.
+- **`.highlighter`** / **`.highlighter-green`** / **`.highlighter-pink`** — Translucent marker highlight backgrounds (yellow, green, pink).
+- **`.bracket-note`** — Margin-style annotation placed inline with bracket styling.
+- **`.ink-only`** — Elements visible only in draft mode, hidden in camera-ready.
+- **`.filename-line`** — Faux filename annotation (e.g., "FINAL_revised_FINAL_v2.tex").
+
+### Scroll Animations
+Ink elements inside `.fade-in` containers animate on scroll via IntersectionObserver:
+- Margin notes: fade + slide-in from the side
+- Strikethroughs, pen-underlines: CSS wipe-in (`clip-path` / `background-size` transition)
+- Highlighters: width grows from 0
+- Carets, circles: opacity fade-in
+- All ink animations are disabled in camera-ready mode
 
 ## Validation
 
@@ -62,7 +86,8 @@ CSS is plain (no SCSS build step). Edit `assets/css/main.css` directly.
 - **`talks.html`** — Embedded talk videos in a responsive grid
 - **`counseling.html`** — Sabbatical/reception hours notice
 - **`assets/css/main.css`** — All styles (single file, no preprocessor)
-- **`assets/js/main.js`** — IntersectionObserver fade-in, margin note positioning, dynamic date, BibTeX toggle
+- **`c.html`** — Redirect to `counseling.html`
+- **`assets/js/main.js`** — Dynamic date, scroll fade-in (IntersectionObserver), active nav link, margin note positioning, random ink tilts, camera-ready toggle (localStorage), BibTeX toggle
 
 ## Publication Entry Structure
 
@@ -92,12 +117,12 @@ Each publication in `publications.html` follows this pattern:
 Margin notes live in `.ml` (left) or `.mr` (right) columns within a `.section-row`. Use `data-align` to target a content element:
 
 ```html
-<div class="margin-note fade-in rotate-n2" data-align="#paper-ghost" aria-hidden="true">
+<div class="margin-note fade-in" data-align="#paper-ghost" aria-hidden="true">
   Annotation text here
 </div>
 ```
 
-- `rotate-n1` through `rotate-p3` — slight rotation for hand-placed feel
+- Rotation is randomized by JS at runtime (±8°). Static classes `rotate-n1` through `rotate-p3` exist in CSS but are overridden.
 - `fade-in` + `delay-1`/`delay-2`/`delay-3` — staggered scroll-triggered animation
 - `blue-ink`, `purple-ink` — ink color variants
 - `data-offset="90"` — optional pixel offset from target top
