@@ -4,7 +4,42 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-Personal academic website for Prof. Aviv Zohar (www.avivz.net). Static HTML site hosted on GitHub Pages, deployed from the `master` branch. Based on the "Editorial" template by HTML5 UP.
+Personal academic website for Prof. Aviv Zohar (www.avivz.net). Static HTML site hosted on GitHub Pages, deployed from the `master` branch.
+
+## Design: Annotated Preprint
+
+The site is a LaTeX-style academic preprint marked up by hand — as if the author printed it out and scribbled over it with colored pens. Two layers coexist:
+
+1. **Typeset layer** — Computer Modern Serif font, justified text, numbered sections (§1, §2...), small-caps paper titles (`font-variant: small-caps`), faint header/footer rules, gray paper boxes. Single centered column (~650px).
+
+2. **Annotation layer** — Handwritten notes in Caveat font in the margins and between lines. Red ink (primary), blue ink (TODOs, second thoughts, editorial), purple ink (Reviewer 2). Slightly rotated, varied in size. Margin notes are JS-positioned to align with their target content via `data-align="#id"` attributes.
+
+### Key design rules
+
+- **Ink never goes inline.** Handwritten annotations belong in the margins or between lines — never inline with the typeset text, unless it's at the end of a line. Caret insertions (`.caret-mark` + `.insert-text`) float above via absolute positioning. Handwritten corrections (`.handwritten-fix`) may appear inline only at the end of a phrase. The typeset flow must not be broken.
+- **Pen strokes look natural.** All ink marks — strikethroughs, underlines, circles — use hand-drawn SVG paths, never clean CSS lines. Strikethroughs (`.struck`) use a wavy SVG background. Pen underlines (`.pen-underline`) use an irregular SVG stroke as a background image. Nothing should look machine-generated.
+- **Struck-out text keeps its original style.** Text that was "printed" and then crossed out with a pen should look identical to the surrounding typeset text (same font, weight, color) — only the hand-drawn strikethrough line is added on top. The struck text was part of the original document; it shouldn't be grayed out or styled differently.
+- **Original text is continuous.** The caret mark (`.caret-mark`) takes zero width so the typeset text reads uninterrupted. Inserted text floats between lines above the caret.
+- **Margin notes are dynamically positioned.** JS reads `data-align` and `data-offset` attributes to place notes next to their target content. Collision avoidance pushes overlapping notes apart. Left notes are right-aligned to hug the center column.
+- **Date is dynamic.** JS computes current month and previous month — previous is struck out, current is the handwritten correction.
+- **Small caps (\textsc) on all paper titles.** Both `.paper-title` and `.pub-title` use `font-variant: small-caps` globally via CSS.
+- **Responsive degrades gracefully.** On mobile (<900px), margin columns hide and annotations appear inline with a colored left-border. Typeset body takes full width.
+
+### Typography
+- Body: Computer Modern Serif (CDN: cm-web-fonts via jsdelivr)
+- Annotations: Caveat (Google Fonts)
+- Code/email: Computer Modern Typewriter (CDN), fallback Courier New
+- LaTeX features: `\textsc` via `.textsc` class, `\mathbb` via Unicode double-struck characters
+
+### Colors
+- Background: #fefefe — Body text: #1a1a1a
+- Red ink: #c0392b — Blue ink (royal blue): #4169E1 — Purple ink: #6a3580
+- Paper boxes: #f5f5f5 bg, #ccc border
+
+### Layout
+- 3-column CSS Grid: 200px margin | 650px content | 200px margin
+- Running header with small-caps and faint rules
+- Footer: "1 of 1" right-aligned
 
 ## Validation
 
@@ -16,24 +51,18 @@ html5validator --root . --match "*.html"
 
 This is also enforced in CI via `.github/workflows/validate.yml`.
 
-## Building CSS
+## CSS
 
-SCSS source files are in `assets/sass/`. The compiled CSS is committed as `assets/css/main.css`. After editing any `.scss` file, recompile:
-
-```sh
-npx sass assets/sass/main.scss assets/css/main.css --no-source-map
-```
-
-There is no build system (no package.json, Makefile, or Gemfile) — just run the sass command directly.
+CSS is plain (no SCSS build step). Edit `assets/css/main.css` directly.
 
 ## Key Files
 
-- **`index.html`** — Homepage with bio, research interests, sidebar navigation
-- **`publications.html`** — All publications (~2100 lines); each entry uses the `pub-entry` structure (see below)
+- **`index.html`** — Homepage: bio, selected papers (newest-first), margin annotations
+- **`publications.html`** — All publications (~2100 lines); each entry uses `pub-entry` structure
 - **`talks.html`** — Embedded talk videos in a responsive grid
-- **`assets/sass/main.scss`** — SCSS entry point, imports all partials
-- **`assets/sass/components/_publications.scss`** — Publication list styling
-- **`assets/sass/components/_talks.scss`** — Talks grid styling
+- **`counseling.html`** — Sabbatical/reception hours notice
+- **`assets/css/main.css`** — All styles (single file, no preprocessor)
+- **`assets/js/main.js`** — IntersectionObserver fade-in, margin note positioning, dynamic date, BibTeX toggle
 
 ## Publication Entry Structure
 
@@ -50,7 +79,6 @@ Each publication in `publications.html` follows this pattern:
   </div>
   <div class="pub-links">
     <a href="pubs/YEAR/file.pdf" class="pub-link">PDF</a>
-    <!-- optional: arXiv, ACM, Springer links -->
   </div>
   <div class="pub-talks">
     <!-- optional YouTube talk links -->
@@ -59,9 +87,25 @@ Each publication in `publications.html` follows this pattern:
 </div>
 ```
 
+## Margin Note Structure
+
+Margin notes live in `.ml` (left) or `.mr` (right) columns within a `.section-row`. Use `data-align` to target a content element:
+
+```html
+<div class="margin-note fade-in rotate-n2" data-align="#paper-ghost" aria-hidden="true">
+  Annotation text here
+</div>
+```
+
+- `rotate-n1` through `rotate-p3` — slight rotation for hand-placed feel
+- `fade-in` + `delay-1`/`delay-2`/`delay-3` — staggered scroll-triggered animation
+- `blue-ink`, `purple-ink` — ink color variants
+- `data-offset="90"` — optional pixel offset from target top
+
 ## Conventions
 
-- FontAwesome 6.7.2 loaded via CDN (not local) — use `fa-solid`, `fa-brands` class prefixes
+- FontAwesome 6.7.2 loaded via CDN — use `fa-solid`, `fa-brands` class prefixes
+- Computer Modern fonts loaded via jsdelivr CDN (cm-web-fonts)
 - PDFs stored in `pubs/YEAR/` directories
 - Images in `images/`
 - The `iframe` `width` attribute only accepts pixel values per HTML spec — use `style="width:100%"` instead of `width="100%"`
