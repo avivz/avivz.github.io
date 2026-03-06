@@ -131,23 +131,110 @@ document.addEventListener('DOMContentLoaded', function() {
   positionMarginNotes();
 });
 
-// ===== Camera-Ready / Draft Toggle =====
+// ===== Floating TOC =====
 (function() {
-  var btn = document.createElement('button');
-  btn.className = 'version-toggle';
+  var panel = document.createElement('div');
+  panel.className = 'floating-toc-panel';
+
+  // Header row: title + hamburger toggle
+  var header = document.createElement('div');
+  header.className = 'toc-header';
+  var title = document.createElement('span');
+  title.className = 'toc-label';
+  title.textContent = 'Table of Contents';
+  var hamburger = document.createElement('button');
+  hamburger.className = 'toc-hamburger';
+  hamburger.setAttribute('aria-label', 'Toggle table of contents');
+  hamburger.innerHTML = '&#9776;';
+  header.appendChild(title);
+  header.appendChild(hamburger);
+  panel.appendChild(header);
+
+  // Collapsible body
+  var body = document.createElement('div');
+  body.className = 'toc-body';
+
+  var tocItems = [
+    { label: 'Abstract',           section: '#abstract' },
+    { label: '1\u2002Selected Papers', section: '#selected-papers' },
+    { label: '2\u2002Contact',         section: '#contact' },
+    { sep: true },
+    { label: 'A\u2002Publications',    page: 'publications.html' },
+    { label: 'B\u2002Talks',           page: 'talks.html' },
+    { label: 'C\u2002Reception Hours', page: 'counseling.html' }
+  ];
+
+  var currentPage = window.location.pathname.split('/').pop() || 'index.html';
+  var isIndex = currentPage === 'index.html' || currentPage === '';
+
+  var tocLinks = [];
+  tocItems.forEach(function(item) {
+    if (item.sep) {
+      var sep = document.createElement('div');
+      sep.className = 'toc-sep';
+      body.appendChild(sep);
+      return;
+    }
+    var a = document.createElement('a');
+    if (item.section) {
+      a.href = isIndex ? item.section : 'index.html' + item.section;
+    } else {
+      a.href = item.page;
+    }
+    a.textContent = item.label;
+    if (item.page && item.page.split('#')[0] === currentPage) {
+      a.classList.add('active');
+    }
+    a._tocSection = item.section || null;
+    tocLinks.push(a);
+    body.appendChild(a);
+  });
+
+  // Scroll-spy: highlight current section on index page
+  if (isIndex) {
+    var sectionIds = ['abstract', 'selected-papers', 'contact'];
+    function updateActiveToc() {
+      var activeId = sectionIds[0];
+      if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight - 2) {
+        activeId = sectionIds[sectionIds.length - 1];
+      } else {
+        for (var i = 0; i < sectionIds.length; i++) {
+          var el = document.getElementById(sectionIds[i]);
+          if (el && el.getBoundingClientRect().top <= 80) {
+            activeId = sectionIds[i];
+          }
+        }
+      }
+      tocLinks.forEach(function(a) {
+        if (a._tocSection === '#' + activeId) {
+          a.classList.add('active');
+        } else if (a._tocSection) {
+          a.classList.remove('active');
+        }
+      });
+    }
+    window.addEventListener('scroll', updateActiveToc, { passive: true });
+    updateActiveToc();
+  }
+
+  // Camera-ready toggle
+  var toggleSep = document.createElement('div');
+  toggleSep.className = 'toc-sep';
+  body.appendChild(toggleSep);
+
+  var toggleBtn = document.createElement('button');
+  toggleBtn.className = 'toc-version-toggle';
   var transitioning = false;
 
-  // Restore saved state on page load (no animation, just apply)
   var saved = localStorage.getItem('camera-ready');
   if (saved === '1') {
     document.body.classList.add('camera-ready');
-    btn.textContent = 'See latest draft version';
+    toggleBtn.textContent = 'See latest draft version';
   } else {
-    btn.textContent = 'See camera ready version';
+    toggleBtn.textContent = 'See camera ready version';
   }
 
   function replayPageAnimations() {
-    // Reset all fade-in elements and re-observe them
     document.querySelectorAll('.fade-in').forEach(function(el) {
       el.classList.remove('visible');
       el.style.animation = '';
@@ -160,30 +247,25 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  btn.addEventListener('click', function() {
+  toggleBtn.addEventListener('click', function() {
     if (transitioning) return;
     transitioning = true;
     var goingClean = !document.body.classList.contains('camera-ready');
-    btn.textContent = goingClean ? 'See latest draft version' : 'See camera ready version';
+    toggleBtn.textContent = goingClean ? 'See latest draft version' : 'See camera ready version';
     localStorage.setItem('camera-ready', goingClean ? '1' : '0');
 
-    // Fade out the page
     document.body.style.transition = 'opacity 200ms ease';
     document.body.style.opacity = '0';
 
     setTimeout(function() {
-      // Toggle state while hidden
       if (goingClean) {
         document.body.classList.add('camera-ready');
       } else {
         document.body.classList.remove('camera-ready');
       }
-      // Reset animations so they replay on the new state
       replayPageAnimations();
-      // Reposition margin notes after layout change
       if (window.positionMarginNotes) window.positionMarginNotes();
 
-      // Fade back in
       document.body.style.opacity = '1';
       setTimeout(function() {
         document.body.style.transition = '';
@@ -192,7 +274,36 @@ document.addEventListener('DOMContentLoaded', function() {
       }, 250);
     }, 220);
   });
-  document.body.appendChild(btn);
+  body.appendChild(toggleBtn);
+  panel.appendChild(body);
+
+  // Auto-collapse when viewport is too narrow for the panel + content
+  var isOpen = false;
+  function shouldAutoOpen() {
+    return window.innerWidth > 900;
+  }
+  function setOpen(open) {
+    isOpen = open;
+    panel.classList.toggle('toc-open', isOpen);
+  }
+  setOpen(shouldAutoOpen());
+
+  hamburger.addEventListener('click', function(e) {
+    e.stopPropagation();
+    setOpen(!isOpen);
+  });
+  document.addEventListener('click', function(e) {
+    if (isOpen && !panel.contains(e.target)) {
+      setOpen(false);
+    }
+  });
+  window.addEventListener('resize', function() {
+    if (!shouldAutoOpen() && isOpen) {
+      setOpen(false);
+    }
+  });
+
+  document.body.appendChild(panel);
 })();
 
 // ===== BibTeX Toggle =====
