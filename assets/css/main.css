@@ -797,17 +797,6 @@ a.body-link:hover {
 }
 
 
-/* Non-margin-note elements: just use normal fade-in transition */
-.fade-in:not(.margin-note) {
-  opacity: 0;
-  transform: translateY(18px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
-.fade-in:not(.margin-note).visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
 /* When visible: scratch draws, then text writes in */
 .margin-note.fade-in.visible {
   animation: ink-text-reveal 1s cubic-bezier(0.22, 0.61, 0.36, 1) 0.2s forwards;
