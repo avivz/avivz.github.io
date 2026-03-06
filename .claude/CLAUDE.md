@@ -67,13 +67,13 @@ Ink elements inside `.fade-in` containers animate on scroll via IntersectionObse
 
 ## Validation
 
-Run HTML validation locally before committing:
+Always run HTML validation locally before committing and before pushing:
 
 ```sh
 html5validator --root . --match "*.html"
 ```
 
-This is also enforced in CI via `.github/workflows/validate.yml`.
+Validate **all** HTML files, not just the one being edited. This is also enforced in CI via `.github/workflows/validate.yml`.
 
 ## CSS
 
