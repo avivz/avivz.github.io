@@ -107,6 +107,22 @@ document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.insert-text').forEach(function (el) {
     el.style.transform = 'translateX(-50%)';
   });
+  // Nudge insert-text away from paper edges
+  function constrainInsertTexts() {
+    var paperLeft = Math.max(10, (window.innerWidth / 2) - 530);
+    var paperRight = Math.min(window.innerWidth - 10, (window.innerWidth / 2) + 530);
+    document.querySelectorAll('.insert-text').forEach(function (el) {
+      el.style.transform = 'translateX(-50%)';
+      var rect = el.getBoundingClientRect();
+      if (rect.left < paperLeft) {
+        var shift = paperLeft - rect.left + 4;
+        el.style.transform = 'translateX(calc(-50% + ' + shift + 'px))';
+      } else if (rect.right > paperRight) {
+        var shift = rect.right - paperRight + 4;
+        el.style.transform = 'translateX(calc(-50% - ' + shift + 'px))';
+      }
+    });
+  }
   // Strikethrough lines: tilt capped so edge displacement ≤ 2px
   document.querySelectorAll('.struck').forEach(function (el) {
     // Skip elements with manually set tilt
@@ -126,9 +142,10 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   // Position after images load, and on resize
-  window.addEventListener('load', positionMarginNotes);
-  window.addEventListener('resize', positionMarginNotes);
+  window.addEventListener('load', function () { positionMarginNotes(); constrainInsertTexts(); });
+  window.addEventListener('resize', function () { positionMarginNotes(); constrainInsertTexts(); });
   positionMarginNotes();
+  constrainInsertTexts();
 });
 
 // ===== Floating TOC =====
@@ -147,7 +164,7 @@ document.addEventListener('DOMContentLoaded', function () {
     '"' +
     ' fill="none" stroke="#aaa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>' +
     '</svg>';
-  panel.appendChild(clipBtn);
+  // Clip is appended to body separately (absolute, scrolls with page)
 
   // Post-it note
   var postit = document.createElement('div');
@@ -291,10 +308,11 @@ document.addEventListener('DOMContentLoaded', function () {
   function setOpen(open) {
     isOpen = open;
     panel.classList.toggle('toc-open', isOpen);
+    clipBtn.classList.toggle('clip-dimmed', !isOpen);
     if (isOpen && nudgeInterval) {
       clearInterval(nudgeInterval);
       nudgeInterval = null;
-      localStorage.setItem('toc-visited', '1');
+      localStorage.setItem('toc-visited', String(Date.now()));
     }
   }
   setOpen(shouldAutoOpen());
@@ -315,17 +333,90 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   document.body.appendChild(panel);
+  document.body.appendChild(clipBtn);
 
-  // Nudge the clip every 10s until TOC is opened once
+  // Nudge the clip every 10s until TOC is opened this session
   var nudgeInterval;
   function nudge() {
     clipBtn.classList.remove('clip-throb');
     void clipBtn.offsetWidth;
     clipBtn.classList.add('clip-throb');
   }
-  if (!localStorage.getItem('toc-visited')) {
+  var lastVisit = parseInt(localStorage.getItem('toc-visited') || '0', 10);
+  var hourAgo = Date.now() - 60 * 60 * 1000;
+  if (!lastVisit || lastVisit < hourAgo) {
     nudgeInterval = setInterval(nudge, 10000);
   }
+
+  // ===== Scroll-fade: animate post-it opacity/scale as it scrolls away =====
+  var fadeStart = 60;   // scroll px where fade begins
+  var fadeEnd = 200;    // scroll px where fully hidden
+  var tocWasOpen = isOpen;
+  var tocHidden = false;
+  function updateTocScroll() {
+    var y = window.scrollY;
+    if (y <= fadeStart) {
+      postit.style.opacity = '';
+      postit.style.transform = '';
+      postit.style.pointerEvents = '';
+      if (tocHidden) {
+        tocHidden = false;
+        if (tocWasOpen && shouldAutoOpen()) setOpen(true);
+      }
+    } else if (y >= fadeEnd) {
+      postit.style.opacity = '0';
+      postit.style.transform = 'rotate(1.2deg) scale(0.92)';
+      postit.style.pointerEvents = 'none';
+      if (!tocHidden) {
+        tocWasOpen = isOpen;
+        tocHidden = true;
+      }
+    } else {
+      var t = (y - fadeStart) / (fadeEnd - fadeStart);
+      postit.style.opacity = String(1 - t);
+      var s = 1 - t * 0.08;
+      postit.style.transform = 'rotate(' + (3 - 1.8 * t) + 'deg) scale(' + s + ')';
+      postit.style.pointerEvents = 'none';
+      if (!tocHidden) {
+        tocWasOpen = isOpen;
+        tocHidden = true;
+      }
+    }
+  }
+  window.addEventListener('scroll', updateTocScroll, { passive: true });
+  updateTocScroll();
+})();
+
+// ===== Scroll-to-Top Button =====
+(function () {
+  var btn = document.createElement('button');
+  btn.className = 'scroll-to-top';
+  btn.setAttribute('aria-label', 'Scroll to top');
+  btn.innerHTML =
+    '<svg viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">' +
+    '<path d="M14,24 C14,22 14.5,16 14,10 C13.5,7 14,5 14,4" ' +
+    'stroke="#c0392b" stroke-width="2" stroke-linecap="round" fill="none"/>' +
+    '<path d="M7,12 C9,9 11,6 14,4 C17,6 19,9 21,12" ' +
+    'stroke="#c0392b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>' +
+    '</svg>';
+
+  btn.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  var showThreshold = 300;
+  function updateScrollBtn() {
+    var y = window.scrollY;
+    btn.classList.toggle('visible', y > showThreshold);
+    // Wobbly bob tied to scroll position
+    var bob = Math.sin(y * 0.015) * 4;
+    var tilt = Math.sin(y * 0.012 + 1) * 3;
+    btn.style.transform = 'translateY(' + bob + 'px) rotate(' + tilt + 'deg)';
+  }
+  window.addEventListener('scroll', updateScrollBtn, { passive: true });
+  updateScrollBtn();
+
+  document.body.appendChild(btn);
 })();
 
 // ===== BibTeX Toggle =====
