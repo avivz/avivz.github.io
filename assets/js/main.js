@@ -4,10 +4,10 @@
   BibTeX toggle, active nav link, margin note positioning, dynamic date.
 */
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   // ===== Dynamic Date =====
-  var months = ['January','February','March','April','May','June','July','August',
-                'September','October','November','December'];
+  var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August',
+    'September', 'October', 'November', 'December'];
   var now = new Date();
   var curMonth = months[now.getMonth()] + ' ' + now.getFullYear();
   var prev = new Date(now.getFullYear(), now.getMonth() - 1, 1);
@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // ===== Scroll Fade-in via IntersectionObserver =====
-  window._fadeObserver = new IntersectionObserver(function(entries) {
-    entries.forEach(function(entry) {
+  window._fadeObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
       if (entry.isIntersecting) {
         entry.target.classList.add('visible');
         window._fadeObserver.unobserve(entry.target);
@@ -28,13 +28,13 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }, { threshold: 0.15 });
 
-  document.querySelectorAll('.fade-in').forEach(function(el) {
+  document.querySelectorAll('.fade-in').forEach(function (el) {
     window._fadeObserver.observe(el);
   });
 
   // ===== Active Nav Link Highlighting =====
   var currentPage = window.location.pathname.split('/').pop() || 'index.html';
-  document.querySelectorAll('.section-nav a').forEach(function(link) {
+  document.querySelectorAll('.section-nav a').forEach(function (link) {
     var href = link.getAttribute('href');
     if (href) {
       var linkPage = href.split('#')[0];
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var notes = document.querySelectorAll('.margin-note[data-align]');
 
     // First pass: position each note at its target element
-    notes.forEach(function(note) {
+    notes.forEach(function (note) {
       var target = document.querySelector(note.getAttribute('data-align'));
       if (!target) return;
       var sectionRow = note.closest('.section-row');
@@ -67,9 +67,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Second pass: resolve overlaps within each margin column
-    requestAnimationFrame(function() {
+    requestAnimationFrame(function () {
       var colGroups = {};
-      notes.forEach(function(note) {
+      notes.forEach(function (note) {
         if (note.style.position !== 'absolute') return;
         var col = note.closest('.ml, .mr');
         var sectionRow = note.closest('.section-row');
@@ -79,9 +79,9 @@ document.addEventListener('DOMContentLoaded', function() {
         colGroups[key].push(note);
       });
 
-      Object.keys(colGroups).forEach(function(key) {
+      Object.keys(colGroups).forEach(function (key) {
         var group = colGroups[key];
-        group.sort(function(a, b) {
+        group.sort(function (a, b) {
           return parseFloat(a.style.top) - parseFloat(b.style.top);
         });
         for (var i = 1; i < group.length; i++) {
@@ -99,16 +99,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // ===== Random Ink Tilts =====
   // Margin notes: ±8 degrees (replaces static rotate classes)
-  document.querySelectorAll('.margin-note').forEach(function(el) {
+  document.querySelectorAll('.margin-note').forEach(function (el) {
     var deg = (Math.random() * 16 - 8).toFixed(1);
     el.style.transform = 'rotate(' + deg + 'deg)';
   });
   // Insert text: keep centered, no tilt (sits between lines)
-  document.querySelectorAll('.insert-text').forEach(function(el) {
+  document.querySelectorAll('.insert-text').forEach(function (el) {
     el.style.transform = 'translateX(-50%)';
   });
   // Strikethrough lines: tilt capped so edge displacement ≤ 2px
-  document.querySelectorAll('.struck').forEach(function(el) {
+  document.querySelectorAll('.struck').forEach(function (el) {
     // Skip elements with manually set tilt
     if (el.style.getPropertyValue('--tilt')) return;
     var w = el.offsetWidth || 30;
@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
     el.style.setProperty('--tilt', deg + 'deg');
   });
   // Handwritten fix text: ±12 degrees
-  document.querySelectorAll('.handwritten-fix').forEach(function(el) {
+  document.querySelectorAll('.handwritten-fix').forEach(function (el) {
     var deg = (Math.random() * 24 - 12).toFixed(1);
     el.style.transform = 'rotate(' + deg + 'deg)';
     el.style.display = 'inline-block';
@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // ===== Floating TOC =====
-(function() {
+(function () {
   var panel = document.createElement('div');
   panel.className = 'floating-toc-panel';
 
@@ -142,10 +142,10 @@ document.addEventListener('DOMContentLoaded', function() {
   clipBtn.setAttribute('aria-label', 'Toggle table of contents');
   clipBtn.innerHTML =
     '<svg viewBox="0 0 56 22" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">' +
-      '<path d="M1 15 C1 19 4 21 7 21 L44 21 C50 21 54 17 54 11 C54 5 50 1 44 1' +
-      ' L12 1 C8 1 5 4 5 7 C5 10 8 13 12 13 L40 13 C42 13 43.5 12 43.5 11' +
-      ' C43.5 10 42 9 40 9 L12 9"' +
-      ' fill="none" stroke="#aaa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>' +
+    '<path d="M44 21 C50 21 54 17 54 11 C54 5 50 1 44 1' +
+    ' L12 1 C8 1 5 4 5 7 C5 10 8 13 12 13 L40 13' +
+    '"' +
+    ' fill="none" stroke="#aaa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>' +
     '</svg>';
   panel.appendChild(clipBtn);
 
@@ -158,12 +158,12 @@ document.addEventListener('DOMContentLoaded', function() {
   body.className = 'toc-body';
 
   var tocItems = [
-    { label: 'Abstract',               section: '#abstract' },
+    { label: 'Abstract', section: '#abstract' },
     { label: '1\u2002Selected Papers', section: '#selected-papers' },
-    { label: '2\u2002Contact',         section: '#contact' },
+    { label: '2\u2002Contact', section: '#contact' },
     { sep: true },
-    { label: 'A\u2002Publications',    page: 'publications.html' },
-    { label: 'B\u2002Talks',           page: 'talks.html' },
+    { label: 'A\u2002Publications', page: 'publications.html' },
+    { label: 'B\u2002Talks', page: 'talks.html' },
     { label: 'C\u2002Reception Hours', page: 'counseling.html' }
   ];
 
@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var isIndex = currentPage === 'index.html' || currentPage === '';
 
   var tocLinks = [];
-  tocItems.forEach(function(item) {
+  tocItems.forEach(function (item) {
     if (item.sep) {
       var sep = document.createElement('div');
       sep.className = 'toc-sep';
@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', function() {
           }
         }
       }
-      tocLinks.forEach(function(a) {
+      tocLinks.forEach(function (a) {
         if (a._tocSection === '#' + activeId) {
           a.classList.add('active');
         } else if (a._tocSection) {
@@ -238,7 +238,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function replayPageAnimations() {
-    document.querySelectorAll('.fade-in').forEach(function(el) {
+    document.querySelectorAll('.fade-in').forEach(function (el) {
       el.classList.remove('visible');
       el.style.animation = '';
       el.style.clipPath = '';
@@ -250,7 +250,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  toggleBtn.addEventListener('click', function() {
+  toggleBtn.addEventListener('click', function () {
     if (transitioning) return;
     transitioning = true;
     var goingClean = !document.body.classList.contains('camera-ready');
@@ -260,7 +260,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.body.style.transition = 'opacity 200ms ease';
     document.body.style.opacity = '0';
 
-    setTimeout(function() {
+    setTimeout(function () {
       if (goingClean) {
         document.body.classList.add('camera-ready');
       } else {
@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (window.positionMarginNotes) window.positionMarginNotes();
 
       document.body.style.opacity = '1';
-      setTimeout(function() {
+      setTimeout(function () {
         document.body.style.transition = '';
         document.body.style.opacity = '';
         transitioning = false;
@@ -293,16 +293,16 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   setOpen(shouldAutoOpen());
 
-  clipBtn.addEventListener('click', function(e) {
+  clipBtn.addEventListener('click', function (e) {
     e.stopPropagation();
     setOpen(!isOpen);
   });
-  document.addEventListener('click', function(e) {
+  document.addEventListener('click', function (e) {
     if (isOpen && !panel.contains(e.target)) {
       setOpen(false);
     }
   });
-  window.addEventListener('resize', function() {
+  window.addEventListener('resize', function () {
     if (!shouldAutoOpen() && isOpen) {
       setOpen(false);
     }

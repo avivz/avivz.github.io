@@ -1,5 +1,11 @@
 /* ===== Reset & Base ===== */
-*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 html {
   font-size: 16px;
@@ -23,10 +29,11 @@ body::before {
   width: 1060px;
   height: 100%;
   background: #fefefe;
-  box-shadow: 0 0 15px rgba(0,0,0,0.08), 0 0 3px rgba(0,0,0,0.04);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08), 0 0 3px rgba(0, 0, 0, 0.04);
   z-index: -1;
   pointer-events: none;
 }
+
 @media (max-width: 1060px) {
   body::before {
     left: 0;
@@ -42,9 +49,17 @@ body::before {
   min-height: 100vh;
 }
 
-.margin-left  { grid-column: 2; }
-.main-content { grid-column: 3; }
-.margin-right { grid-column: 4; }
+.margin-left {
+  grid-column: 2;
+}
+
+.main-content {
+  grid-column: 3;
+}
+
+.margin-right {
+  grid-column: 4;
+}
 
 /* ===== Section Row ===== */
 .section-row {
@@ -55,9 +70,19 @@ body::before {
   width: 100%;
 }
 
-.section-row > .ml { grid-column: 1; position: relative; }
-.section-row > .mc { grid-column: 2; }
-.section-row > .mr { grid-column: 3; position: relative; }
+.section-row>.ml {
+  grid-column: 1;
+  position: relative;
+}
+
+.section-row>.mc {
+  grid-column: 2;
+}
+
+.section-row>.mr {
+  grid-column: 3;
+  position: relative;
+}
 
 /* ===== Running Header ===== */
 .running-header {
@@ -67,6 +92,7 @@ body::before {
   display: grid;
   grid-template-columns: 200px 650px 200px;
 }
+
 .running-header .header-inner {
   grid-column: 2;
   display: flex;
@@ -79,10 +105,12 @@ body::before {
   letter-spacing: 0.04em;
   color: #666;
 }
+
 .running-header .header-inner a {
   color: #666;
   text-decoration: none;
 }
+
 .running-header .header-inner a:hover {
   color: #c0392b;
 }
@@ -92,6 +120,7 @@ body::before {
   text-align: center;
   padding: 2.2rem 0 1rem 0;
 }
+
 .title-block h1 {
   font-size: 2.6rem;
   font-weight: 600;
@@ -99,33 +128,39 @@ body::before {
   margin-bottom: 0.3rem;
   line-height: 1.15;
 }
+
 .title-block .institution {
   font-style: italic;
   font-size: 1.05rem;
   color: #444;
   margin-bottom: 0.15rem;
 }
+
 .title-block .email {
   font-family: 'Computer Modern Typewriter', 'Courier New', monospace;
   font-size: 0.88rem;
   color: #555;
   margin-bottom: 0.15rem;
 }
+
 .title-block .date {
   font-size: 0.92rem;
   color: #666;
   margin-bottom: 0.8rem;
 }
+
 .title-block .icon-links {
   font-size: 1rem;
   margin-bottom: 1rem;
 }
+
 .title-block .icon-links a {
   color: #1a1a1a;
   text-decoration: none;
   margin: 0 0.6rem;
   transition: color 0.2s;
 }
+
 .title-block .icon-links a:hover {
   color: #c0392b;
 }
@@ -135,6 +170,7 @@ body::before {
   text-align: center;
   padding: 1.2rem 0 0.5rem 0;
 }
+
 .title-block-compact h1 {
   font-size: 2rem;
   font-weight: 600;
@@ -142,10 +178,12 @@ body::before {
   margin-bottom: 0.2rem;
   line-height: 1.15;
 }
+
 .title-block-compact h1 a {
   color: #1a1a1a;
   text-decoration: none;
 }
+
 .title-block-compact h1 a:hover {
   color: #c0392b;
 }
@@ -160,20 +198,24 @@ body::before {
   border-bottom: 0.4pt solid #ddd;
   margin-bottom: 1.8rem;
 }
+
 .section-nav a {
   color: #1a1a1a;
   text-decoration: none;
   margin: 0 0.25rem;
   white-space: nowrap;
 }
+
 .section-nav a:hover {
   color: #c0392b;
   text-decoration: underline;
 }
+
 .section-nav a.active {
   color: #c0392b;
   font-weight: 600;
 }
+
 .section-nav .sep {
   color: #bbb;
   margin: 0 0.15rem;
@@ -238,6 +280,7 @@ h3.subsection-heading {
   padding-top: 0.5rem;
   border-top: 0.4pt dashed #ccc;
 }
+
 .keywords strong {
   font-variant: small-caps;
   letter-spacing: 0.03em;
@@ -261,12 +304,29 @@ h3.subsection-heading {
   padding-right: 0.5rem;
 }
 
-.margin-note.rotate-n3 { transform: rotate(-3deg); }
-.margin-note.rotate-n2 { transform: rotate(-2deg); }
-.margin-note.rotate-n1 { transform: rotate(-1deg); }
-.margin-note.rotate-p1 { transform: rotate(1deg); }
-.margin-note.rotate-p2 { transform: rotate(2deg); }
-.margin-note.rotate-p3 { transform: rotate(3deg); }
+.margin-note.rotate-n3 {
+  transform: rotate(-3deg);
+}
+
+.margin-note.rotate-n2 {
+  transform: rotate(-2deg);
+}
+
+.margin-note.rotate-n1 {
+  transform: rotate(-1deg);
+}
+
+.margin-note.rotate-p1 {
+  transform: rotate(1deg);
+}
+
+.margin-note.rotate-p2 {
+  transform: rotate(2deg);
+}
+
+.margin-note.rotate-p3 {
+  transform: rotate(3deg);
+}
 
 .margin-note .star {
   display: inline-block;
@@ -283,6 +343,7 @@ h3.subsection-heading {
   display: inline-block;
   padding: 0.15rem 0.5rem;
 }
+
 .circle-text::after {
   content: '';
   position: absolute;
@@ -292,6 +353,7 @@ h3.subsection-heading {
   background-size: 100% 100%;
   pointer-events: none;
 }
+
 .circle-text.blue-circle::after {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='60' viewBox='0 0 120 60' preserveAspectRatio='none'%3E%3Cellipse cx='60' cy='30' rx='55' ry='25' fill='none' stroke='%234169E1' stroke-width='1.5' stroke-linecap='round' stroke-dasharray='3,0' transform='rotate(-2 60 30)' /%3E%3Cpath d='M8,28 C10,12 30,5 60,6 C90,7 112,15 114,30 C116,45 95,55 60,54 C25,53 6,44 8,28Z' fill='none' stroke='%234169E1' stroke-width='1.3' stroke-linecap='round' opacity='0.7'/%3E%3C/svg%3E");
 }
@@ -307,6 +369,7 @@ h3.subsection-heading {
   padding: 0 2px;
   margin: 0 -2px;
 }
+
 .handwritten-fix {
   font-family: 'Caveat', cursive;
   color: #c0392b;
@@ -314,6 +377,7 @@ h3.subsection-heading {
   position: relative;
   top: -0.1em;
 }
+
 /* Caret mark: zero-width so original text reads continuously */
 .caret-mark {
   position: relative;
@@ -323,6 +387,7 @@ h3.subsection-heading {
   vertical-align: baseline;
   cursor: default;
 }
+
 /* The caret symbol — hand-drawn ink V */
 .caret-mark::before {
   content: '';
@@ -336,6 +401,7 @@ h3.subsection-heading {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 /* Inserted text floats above between lines, can wrap */
 .insert-text {
   position: absolute;
@@ -350,6 +416,7 @@ h3.subsection-heading {
   text-align: center;
   pointer-events: none;
 }
+
 /* Inserted text below the line instead of above */
 .insert-text.below {
   bottom: auto;
@@ -370,46 +437,45 @@ h3.subsection-heading {
 }
 
 /* Highlighter marker effect */
-.highlighter, .highlighter-green, .highlighter-pink {
+.highlighter,
+.highlighter-green,
+.highlighter-pink {
   padding: 0.05em 0.15em;
   margin: 0 -0.15em;
   border-radius: 2px;
 }
+
 .highlighter {
-  background: linear-gradient(
-    178deg,
-    transparent 0%,
-    transparent 28%,
-    rgba(255, 237, 74, 0.45) 30%,
-    rgba(255, 230, 50, 0.5) 50%,
-    rgba(255, 237, 74, 0.4) 70%,
-    transparent 72%,
-    transparent 100%
-  );
+  background: linear-gradient(178deg,
+      transparent 0%,
+      transparent 28%,
+      rgba(255, 237, 74, 0.45) 30%,
+      rgba(255, 230, 50, 0.5) 50%,
+      rgba(255, 237, 74, 0.4) 70%,
+      transparent 72%,
+      transparent 100%);
 }
+
 .highlighter-green {
-  background: linear-gradient(
-    178deg,
-    transparent 0%,
-    transparent 28%,
-    rgba(130, 235, 150, 0.4) 30%,
-    rgba(110, 220, 130, 0.45) 50%,
-    rgba(130, 235, 150, 0.35) 70%,
-    transparent 72%,
-    transparent 100%
-  );
+  background: linear-gradient(178deg,
+      transparent 0%,
+      transparent 28%,
+      rgba(130, 235, 150, 0.4) 30%,
+      rgba(110, 220, 130, 0.45) 50%,
+      rgba(130, 235, 150, 0.35) 70%,
+      transparent 72%,
+      transparent 100%);
 }
+
 .highlighter-pink {
-  background: linear-gradient(
-    178deg,
-    transparent 0%,
-    transparent 28%,
-    rgba(255, 160, 180, 0.4) 30%,
-    rgba(255, 140, 165, 0.45) 50%,
-    rgba(255, 160, 180, 0.35) 70%,
-    transparent 72%,
-    transparent 100%
-  );
+  background: linear-gradient(178deg,
+      transparent 0%,
+      transparent 28%,
+      rgba(255, 160, 180, 0.4) 30%,
+      rgba(255, 140, 165, 0.45) 50%,
+      rgba(255, 160, 180, 0.35) 70%,
+      transparent 72%,
+      transparent 100%);
 }
 
 /* Pen underline on stress words — hand-drawn SVG stroke */
@@ -430,13 +496,28 @@ h3.subsection-heading {
 }
 
 /* Ink color variants -- for annotations in different pens */
-.blue-ink, .margin-note.blue-ink, .insert-text.blue-ink, .bracket-note.blue-ink { color: #4169E1; }
-.purple-ink, .margin-note.purple-ink, .insert-text.purple-ink, .bracket-note.purple-ink { color: #6a3580; }
+.blue-ink,
+.margin-note.blue-ink,
+.insert-text.blue-ink,
+.bracket-note.blue-ink {
+  color: #4169E1;
+}
+
+.purple-ink,
+.margin-note.purple-ink,
+.insert-text.purple-ink,
+.bracket-note.purple-ink {
+  color: #6a3580;
+}
+
 /* Matching scratch marks for colored carets */
 .caret-mark.blue-ink::before {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='18' viewBox='0 0 24 18'%3E%3Cpath d='M2,1 C3,3.5 4,6 5.5,9 C7,12 8,14.5 10,16.5 C10.5,17 11,17.2 11.5,16.8 C13,15 15,11 17,7 C18.5,4 20,2.5 22,1.5' stroke='%234169E1' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
 }
-.caret-mark.purple-ink::before { color: #6a3580; }
+
+.caret-mark.purple-ink::before {
+  color: #6a3580;
+}
 
 /* Doodle arrow */
 .doodle-arrow {
@@ -493,6 +574,7 @@ h3.subsection-heading {
   padding-bottom: 1px;
   transition: color 0.2s, border-color 0.2s;
 }
+
 .paper-box .paper-links a:hover {
   color: #c0392b;
   border-color: #c0392b;
@@ -506,6 +588,7 @@ h3.subsection-heading {
   border-left: 3px solid #ddd;
   transition: border-color 0.2s, background 0.2s;
 }
+
 .pub-entry:hover {
   border-left-color: #c0392b;
   background: #fafafa;
@@ -541,6 +624,7 @@ h3.subsection-heading {
   padding: 0 0.15rem;
   transition: color 0.2s;
 }
+
 .bibtex-toggle:hover {
   color: #c0392b;
 }
@@ -550,6 +634,7 @@ h3.subsection-heading {
   z-index: 1;
   margin-bottom: 0.15rem;
 }
+
 .pub-links a.pub-link {
   font-size: 0.85rem;
   color: #1a1a1a;
@@ -559,6 +644,7 @@ h3.subsection-heading {
   padding-bottom: 1px;
   transition: color 0.2s, border-color 0.2s;
 }
+
 .pub-links a.pub-link:hover {
   color: #c0392b;
   border-color: #c0392b;
@@ -569,6 +655,7 @@ h3.subsection-heading {
   z-index: 1;
   margin-bottom: 0.1rem;
 }
+
 .pub-talks a.pub-talk,
 .pub-talks a.pub-medium {
   font-size: 0.82rem;
@@ -577,10 +664,12 @@ h3.subsection-heading {
   margin-right: 0.5rem;
   transition: color 0.2s;
 }
+
 .pub-talks a.pub-talk:hover,
 .pub-talks a.pub-medium:hover {
   color: #c0392b;
 }
+
 .pub-talks a.pub-talk i,
 .pub-talks a.pub-medium i {
   margin-right: 0.15rem;
@@ -667,6 +756,7 @@ h3.subsection-heading {
   transition: opacity 0.3s ease;
   z-index: 0;
 }
+
 .pub-doodle svg {
   max-width: 55px;
   max-height: 60px;
@@ -687,19 +777,23 @@ h3.subsection-heading {
   padding: 1rem;
   transition: border-color 0.2s;
 }
+
 .talk-card:hover {
   border-color: #999;
 }
+
 .talk-card h3 {
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
   line-height: 1.3;
 }
+
 .talk-card iframe {
   border: none;
   margin-bottom: 0.4rem;
 }
+
 .talk-card p {
   font-size: 0.88rem;
   color: #555;
@@ -714,20 +808,24 @@ h3.subsection-heading {
   padding: 0;
   font-size: 0.97rem;
 }
+
 .contact-list li {
   margin-bottom: 0.45rem;
 }
+
 .contact-list li i {
   width: 1.3rem;
   text-align: center;
   margin-right: 0.4rem;
   color: #555;
 }
+
 .contact-list a {
   color: #1a1a1a;
   text-decoration: none;
   border-bottom: 0.6pt solid #bbb;
 }
+
 .contact-list a:hover {
   color: #c0392b;
   border-color: #c0392b;
@@ -738,11 +836,13 @@ h3.subsection-heading {
   font-size: 1rem;
   line-height: 1.72;
 }
+
 .counseling-content a {
   color: #1a1a1a;
   text-decoration: none;
   border-bottom: 0.6pt solid #999;
 }
+
 .counseling-content a:hover {
   color: #c0392b;
   border-color: #c0392b;
@@ -757,10 +857,12 @@ h3.subsection-heading {
   color: #666;
   line-height: 1.5;
 }
+
 .footnotes-section p {
   text-align: left;
   margin-bottom: 0.3rem;
 }
+
 .footnotes-section sup {
   color: #1a1a1a;
   font-weight: 600;
@@ -774,6 +876,7 @@ h3.subsection-heading {
   display: grid;
   grid-template-columns: 200px 650px 200px;
 }
+
 .page-footer .footer-inner {
   grid-column: 2;
   display: flex;
@@ -797,6 +900,7 @@ a.body-link {
   text-decoration: none;
   border-bottom: 0.6pt solid #999;
 }
+
 a.body-link:hover {
   color: #c0392b;
   border-color: #c0392b;
@@ -807,19 +911,28 @@ a.body-link:hover {
   .page-grid {
     grid-template-columns: 1fr;
   }
-  .margin-left, .margin-right { display: none; }
-  .main-content { grid-column: 1; }
+
+  .margin-left,
+  .margin-right {
+    display: none;
+  }
+
+  .main-content {
+    grid-column: 1;
+  }
 
   .section-row {
     display: block;
     max-width: 100%;
     padding: 0 1.2rem;
   }
-  .section-row > .ml,
-  .section-row > .mr {
+
+  .section-row>.ml,
+  .section-row>.mr {
     display: none;
   }
-  .section-row > .mc {
+
+  .section-row>.mc {
     max-width: 100%;
   }
 
@@ -827,6 +940,7 @@ a.body-link:hover {
     display: block;
     padding: 0.8rem 1.2rem 0;
   }
+
   .running-header .header-inner {
     display: flex;
   }
@@ -835,6 +949,7 @@ a.body-link:hover {
     display: block;
     padding: 0.5rem 1.2rem 1.5rem;
   }
+
   .page-footer .footer-inner {
     display: flex;
   }
@@ -859,17 +974,21 @@ a.body-link:hover {
     border-left: 2.5px solid #c0392b;
     transform: none !important;
   }
+
   .margin-note-inline.blue-ink {
     color: #4169E1;
     border-left-color: #4169E1;
   }
+
   .margin-note-inline.purple-ink {
     color: #6a3580;
     border-left-color: #6a3580;
   }
 
   /* Doodle watermarks fade as screen shrinks */
-  .pub-doodle { opacity: 0.55; }
+  .pub-doodle {
+    opacity: 0.55;
+  }
 
   /* Talks grid single column on mobile */
   .talks-grid {
@@ -878,10 +997,15 @@ a.body-link:hover {
 }
 
 @media (max-width: 600px) {
-  .pub-doodle { opacity: 0.25; }
+  .pub-doodle {
+    opacity: 0.25;
+  }
 }
+
 @media (max-width: 450px) {
-  .pub-doodle { opacity: 0.12; }
+  .pub-doodle {
+    opacity: 0.12;
+  }
 }
 
 /* Hide inline annotations on desktop */
@@ -897,17 +1021,21 @@ a.body-link:hover {
   transform: translateY(18px);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
+
 .fade-in.visible {
   opacity: 1;
   transform: translateY(0);
 }
+
 /* ===== Ink-Write Animation for margin notes ===== */
 /* Margin notes use ink-write instead of fade-in */
 .margin-note.fade-in {
   opacity: 0;
   transition: none;
-  transform: unset; /* preserve rotation classes */
+  transform: unset;
+  /* preserve rotation classes */
 }
+
 .margin-note.fade-in.visible {
   transform: unset;
 }
@@ -922,22 +1050,44 @@ a.body-link:hover {
 .margin-note.fade-in.delay-1.visible {
   animation-delay: 0.35s;
 }
+
 .margin-note.fade-in.delay-2.visible {
   animation-delay: 0.5s;
 }
+
 .margin-note.fade-in.delay-3.visible {
   animation-delay: 0.6s;
 }
 
 @keyframes ink-text-reveal {
-  0%   { opacity: 0; clip-path: inset(0 100% 0 0); }
-  5%   { opacity: 1; clip-path: inset(0 100% 0 0); }
-  100% { opacity: 1; clip-path: inset(-5px -5px -5px -5px); }
+  0% {
+    opacity: 0;
+    clip-path: inset(0 100% 0 0);
+  }
+
+  5% {
+    opacity: 1;
+    clip-path: inset(0 100% 0 0);
+  }
+
+  100% {
+    opacity: 1;
+    clip-path: inset(-5px -5px -5px -5px);
+  }
 }
+
 /* Stagger delays for paper boxes */
-.fade-in.delay-1 { transition-delay: 0.1s; }
-.fade-in.delay-2 { transition-delay: 0.2s; }
-.fade-in.delay-3 { transition-delay: 0.15s; }
+.fade-in.delay-1 {
+  transition-delay: 0.1s;
+}
+
+.fade-in.delay-2 {
+  transition-delay: 0.2s;
+}
+
+.fade-in.delay-3 {
+  transition-delay: 0.15s;
+}
 
 /* ===== Inline Ink Wipe-In (draft mode only) ===== */
 /* Pure-ink elements: hidden until parent fade-in is visible */
@@ -948,11 +1098,13 @@ body:not(.camera-ready) .fade-in:not(.margin-note):not(.visible) .circle-text::a
   opacity: 0;
   clip-path: inset(0 100% 0 0);
 }
+
 body:not(.camera-ready) .fade-in:not(.margin-note).visible .insert-text,
 body:not(.camera-ready) .fade-in:not(.margin-note).visible .handwritten-fix {
   animation: ink-text-reveal 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) 0.5s forwards;
   opacity: 0;
 }
+
 body:not(.camera-ready) .fade-in:not(.margin-note).visible .caret-mark::before,
 body:not(.camera-ready) .fade-in:not(.margin-note).visible .circle-text::after {
   animation: ink-text-reveal 0.5s cubic-bezier(0.22, 0.61, 0.36, 1) 0.6s forwards;
@@ -964,26 +1116,42 @@ body:not(.camera-ready) .fade-in:not(.margin-note):not(.visible) .struck {
   background-size: 0% 10px;
   background-position: left 55%;
 }
+
 body:not(.camera-ready) .fade-in:not(.margin-note).visible .struck {
   background-size: 0% 10px;
   background-position: left 55%;
   animation: strike-wipe 0.6s ease 0.5s forwards;
 }
+
 @keyframes strike-wipe {
-  from { background-size: 0% 10px; background-position: left 55%; }
-  to   { background-size: 100% 10px; background-position: left 55%; }
+  from {
+    background-size: 0% 10px;
+    background-position: left 55%;
+  }
+
+  to {
+    background-size: 100% 10px;
+    background-position: left 55%;
+  }
 }
 
 body:not(.camera-ready) .fade-in:not(.margin-note):not(.visible) .pen-underline {
   background-size: 0% 5px;
 }
+
 body:not(.camera-ready) .fade-in:not(.margin-note).visible .pen-underline {
   background-size: 0% 5px;
   animation: underline-wipe 0.6s ease 0.5s forwards;
 }
+
 @keyframes underline-wipe {
-  from { background-size: 0% 5px; }
-  to   { background-size: 100% 5px; }
+  from {
+    background-size: 0% 5px;
+  }
+
+  to {
+    background-size: 100% 5px;
+  }
 }
 
 body:not(.camera-ready) .fade-in:not(.margin-note):not(.visible) .highlighter,
@@ -992,6 +1160,7 @@ body:not(.camera-ready) .fade-in:not(.margin-note):not(.visible) .highlighter-pi
   background-size: 0% 100%;
   background-repeat: no-repeat;
 }
+
 body:not(.camera-ready) .fade-in:not(.margin-note).visible .highlighter,
 body:not(.camera-ready) .fade-in:not(.margin-note).visible .highlighter-green,
 body:not(.camera-ready) .fade-in:not(.margin-note).visible .highlighter-pink {
@@ -999,9 +1168,15 @@ body:not(.camera-ready) .fade-in:not(.margin-note).visible .highlighter-pink {
   background-repeat: no-repeat;
   animation: highlight-wipe 0.6s ease 0.5s forwards;
 }
+
 @keyframes highlight-wipe {
-  from { background-size: 0% 100%; }
-  to   { background-size: 100% 100%; }
+  from {
+    background-size: 0% 100%;
+  }
+
+  to {
+    background-size: 100% 100%;
+  }
 }
 
 /* ===== Floating TOC — Post-it with Paper Clip ===== */
@@ -1017,35 +1192,38 @@ body:not(.camera-ready) .fade-in:not(.margin-note).visible .highlighter-pink {
 .toc-clip-btn {
   position: absolute;
   top: 1.7rem;
-  left: -8px;
+  left: calc(-0.75em - 12px);
   z-index: 2;
   background: none;
   border: none;
   cursor: pointer;
   padding: 0;
   line-height: 0;
-  filter: drop-shadow(0 1px 1px rgba(0,0,0,0.13));
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.13));
   transition: filter 0.2s, transform 0.2s, left 0.25s;
 }
+
 .toc-clip-btn:hover {
-  filter: drop-shadow(0 2px 3px rgba(0,0,0,0.22));
+  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.22));
   transform: scale(1.08);
 }
+
 .toc-clip-btn svg {
   width: 56px;
   height: 22px;
+  transform: rotate(180deg);
 }
 
 /* --- Post-it note body --- */
 .toc-postit {
   position: relative;
   top: 0;
-  left: 0;              /* flush with panel edge */
+  left: -0.75em;
   background: #fffde7;
   border: 1px solid #e6dfa8;
   border-radius: 1px 1px 2px 2px;
-  box-shadow: 1px 2px 6px rgba(0,0,0,0.11), 0 0 0 0.5px rgba(0,0,0,0.04);
-  transform: rotate(1.2deg);
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.11), 0 0 0 0.5px rgba(0, 0, 0, 0.04);
+  transform: rotate(3.0deg);
   padding: 0.7rem 0.9rem 0.6rem 1.4rem;
   min-width: 170px;
   transition: opacity 0.22s, transform 0.22s, box-shadow 0.22s;
@@ -1057,6 +1235,7 @@ body:not(.camera-ready) .fade-in:not(.margin-note).visible .highlighter-pink {
   pointer-events: none;
   transform: rotate(1.2deg) scale(0.92) translateX(-6px);
 }
+
 .floating-toc-panel:not(.toc-open) .toc-clip-btn svg {
   opacity: 0.55;
 }
@@ -1066,9 +1245,11 @@ body:not(.camera-ready) .fade-in:not(.margin-note).visible .highlighter-pink {
   .floating-toc-panel {
     left: 0;
   }
+
   .floating-toc-panel:not(.toc-open) {
     left: -28px;
   }
+
   .floating-toc-panel:not(.toc-open) .toc-clip-btn {
     left: 0;
   }
@@ -1087,6 +1268,7 @@ body:not(.camera-ready) .fade-in:not(.margin-note).visible .highlighter-pink {
   position: relative;
   transition: color 0.15s;
 }
+
 .toc-body a:hover {
   color: #1a1a1a;
 }
@@ -1096,6 +1278,7 @@ body:not(.camera-ready) .fade-in:not(.margin-note).visible .highlighter-pink {
   color: #c0392b;
   font-weight: 700;
 }
+
 .toc-body a.active::after {
   content: '';
   position: absolute;
@@ -1133,8 +1316,9 @@ body:not(.camera-ready) .fade-in:not(.margin-note).visible .highlighter-pink {
   transition: background 0.2s, color 0.2s, border-color 0.2s;
   text-align: center;
 }
+
 .toc-version-toggle:hover {
-  background: rgba(0,0,0,0.04);
+  background: rgba(0, 0, 0, 0.04);
   color: #555;
   border-color: #aaa;
 }
@@ -1147,16 +1331,19 @@ body.camera-ready svg[aria-hidden="true"] {
   opacity: 0 !important;
   pointer-events: none;
 }
+
 /* Hide struck-through text — fade then collapse */
 body.camera-ready .struck {
   display: none;
 }
+
 /* Make insert-text flow inline as regular text */
 body.camera-ready .caret-mark {
   width: auto;
   position: static;
   display: inline;
 }
+
 body.camera-ready .insert-text {
   position: static;
   display: inline;
@@ -1168,6 +1355,7 @@ body.camera-ready .insert-text {
   transform: none;
   pointer-events: auto;
 }
+
 /* Remove highlight backgrounds */
 body.camera-ready .highlighter,
 body.camera-ready .highlighter-green,
@@ -1175,11 +1363,13 @@ body.camera-ready .highlighter-pink {
   background: none !important;
   opacity: 1 !important;
 }
+
 /* Date: show only the replacement in normal flow */
 body.camera-ready .title-block .date .handwritten-fix {
   position: static !important;
   transform: none !important;
 }
+
 /* Handwritten-fix: show as regular text */
 body.camera-ready .handwritten-fix {
   font-family: 'Computer Modern Serif', Georgia, serif;
@@ -1188,19 +1378,23 @@ body.camera-ready .handwritten-fix {
   top: 0;
   transform: none !important;
 }
+
 /* pen-underline: remove underline SVG but keep text visible */
 body.camera-ready .pen-underline {
   opacity: 1 !important;
   background-image: none !important;
 }
+
 /* circle-text: keep text visible, only hide the circle */
 body.camera-ready .circle-text {
   color: inherit;
 }
+
 /* ink-only: elements that are pure annotations with no clean equivalent */
 body.camera-ready .ink-only {
   display: none !important;
 }
+
 body.camera-ready .filename-line {
   display: block !important;
   visibility: hidden;
