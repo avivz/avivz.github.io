@@ -284,12 +284,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Auto-collapse when viewport is too narrow for the panel + content
   var isOpen = false;
+  var nudgeInterval;
   function shouldAutoOpen() {
     return window.innerWidth > 900;
   }
   function setOpen(open) {
     isOpen = open;
     panel.classList.toggle('toc-open', isOpen);
+    if (isOpen && nudgeInterval) {
+      clearInterval(nudgeInterval);
+      nudgeInterval = null;
+      localStorage.setItem('toc-visited', '1');
+    }
   }
   setOpen(shouldAutoOpen());
 
@@ -309,6 +315,17 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   document.body.appendChild(panel);
+
+  // Nudge the clip every 10s until TOC is opened once
+  var nudgeInterval;
+  function nudge() {
+    clipBtn.classList.remove('clip-throb');
+    void clipBtn.offsetWidth;
+    clipBtn.classList.add('clip-throb');
+  }
+  if (!localStorage.getItem('toc-visited')) {
+    nudgeInterval = setInterval(nudge, 10000);
+  }
 })();
 
 // ===== BibTeX Toggle =====

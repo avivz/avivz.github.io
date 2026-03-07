@@ -1240,6 +1240,17 @@ body:not(.camera-ready) .fade-in:not(.margin-note).visible .highlighter-pink {
   opacity: 0.55;
 }
 
+/* Paper clip nudge */
+.toc-clip-btn.clip-throb {
+  animation: clip-nudge 0.4s ease-in-out;
+}
+
+@keyframes clip-nudge {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(2px); }
+  75% { transform: translateX(-2px); }
+}
+
 /* On mobile collapsed: clip peeks in from the left edge */
 @media (max-width: 900px) {
   .floating-toc-panel {
@@ -1304,6 +1315,7 @@ body:not(.camera-ready) .fade-in:not(.margin-note).visible .highlighter-pink {
 .toc-version-toggle {
   display: block;
   width: 100%;
+  min-width: 12em;
   margin: 0.3rem 0 0;
   padding: 0.22rem 0.2rem;
   font-family: 'Caveat', cursive;
