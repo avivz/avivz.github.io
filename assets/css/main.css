@@ -1297,10 +1297,10 @@ body:not(.camera-ready) .fade-in:not(.margin-note).visible .highlighter-pink {
 }
 
 /* ===== Camera-Ready Mode ===== */
-body.camera-ready .margin-note,
+body.camera-ready .margin-note:not(.floating-toc-panel .margin-note),
 body.camera-ready .caret-mark::before,
 body.camera-ready .circle-text::after,
-body.camera-ready svg[aria-hidden="true"] {
+body.camera-ready svg[aria-hidden="true"]:not(.floating-toc-panel svg) {
   opacity: 0 !important;
   pointer-events: none;
 }
