@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', function () {
   body.className = 'toc-body';
 
   var tocItems = [
-    { label: 'Abstract', section: '#abstract' },
+    { label: 'Abstract', section: '#abstract', href: '#top' },
     { label: '1\u2002Selected Papers', section: '#selected-papers' },
     { label: '2\u2002Contact', section: '#contact' },
     { sep: true },
@@ -197,7 +197,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     var a = document.createElement('a');
     if (item.section) {
-      a.href = isIndex ? item.section : 'index.html' + item.section;
+      var target = item.href || item.section;
+      a.href = isIndex ? target : 'index.html' + target;
     } else {
       a.href = item.page;
     }
@@ -205,37 +206,12 @@ document.addEventListener('DOMContentLoaded', function () {
     if (item.page && item.page.split('#')[0] === currentPage) {
       a.classList.add('active');
     }
-    a._tocSection = item.section || null;
+    if (item.section && isIndex) {
+      a.classList.add('active');
+    }
     tocLinks.push(a);
     body.appendChild(a);
   });
-
-  // Scroll-spy: highlight current section on index page
-  if (isIndex) {
-    var sectionIds = ['abstract', 'selected-papers', 'contact'];
-    function updateActiveToc() {
-      var activeId = sectionIds[0];
-      if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight - 2) {
-        activeId = sectionIds[sectionIds.length - 1];
-      } else {
-        for (var i = 0; i < sectionIds.length; i++) {
-          var el = document.getElementById(sectionIds[i]);
-          if (el && el.getBoundingClientRect().top <= 80) {
-            activeId = sectionIds[i];
-          }
-        }
-      }
-      tocLinks.forEach(function (a) {
-        if (a._tocSection === '#' + activeId) {
-          a.classList.add('active');
-        } else if (a._tocSection) {
-          a.classList.remove('active');
-        }
-      });
-    }
-    window.addEventListener('scroll', updateActiveToc, { passive: true });
-    updateActiveToc();
-  }
 
   // Camera-ready toggle
   var toggleSep = document.createElement('div');
