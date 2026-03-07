@@ -1192,7 +1192,7 @@ body:not(.camera-ready) .fade-in:not(.margin-note).visible .highlighter-pink {
 .toc-clip-btn {
   position: absolute;
   top: 1.7rem;
-  left: calc(-0.75em - 12px);
+  left: calc(-0.75em - 4px);
   z-index: 2;
   background: none;
   border: none;

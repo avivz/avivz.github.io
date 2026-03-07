@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function () {
   clipBtn.setAttribute('aria-label', 'Toggle table of contents');
   clipBtn.innerHTML =
     '<svg viewBox="0 0 56 22" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">' +
-    '<path d="M44 21 C50 21 54 17 54 11 C54 5 50 1 44 1' +
+    '<path d="M52 17 C54 5 50 1 44 1' +
     ' L12 1 C8 1 5 4 5 7 C5 10 8 13 12 13 L40 13' +
     '"' +
     ' fill="none" stroke="#aaa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>' +
