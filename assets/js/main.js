@@ -408,9 +408,9 @@ document.addEventListener('DOMContentLoaded', function () {
   function updateScrollBtn() {
     var y = window.scrollY;
     btn.classList.toggle('visible', y > showThreshold);
-    // Wobbly bob tied to scroll position
-    var bob = Math.sin(y * 0.015) * 4;
-    var tilt = Math.sin(y * 0.012 + 1) * 3;
+    // Slow wobbly bob and tilt tied to scroll position
+    var bob = Math.sin(y * 0.008) * 4;
+    var tilt = Math.sin(y * 0.006 + 1) * 5;
     btn.style.transform = 'translateY(' + bob + 'px) rotate(' + tilt + 'deg)';
   }
   window.addEventListener('scroll', updateScrollBtn, { passive: true });
