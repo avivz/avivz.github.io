@@ -55,5 +55,37 @@ MathJax = {
   </div>
 </footer>
 
+<script>
+(function () {
+  var btn = document.createElement('button');
+  btn.className = 'scroll-to-top';
+  btn.setAttribute('aria-label', 'Scroll to top');
+  btn.innerHTML =
+    '<svg viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">' +
+    '<path d="M14,24 C14,22 14.5,16 14,10 C13.5,7 14,5 14,4" ' +
+    'stroke="#c0392b" stroke-width="2" stroke-linecap="round" fill="none"/>' +
+    '<path d="M7,12 C9,9 11,6 14,4 C17,6 19,9 21,12" ' +
+    'stroke="#c0392b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>' +
+    '</svg>';
+
+  btn.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  var showThreshold = 300;
+  function updateScrollBtn() {
+    var y = window.scrollY;
+    btn.classList.toggle('visible', y > showThreshold);
+    var bob = Math.sin(y * 0.008) * 4;
+    var tilt = Math.sin(y * 0.006 + 1) * 5;
+    btn.style.transform = 'translateY(' + bob + 'px) rotate(' + tilt + 'deg)';
+  }
+  window.addEventListener('scroll', updateScrollBtn, { passive: true });
+  updateScrollBtn();
+
+  document.body.appendChild(btn);
+})();
+</script>
+
 </body>
 </html>
