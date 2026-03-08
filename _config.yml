@@ -1,0 +1,22 @@
+title: Aviv Zohar
+url: "https://www.avivz.net"
+description: "Research notes and projects by Aviv Zohar"
+baseurl: ""
+
+# Build
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - TODO.md
+  - .claude/
+  - .github/
+  - .vscode/
+  - vendor/
+  - .bundle/
+
+# Keep existing HTML files untouched
+keep_files: []
+
+collections_dir: ""
