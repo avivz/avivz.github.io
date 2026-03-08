@@ -119,6 +119,11 @@ body::before {
   padding: 0;
 }
 
+/* Hide placeholder when real items exist */
+.empty-placeholder { list-style: none; }
+.post-item ~ .empty-placeholder { display: none; }
+.empty-placeholder ~ .post-item + .empty-placeholder { display: none; }
+
 .post-item {
   padding: 1.5rem 0;
   border-bottom: 0.4pt solid #ddd;

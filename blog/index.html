@@ -22,4 +22,7 @@ title: Blog
     <a href="{{ post.url }}" class="read-more">Read more <span class="arrow">&rarr;</span></a>
   </li>
   {% endfor %}
+  {% if site.posts.size == 0 %}
+  <li class="empty-placeholder"><p style="color: #999; font-style: italic;">Notes coming soon.</p></li>
+  {% endif %}
 </ul>
