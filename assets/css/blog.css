@@ -278,13 +278,14 @@ body::before {
 }
 
 .tag {
-  font-size: 0.72rem;
-  font-variant: small-caps;
-  letter-spacing: 0.04em;
-  padding: 0.1rem 0.45rem;
-  border: 0.4pt solid #ccc;
-  color: #666;
+  font-family: 'Caveat', cursive;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+  padding: 0.05em 0.25em;
+  color: #4169E1;
+  border: none;
 }
+
 
 /* ===== Single Post ===== */
 .post-hero {
