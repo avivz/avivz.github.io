@@ -48,8 +48,8 @@ Edit one slide's narration, rebuild, and only that slide's audio gets re-synthes
 
 Here's an example — a presentation about the Basel Problem, built in conversation with Claude and compiled by SlideSonnet:
 
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
-<iframe style="position:absolute;top:0;left:0;width:100%;height:100%" src="https://www.youtube.com/embed/PLACEHOLDER" style="border:0" allowfullscreen></iframe>
+<div class="video-embed">
+<iframe src="https://www.youtube.com/embed/IkzeCoDuU5o" allowfullscreen></iframe>
 </div>
 
 ## My entry into vibe coding
