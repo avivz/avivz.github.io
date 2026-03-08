@@ -313,9 +313,29 @@ body::before {
 }
 
 .post-hero .post-subtitle {
-  font-style: italic;
-  font-size: 1.05rem;
-  color: #444;
+  font-size: 1.35rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.25;
+  color: #333;
+}
+
+.post-hero .post-authors {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 0.4rem;
+}
+
+.post-hero .post-authors a {
+  color: #555;
+  text-decoration: none;
+  border-bottom: 0.6pt solid #999;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.post-hero .post-authors a:hover {
+  color: #c0392b;
+  border-color: #c0392b;
 }
 
 /* ===== Post Content ===== */
@@ -500,9 +520,11 @@ body::before {
 }
 
 .project-hero .project-subtitle {
-  font-style: italic;
-  font-size: 1.05rem;
-  color: #444;
+  font-size: 1.35rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.25;
+  color: #333;
   margin-bottom: 0.2rem;
 }
 
