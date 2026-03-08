@@ -141,16 +141,87 @@ body::before {
   margin-bottom: 0.3rem;
 }
 
+/* Hand-drawn doodles before post titles */
+.post-item .post-title {
+  position: relative;
+}
+
+.post-item .post-title::before {
+  content: '';
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  right: calc(100% + 0.3em);
+  top: 0.15em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+}
+
+/* Check mark */
+.post-item:nth-child(6n+1) .post-title::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4,13 C5.5,14 7,16.5 9,19 C12,13 16,8 21,4' fill='none' stroke='%23c0392b' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+/* Star */
+.post-item:nth-child(6n+2) .post-title::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12,2 L14.5,8.5 L21,9.5 L16,14 L17.5,21 L12,17.5 L6.5,21 L8,14 L3,9.5 L9.5,8.5 Z' fill='none' stroke='%23c0392b' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+/* Spiral */
+.post-item:nth-child(6n+3) .post-title::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12,12 C12,10 14,8 16,9 C18,10 18,13 16,15 C13,18 8,17 7,13 C5.5,8 9,4 14,4 C19.5,4 22,9 21,14' fill='none' stroke='%23c0392b' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+/* Arrow */
+.post-item:nth-child(6n+4) .post-title::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4,18 C8,16 12,12 19,6' fill='none' stroke='%23c0392b' stroke-width='1.8' stroke-linecap='round'/%3E%3Cpath d='M14,4.5 L19,6 L17,11' fill='none' stroke='%23c0392b' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+/* Hyphen / dash */
+.post-item:nth-child(6n+5) .post-title::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4,12 C8,11 12,13.5 20,12' fill='none' stroke='%23c0392b' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+/* Box */
+.post-item:nth-child(6n+6) .post-title::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5,5 L19,4.5 L19.5,19 L4.5,19.5 Z' fill='none' stroke='%23c0392b' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
 .post-item .post-title a {
   color: #1a1a1a;
   text-decoration: none;
-  border-bottom: 0.6pt solid transparent;
-  transition: border-color 0.2s, color 0.2s;
+  padding: 0.05em 0.15em;
+  margin: 0 -0.15em;
+  border-radius: 2px;
+  transition: color 0.2s;
+}
+
+/* Pseudo-random highlighter colors on post titles, stable across reloads */
+.post-item:nth-child(3n+1) .post-title a {
+  background: linear-gradient(179.5deg,
+    transparent 0%, transparent 28%,
+    rgba(255, 237, 74, 0.45) 30%, rgba(255, 230, 50, 0.5) 50%,
+    rgba(255, 237, 74, 0.4) 70%, transparent 72%, transparent 100%);
+}
+
+.post-item:nth-child(3n+2) .post-title a {
+  background: linear-gradient(179.5deg,
+    transparent 0%, transparent 28%,
+    rgba(130, 235, 150, 0.4) 30%, rgba(110, 220, 130, 0.45) 50%,
+    rgba(130, 235, 150, 0.35) 70%, transparent 72%, transparent 100%);
+}
+
+.post-item:nth-child(3n+3) .post-title a {
+  background: linear-gradient(179.5deg,
+    transparent 0%, transparent 28%,
+    rgba(255, 160, 180, 0.4) 30%, rgba(255, 140, 165, 0.45) 50%,
+    rgba(255, 160, 180, 0.35) 70%, transparent 72%, transparent 100%);
 }
 
 .post-item .post-title a:hover {
   color: #c0392b;
-  border-bottom-color: #c0392b;
 }
 
 .post-item .post-excerpt {
