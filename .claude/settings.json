@@ -1,5 +1,18 @@
 {
   "enabledPlugins": {
     "frontend-design@claude-plugins-official": true
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if echo \"$CLAUDE_TOOL_INPUT\" | grep -q 'git commit'; then echo 'Running pre-commit checks...'; bundle exec jekyll build --quiet 2>&1 && html5validator --root . --match '*.html' --blacklist _layouts _posts notes projects 2>&1 || { echo 'BLOCKED: Fix Jekyll build or HTML validation errors before committing.'; exit 2; }; fi"
+          }
+        ]
+      }
+    ]
   }
 }
