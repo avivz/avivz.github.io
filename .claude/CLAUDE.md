@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-Personal academic website for Prof. Aviv Zohar (www.avivz.net). Static HTML site hosted on GitHub Pages, deployed from the `master` branch.
+Personal academic website for Prof. Aviv Zohar (www.avivz.net). Static HTML site hosted on GitHub Pages, deployed from the `main` branch.
 
 ## Design: Annotated Preprint
 
