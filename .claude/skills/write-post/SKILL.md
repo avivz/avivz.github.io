@@ -11,7 +11,7 @@ Write blog posts and research project pages for avivz.net, and preview them loca
 
 ### Deciding post vs. project
 
-- **Post** (`layout: post`): A blog-style note — time-stamped, narrative, appears in /blog/. For write-ups, opinions, tutorials, announcements.
+- **Post** (`layout: post`): A blog-style note — time-stamped, narrative, appears in /notes/. For write-ups, opinions, tutorials, announcements.
 - **Project** (`layout: project`): A project page — no date, appears in /projects/. For ongoing or completed research projects with collaborators, papers, and links.
 
 Ask the user which type if ambiguous.
@@ -87,11 +87,11 @@ After writing or editing a post/project, **always** start a local Jekyll server 
 1. Run `bundle exec jekyll serve` in the background (use `run_in_background: true`).
 2. Tell the user the site is available at `http://localhost:4000`.
 3. Provide the direct URL to the new content:
-   - Posts: `http://localhost:4000/blog/YYYY/MM/DD/slug/`
+   - Posts: `http://localhost:4000/notes/YYYY/MM/DD/slug/`
    - Projects: `http://localhost:4000/projects/slug/`
-   - Blog index: `http://localhost:4000/blog/`
+   - Blog index: `http://localhost:4000/notes/`
    - Projects index: `http://localhost:4000/projects/`
-4. Open the page for the user using: `cmd.exe /c start "" "http://localhost:4000/blog/YYYY/MM/DD/slug/"` (or the appropriate project URL).
+4. Open the page for the user using: `cmd.exe /c start "" "http://localhost:4000/notes/YYYY/MM/DD/slug/"` (or the appropriate project URL).
 5. If jekyll serve is already running (port 4000 in use), just tell the user to refresh — no need to restart unless `_config.yml` changed.
 
 ### Style guidelines
