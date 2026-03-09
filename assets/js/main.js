@@ -108,6 +108,7 @@ document.addEventListener('DOMContentLoaded', function () {
     el.style.transform = 'translateX(-50%)';
   });
   // Nudge insert-text away from paper edges
+  window.constrainInsertTexts = constrainInsertTexts;
   function constrainInsertTexts() {
     var paperLeft = Math.max(10, (window.innerWidth / 2) - 530);
     var paperRight = Math.min(window.innerWidth - 10, (window.innerWidth / 2) + 530);
@@ -263,6 +264,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
       replayPageAnimations();
       if (window.positionMarginNotes) window.positionMarginNotes();
+      if (window.constrainInsertTexts) window.constrainInsertTexts();
 
       document.body.style.opacity = '1';
       setTimeout(function () {
