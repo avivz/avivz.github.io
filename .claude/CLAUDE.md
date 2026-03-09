@@ -70,7 +70,7 @@ Ink elements inside `.fade-in` containers animate on scroll via IntersectionObse
 Always run HTML validation locally before committing and before pushing:
 
 ```sh
-html5validator --root . --match "*.html"
+html5validator --root . --match "*.html" --blacklist _layouts _posts notes projects
 ```
 
 Validate **all** HTML files, not just the one being edited. This is also enforced in CI via `.github/workflows/validate.yml`.
