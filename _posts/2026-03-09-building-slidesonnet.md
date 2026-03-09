@@ -2,14 +2,14 @@
 layout: post
 title: "SlideSonnet"
 subtitle: "Vibe-Coding a Lecture Compiler"
-date: 2026-03-08
+date: 2026-03-09
 authors:
   - name: Aviv Zohar
     url: https://www.avivz.net
 tags: [LLMs, tools, slidesonnet]
 ---
 
-I vibe-coded a tool that compiles Markdown slides into narrated lecture videos. Somewhere along the way, a side project about lecture production turned into a reflection on the fork in the road we're all facing — between facts and fabrication, between technology that connects students to ideas and mentors and technology that distances them from both.
+I vibe-coded a tool that compiles Markdown slides into narrated lecture videos. Along the way I ran into some interesting questions — about flipped classrooms, AI voices, and fact-checking generated content. Here are some of my thoughts.
 
 ## Why lectures need to change
 
@@ -62,9 +62,9 @@ Why? Two reasons:
 
 **It's low risk.** This is key. SlideSonnet isn't a real-time system where a bug means downtime. It's not handling user data or financial transactions. There are no significant security concerns — it reads Markdown files and produces videos. If the code has an inelegant corner or an unnecessary abstraction, nobody gets hurt. The worst case is a build that fails, and you re-run it. For a first serious vibe-coding project, you want exactly this profile: real enough to be interesting, forgiving enough that imperfect code is fine.
 
-The experience confirmed much of what people say about vibe coding, and added some nuance. The pipeline is conceptually straightforward (parse slides → synthesize speech → compose video → concatenate), but the details are fiddly: FFmpeg incantations, TTS API quirks, content-hash caching, incremental builds. Exactly the kind of thing where you want to describe the *what* and let the AI worry about the *how*. I steer the design decisions; Claude handles the implementation. The project is around 4,000 lines of Python, with another 2,000 lines of tests — substantially more than I would have written myself in the same time.
+The experience confirmed much of what people say about vibe coding, and added some nuance. The pipeline is conceptually straightforward (parse slides → synthesize speech → compose video → concatenate), but the details are fiddly: FFmpeg incantations, TTS API quirks, content-hash caching, incremental builds.
 
-Where it gets interesting is the feedback loop. Vibe coding isn't just "describe a feature, get code." It's an iterative conversation where you run the output, see what's wrong, describe the problem, and refine. The speed of that loop is what makes it feel qualitatively different from writing code yourself or even from traditional code generation.
+Where it gets interesting is the management of processes and feedback loops. Vibe coding isn't just "describe a feature, get code." It's an iterative conversation where you change the code, add procedures to make it robust, review yourself, seek review and advice from Claude, and refine as you slowly start to understand what it is you are building. The speed of that process, along with the existence of a coding peer who is in many ways more knowledgeable and faster than me, is what makes it feel like a truly different experience compared to writing code alone. I have many thoughts about the process itself that I will probably share in a separate note further down the road.
 
 ## AI voices and the uncanny valley
 
