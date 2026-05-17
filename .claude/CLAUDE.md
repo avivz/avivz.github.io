@@ -77,7 +77,21 @@ Validate **all** HTML files, not just the one being edited. This is also enforce
 
 ## CSS
 
-CSS is plain (no SCSS build step). Edit `assets/css/main.css` directly.
+CSS is plain (no SCSS build step). Two stylesheets:
+- **`assets/css/main.css`** — Styles for the main site (homepage, publications, talks, counseling)
+- **`assets/css/notes.css`** — Styles for the Jekyll-powered notes/projects pages
+
+## Jekyll Blog & Projects
+
+The site has a Jekyll layer for blog posts and research project pages, separate from the hand-coded main pages:
+
+- **`_config.yml`** — Jekyll configuration (kramdown, permalink `/notes/:year/:month/:day/:title/`)
+- **`_layouts/`** — Templates: `default.html` (base), `post.html` (blog posts), `project.html` (research projects)
+- **`_posts/`** — Blog posts in Markdown with YAML frontmatter (layout, title, subtitle, date, authors, tags)
+- **`notes/index.html`** — Blog listing page (Jekyll frontmatter)
+- **`projects/index.html`** — Projects listing page (Jekyll frontmatter)
+
+Notes/projects pages use the same typography (Computer Modern, Caveat) but a simpler layout via `notes.css`. They include MathJax 3 (tex-svg) for math rendering. Files under `notes/` and `projects/` are excluded from HTML validation (they contain Liquid templates).
 
 ## Key Files
 
@@ -85,7 +99,8 @@ CSS is plain (no SCSS build step). Edit `assets/css/main.css` directly.
 - **`publications.html`** — All publications (~2100 lines); each entry uses `pub-entry` structure
 - **`talks.html`** — Embedded talk videos in a responsive grid
 - **`counseling.html`** — Sabbatical/reception hours notice
-- **`assets/css/main.css`** — All styles (single file, no preprocessor)
+- **`assets/css/main.css`** — Main site styles (single file, no preprocessor)
+- **`assets/css/notes.css`** — Notes/projects styles
 - **`c.html`** — Redirect to `counseling.html`
 - **`assets/js/main.js`** — Dynamic date, scroll fade-in (IntersectionObserver), active nav link, margin note positioning, random ink tilts, camera-ready toggle (localStorage), BibTeX toggle
 
@@ -131,6 +146,8 @@ Margin notes live in `.ml` (left) or `.mr` (right) columns within a `.section-ro
 
 - FontAwesome 6.7.2 loaded via CDN — use `fa-solid`, `fa-brands` class prefixes
 - Computer Modern fonts loaded via jsdelivr CDN (cm-web-fonts)
+- Google Tag Manager (GTM-KX6CHWX) on all pages for analytics
+- MathJax 3 (tex-svg) on notes/projects pages for LaTeX math
 - PDFs stored in `pubs/YEAR/` directories
 - Images in `images/`
 - The `iframe` `width` attribute only accepts pixel values per HTML spec — use `style="width:100%"` instead of `width="100%"`
