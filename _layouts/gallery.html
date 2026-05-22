@@ -1,0 +1,58 @@
+---
+layout: default
+---
+{% assign gallery = nil %}
+{% for g in site.data.galleries %}
+  {% if g.slug == page.slug %}{% assign gallery = g %}{% endif %}
+{% endfor %}
+
+<article class="gallery-page">
+  <header class="gallery-page-header">
+    <a href="/photography/" class="gallery-back">&larr; All galleries</a>
+    <h1>{{ gallery.title }}</h1>
+    {% if gallery.location %}<p class="gallery-location">{{ gallery.location }}</p>{% endif %}
+  </header>
+
+  <div class="gallery-grid" id="photo-feed">
+    {% for p in gallery.photos %}
+    <a href="{{ p.full }}"
+       data-pswp-width="{{ p.w }}"
+       data-pswp-height="{{ p.h }}"
+       data-caption="{{ p.taken | date: '%B %-d, %Y' }}{% if gallery.location %} &middot; {{ gallery.location }}{% endif %}"
+       class="gallery-item"
+       style="--w:{{ p.w }};--h:{{ p.h }}"
+       target="_blank"
+       rel="noreferrer">
+      <img src="{{ p.thumb }}" width="{{ p.tw }}" height="{{ p.th }}" loading="lazy" alt="">
+    </a>
+    {% endfor %}
+  </div>
+</article>
+
+<link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css">
+<script type="module">
+  import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.js';
+  const lightbox = new PhotoSwipeLightbox({
+    gallery: '#photo-feed',
+    children: 'a.gallery-item',
+    pswpModule: () => import('https://unpkg.com/photoswipe@5/dist/photoswipe.esm.js'),
+  });
+  lightbox.on('uiRegister', () => {
+    lightbox.pswp.ui.registerElement({
+      name: 'caption',
+      order: 9,
+      isButton: false,
+      appendTo: 'root',
+      html: '',
+      onInit: (el) => {
+        el.classList.add('pswp__caption');
+        lightbox.pswp.on('change', () => {
+          const slide = lightbox.pswp.currSlide;
+          const a = slide && slide.data.element;
+          el.innerHTML = a ? (a.getAttribute('data-caption') || '') : '';
+        });
+      },
+    });
+  });
+  lightbox.init();
+</script>

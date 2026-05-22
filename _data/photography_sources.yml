@@ -1,0 +1,168 @@
+# Photo gallery source configuration.
+#
+# Each entry generates one gallery page at /photography/<slug>/.
+# To publish photos: add an entry below, then run
+#     uv run scripts/build_galleries.py
+#
+# Fields per entry:
+#   slug       (required) URL-safe id, becomes /photography/<slug>/
+#   dir        (required) Subdirectory name OR list of subdirs under source_dir.
+#                         Multiple dirs are merged into one gallery, sorted by
+#                         EXIF date. Filenames must not collide.
+#   title      (required) Section title and card label
+#   location   (optional) Shown in the lightbox caption
+#   thumb      (optional) Filename to use as the cover thumb (e.g. DSC_1234.jpg).
+#                         Defaults to the first photo.
+#   exclude    (optional) Filenames to skip (and prune from /photos/)
+#
+# Example with all fields:
+#   - slug: pole-farm
+#     dir:
+#       - Nov_2025_PoleFarm2
+#       - Dec_2025_PoleFarm3
+#       - Dec_2025_PoleFarm4
+#     title: Pole Farm
+#     location: Mercer Meadows, NJ
+#     thumb: DSC_4321.jpg
+#     exclude:
+#       - DSC_1234.jpg
+
+source_dir: /mnt/c/Dropbox/PersonalArchive/SelectedPhotography
+
+galleries:
+  # ---- 2026 ----
+  - slug: cemetery-fox
+    dir: 2026_04_CemeteryFox
+    title: Cemetery Fox
+    location: Princeton, NJ
+
+  - slug: fox
+    dir:
+      - 2026_03_Fox
+      - 2026_04_Fox
+    title: Fox
+    location: Princeton, NJ
+
+  - slug: bombay-hook
+    dir: 2026_04_BombayHookDelaware
+    title: Bombay Hook
+    location: Smyrna, DE
+
+  - slug: union-lake-osprey
+    dir: 2026_04_Union_Lake_Dam_Osprey
+    title: Union Lake Osprey
+    location: Millville, NJ
+
+  - slug: conowingo-eagles
+    dir: 2026_1_ConowingoDamEagles
+    title: Conowingo Dam Eagles
+    location: Conowingo, MD
+
+  - slug: snow
+    dir:
+      - December_2025_snow
+      - 2026_1_Snow
+    title: Snow
+    location: Princeton, NJ
+
+  # ---- Pole Farm (merged) ----
+  - slug: pole-farm
+    dir:
+      - Nov_2025_PoleFarm2
+      - Dec_2025_PoleFarm3
+      - Dec_2025_PoleFarm4
+      - December_2025_PoleFarm5
+      - December_2025_PoleFarm7
+    title: Pole Farm
+    location: Mercer Meadows, NJ
+
+  - slug: pole-farm-owl
+    dir: December_2025_PoleFarm6_Owl
+    title: Pole Farm Owl
+    location: Mercer Meadows, NJ
+
+  - slug: pole-farm-mercer
+    dir: Nov_2025_PoleFarm_MercerLake
+    title: Pole Farm & Mercer Lake
+    location: Mercer Meadows, NJ
+
+  # ---- Carnegie Lake (merged) ----
+  - slug: carnegie-lake
+    dir:
+      - Nov_2025_Carnegie_Lake
+      - Nov_2025_CarnegieLake2
+      - Nov_2025_CarnegieLake3
+    title: Carnegie Lake
+    location: Princeton, NJ
+
+  - slug: carnegie-canal-oct
+    dir: "Oct_2025_Carnegie_Lake_and_D&R_Canal"
+    title: Carnegie Lake & D&R Canal
+    location: Princeton, NJ
+
+  # ---- November 2025 ----
+  - slug: backyard-birds-nov
+    dir: Nov_2025_Backyard_Birds
+    title: Backyard Birds
+    location: Princeton, NJ
+
+  - slug: cattus-island
+    dir: Nov_2025_Cattus_Island_Park
+    title: Cattus Island Park
+    location: Toms River, NJ
+
+  - slug: charles-rogers
+    dir: Nov_2025_CharlesHRogers_wildlife_ref
+    title: Charles H. Rogers Refuge
+    location: Princeton, NJ
+
+  - slug: moon-nov
+    dir: Nov_2025_Moon
+    title: Moon
+
+  # ---- October 2025 ----
+  - slug: canal-duke-farms
+    dir: "Oct_2025_D&R_Canal_and_Duke_Farms"
+    title: D&R Canal & Duke Farms
+    location: Hillsborough, NJ
+
+  - slug: princeton-tigers
+    dir: Oct_2025_Princeton_Tigers
+    title: Princeton Tigers
+    location: Princeton, NJ
+
+  # ---- Earlier 2025 ----
+  - slug: florida
+    dir: Dec_2025_Florida
+    title: Florida
+
+  - slug: fall-2025
+    dir: Fall_2025_photos
+    title: Fall
+    location: Princeton, NJ
+
+  - slug: june-birdfeeder
+    dir: June_2025_BirdFeeder
+    title: Bird Feeder
+    location: Princeton, NJ
+
+  - slug: watershed-institute
+    dir: June_2025_Watershed_Institute
+    title: Watershed Institute
+    location: Pennington, NJ
+
+  - slug: spring-2025
+    dir: Spring_2025_photos
+    title: Spring
+    location: Princeton, NJ
+
+  - slug: backyard-critters
+    dir: 2025_Backyard_Critters
+    title: Backyard Critters
+    location: Princeton, NJ
+
+  # ---- 2019 ----
+  - slug: gazelle-valley
+    dir: May2019_Gazelle_Valley
+    title: Gazelle Valley
+    location: Jerusalem

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{% assign galleries = site.data.galleries %}
+
+<header class="photography-header">
+  <h1>{{ page.title }}</h1>
+  {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
+</header>
+
+<ul class="gallery-cards">
+  {% for g in galleries %}
+  <li class="gallery-card">
+    <a href="/photography/{{ g.slug }}/">
+      <div class="gallery-card-cover">
+        <img src="{{ g.cover.thumb }}" loading="lazy" alt="">
+      </div>
+      <div class="gallery-card-meta">
+        <div class="gallery-card-title">{{ g.title }}</div>
+        <div class="gallery-card-count">{{ g.photos.size }} photo{% if g.photos.size != 1 %}s{% endif %}</div>
+      </div>
+    </a>
+  </li>
+  {% endfor %}
+  {% unless galleries %}
+  <li class="empty-placeholder"><p style="color: #999; font-style: italic;">No galleries yet.</p></li>
+  {% endunless %}
+</ul>
+
+{{ content }}

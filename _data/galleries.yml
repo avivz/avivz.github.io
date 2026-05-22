@@ -1,0 +1,4347 @@
+- slug: cemetery-fox
+  title: Cemetery Fox
+  location: Princeton, NJ
+  cover: &id001
+    src: DSC_4839.jpg
+    full: /photos/cemetery-fox/full/DSC_4839.jpg
+    thumb: /photos/cemetery-fox/thumb/DSC_4839.jpg
+    w: 1860
+    h: 1488
+    tw: 900
+    th: 720
+    taken: '2026-04-20T09:53:37'
+    taken_ts: 1776693217
+  photos:
+  - *id001
+  - src: DSC_4981.jpg
+    full: /photos/cemetery-fox/full/DSC_4981.jpg
+    thumb: /photos/cemetery-fox/thumb/DSC_4981.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-20T18:17:43'
+    taken_ts: 1776723463
+  - src: DSC_4990.jpg
+    full: /photos/cemetery-fox/full/DSC_4990.jpg
+    thumb: /photos/cemetery-fox/thumb/DSC_4990.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-20T18:18:16'
+    taken_ts: 1776723496
+  - src: DSC_4995.jpg
+    full: /photos/cemetery-fox/full/DSC_4995.jpg
+    thumb: /photos/cemetery-fox/thumb/DSC_4995.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-20T18:18:50'
+    taken_ts: 1776723530
+  - src: DSC_5009.jpg
+    full: /photos/cemetery-fox/full/DSC_5009.jpg
+    thumb: /photos/cemetery-fox/thumb/DSC_5009.jpg
+    w: 2211
+    h: 2211
+    tw: 900
+    th: 900
+    taken: '2026-04-20T18:20:26'
+    taken_ts: 1776723626
+  - src: DSC_5014.jpg
+    full: /photos/cemetery-fox/full/DSC_5014.jpg
+    thumb: /photos/cemetery-fox/thumb/DSC_5014.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-20T18:21:53'
+    taken_ts: 1776723713
+  - src: DSC_5047.jpg
+    full: /photos/cemetery-fox/full/DSC_5047.jpg
+    thumb: /photos/cemetery-fox/thumb/DSC_5047.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-20T18:25:03'
+    taken_ts: 1776723903
+  - src: DSC_5080.jpg
+    full: /photos/cemetery-fox/full/DSC_5080.jpg
+    thumb: /photos/cemetery-fox/thumb/DSC_5080.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-20T18:32:06'
+    taken_ts: 1776724326
+  - src: DSC_5105.jpg
+    full: /photos/cemetery-fox/full/DSC_5105.jpg
+    thumb: /photos/cemetery-fox/thumb/DSC_5105.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-20T18:33:24'
+    taken_ts: 1776724404
+  - src: DSC_5983.jpg
+    full: /photos/cemetery-fox/full/DSC_5983.jpg
+    thumb: /photos/cemetery-fox/thumb/DSC_5983.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-26T17:58:24'
+    taken_ts: 1777240704
+- slug: fox
+  title: Fox
+  location: Princeton, NJ
+  cover: &id002
+    src: DSC_2061.jpg
+    full: /photos/fox/full/DSC_2061.jpg
+    thumb: /photos/fox/thumb/DSC_2061.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-03-23T10:21:32'
+    taken_ts: 1774275692
+  photos:
+  - *id002
+  - src: DSC_2062.jpg
+    full: /photos/fox/full/DSC_2062.jpg
+    thumb: /photos/fox/thumb/DSC_2062.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-03-23T10:21:32'
+    taken_ts: 1774275692
+  - src: DSC_6515.jpg
+    full: /photos/fox/full/DSC_6515.jpg
+    thumb: /photos/fox/thumb/DSC_6515.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-09T09:20:02'
+    taken_ts: 1775740802
+  - src: DSC_6526.jpg
+    full: /photos/fox/full/DSC_6526.jpg
+    thumb: /photos/fox/thumb/DSC_6526.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-09T09:20:18'
+    taken_ts: 1775740818
+  - src: DSC_6551.jpg
+    full: /photos/fox/full/DSC_6551.jpg
+    thumb: /photos/fox/thumb/DSC_6551.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-09T09:22:45'
+    taken_ts: 1775740965
+  - src: DSC_6604.jpg
+    full: /photos/fox/full/DSC_6604.jpg
+    thumb: /photos/fox/thumb/DSC_6604.jpg
+    w: 2378
+    h: 1585
+    tw: 900
+    th: 600
+    taken: '2026-04-09T09:25:43'
+    taken_ts: 1775741143
+  - src: DSC_8172.jpg
+    full: /photos/fox/full/DSC_8172.jpg
+    thumb: /photos/fox/thumb/DSC_8172.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-05-08T10:14:36'
+    taken_ts: 1778249676
+  - src: DSC_8186.jpg
+    full: /photos/fox/full/DSC_8186.jpg
+    thumb: /photos/fox/thumb/DSC_8186.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-05-08T10:15:03'
+    taken_ts: 1778249703
+- slug: bombay-hook
+  title: Bombay Hook
+  location: Smyrna, DE
+  cover: &id003
+    src: DSC_3427.jpg
+    full: /photos/bombay-hook/full/DSC_3427.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_3427.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T09:16:00'
+    taken_ts: 1776345360
+  photos:
+  - *id003
+  - src: DSC_3434.jpg
+    full: /photos/bombay-hook/full/DSC_3434.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_3434.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T09:16:03'
+    taken_ts: 1776345363
+  - src: DSC_3454.jpg
+    full: /photos/bombay-hook/full/DSC_3454.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_3454.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T09:16:50'
+    taken_ts: 1776345410
+  - src: DSC_3631.jpg
+    full: /photos/bombay-hook/full/DSC_3631.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_3631.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T09:43:01'
+    taken_ts: 1776346981
+  - src: DSC_3707.jpg
+    full: /photos/bombay-hook/full/DSC_3707.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_3707.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T10:13:26'
+    taken_ts: 1776348806
+  - src: DSC_3837.jpg
+    full: /photos/bombay-hook/full/DSC_3837.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_3837.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T10:44:17'
+    taken_ts: 1776350657
+  - src: DSC_3880.jpg
+    full: /photos/bombay-hook/full/DSC_3880.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_3880.jpg
+    w: 2400
+    h: 1920
+    tw: 900
+    th: 720
+    taken: '2026-04-16T11:23:19'
+    taken_ts: 1776352999
+  - src: DSC_3983.jpg
+    full: /photos/bombay-hook/full/DSC_3983.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_3983.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T12:10:11'
+    taken_ts: 1776355811
+  - src: DSC_4056.jpg
+    full: /photos/bombay-hook/full/DSC_4056.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_4056.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T12:41:23'
+    taken_ts: 1776357683
+  - src: DSC_4103.jpg
+    full: /photos/bombay-hook/full/DSC_4103.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_4103.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T13:12:16'
+    taken_ts: 1776359536
+  - src: DSC_4153.jpg
+    full: /photos/bombay-hook/full/DSC_4153.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_4153.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T15:11:10'
+    taken_ts: 1776366670
+  - src: DSC_4168.jpg
+    full: /photos/bombay-hook/full/DSC_4168.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_4168.jpg
+    w: 1920
+    h: 2400
+    tw: 720
+    th: 900
+    taken: '2026-04-16T15:11:35'
+    taken_ts: 1776366695
+  - src: DSC_4205.jpg
+    full: /photos/bombay-hook/full/DSC_4205.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_4205.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T15:13:03'
+    taken_ts: 1776366783
+  - src: DSC_4208.jpg
+    full: /photos/bombay-hook/full/DSC_4208.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_4208.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T15:13:06'
+    taken_ts: 1776366786
+  - src: DSC_4211.jpg
+    full: /photos/bombay-hook/full/DSC_4211.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_4211.jpg
+    w: 2400
+    h: 2400
+    tw: 900
+    th: 900
+    taken: '2026-04-16T15:13:06'
+    taken_ts: 1776366786
+  - src: DSC_4274.jpg
+    full: /photos/bombay-hook/full/DSC_4274.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_4274.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T15:23:37'
+    taken_ts: 1776367417
+  - src: DSC_4370.jpg
+    full: /photos/bombay-hook/full/DSC_4370.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_4370.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T15:30:57'
+    taken_ts: 1776367857
+  - src: DSC_4458.jpg
+    full: /photos/bombay-hook/full/DSC_4458.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_4458.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T15:43:12'
+    taken_ts: 1776368592
+  - src: DSC_4555.jpg
+    full: /photos/bombay-hook/full/DSC_4555.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_4555.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T15:57:31'
+    taken_ts: 1776369451
+  - src: DSC_4560.jpg
+    full: /photos/bombay-hook/full/DSC_4560.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_4560.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T15:57:33'
+    taken_ts: 1776369453
+  - src: DSC_4571.jpg
+    full: /photos/bombay-hook/full/DSC_4571.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_4571.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T15:57:39'
+    taken_ts: 1776369459
+  - src: DSC_4648.jpg
+    full: /photos/bombay-hook/full/DSC_4648.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_4648.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T16:07:53'
+    taken_ts: 1776370073
+  - src: DSC_4757.jpg
+    full: /photos/bombay-hook/full/DSC_4757.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_4757.jpg
+    w: 2400
+    h: 2400
+    tw: 900
+    th: 900
+    taken: '2026-04-16T16:40:48'
+    taken_ts: 1776372048
+  - src: DSC_4795.jpg
+    full: /photos/bombay-hook/full/DSC_4795.jpg
+    thumb: /photos/bombay-hook/thumb/DSC_4795.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-16T17:16:27'
+    taken_ts: 1776374187
+- slug: union-lake-osprey
+  title: Union Lake Osprey
+  location: Millville, NJ
+  cover: &id004
+    src: DSC_6780.jpg
+    full: /photos/union-lake-osprey/full/DSC_6780.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_6780.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T08:16:10'
+    taken_ts: 1775823370
+  photos:
+  - *id004
+  - src: DSC_6839.jpg
+    full: /photos/union-lake-osprey/full/DSC_6839.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_6839.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T08:21:52'
+    taken_ts: 1775823712
+  - src: DSC_7799.jpg
+    full: /photos/union-lake-osprey/full/DSC_7799.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_7799.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T11:35:35'
+    taken_ts: 1775835335
+  - src: DSC_7835.jpg
+    full: /photos/union-lake-osprey/full/DSC_7835.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_7835.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T11:39:31'
+    taken_ts: 1775835571
+  - src: DSC_7847.jpg
+    full: /photos/union-lake-osprey/full/DSC_7847.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_7847.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T11:39:34'
+    taken_ts: 1775835574
+  - src: DSC_8206.jpg
+    full: /photos/union-lake-osprey/full/DSC_8206.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_8206.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T12:34:40'
+    taken_ts: 1775838880
+  - src: DSC_8207.jpg
+    full: /photos/union-lake-osprey/full/DSC_8207.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_8207.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T12:34:40'
+    taken_ts: 1775838880
+  - src: DSC_8208.jpg
+    full: /photos/union-lake-osprey/full/DSC_8208.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_8208.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T12:34:40'
+    taken_ts: 1775838880
+  - src: DSC_8209.jpg
+    full: /photos/union-lake-osprey/full/DSC_8209.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_8209.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T12:34:41'
+    taken_ts: 1775838881
+  - src: DSC_8210.jpg
+    full: /photos/union-lake-osprey/full/DSC_8210.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_8210.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T12:34:41'
+    taken_ts: 1775838881
+  - src: DSC_8211.jpg
+    full: /photos/union-lake-osprey/full/DSC_8211.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_8211.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T12:34:41'
+    taken_ts: 1775838881
+  - src: DSC_8212.jpg
+    full: /photos/union-lake-osprey/full/DSC_8212.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_8212.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T12:34:41'
+    taken_ts: 1775838881
+  - src: DSC_8213.jpg
+    full: /photos/union-lake-osprey/full/DSC_8213.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_8213.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T12:34:41'
+    taken_ts: 1775838881
+  - src: DSC_8214.jpg
+    full: /photos/union-lake-osprey/full/DSC_8214.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_8214.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T12:34:41'
+    taken_ts: 1775838881
+  - src: DSC_8215.jpg
+    full: /photos/union-lake-osprey/full/DSC_8215.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_8215.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T12:34:41'
+    taken_ts: 1775838881
+  - src: DSC_8216.jpg
+    full: /photos/union-lake-osprey/full/DSC_8216.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_8216.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T12:34:41'
+    taken_ts: 1775838881
+  - src: DSC_8315.jpg
+    full: /photos/union-lake-osprey/full/DSC_8315.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_8315.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T13:42:38'
+    taken_ts: 1775842958
+  - src: DSC_8331.jpg
+    full: /photos/union-lake-osprey/full/DSC_8331.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_8331.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T13:42:42'
+    taken_ts: 1775842962
+  - src: DSC_8556.jpg
+    full: /photos/union-lake-osprey/full/DSC_8556.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_8556.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T13:58:44'
+    taken_ts: 1775843924
+  - src: DSC_8559.jpg
+    full: /photos/union-lake-osprey/full/DSC_8559.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_8559.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T13:58:45'
+    taken_ts: 1775843925
+  - src: DSC_8562.jpg
+    full: /photos/union-lake-osprey/full/DSC_8562.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_8562.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-04-10T13:58:47'
+    taken_ts: 1775843927
+  - src: DSC_8565.jpg
+    full: /photos/union-lake-osprey/full/DSC_8565.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_8565.jpg
+    w: 2400
+    h: 1920
+    tw: 900
+    th: 720
+    taken: '2026-04-10T13:58:48'
+    taken_ts: 1775843928
+  - src: DSC_8844.jpg
+    full: /photos/union-lake-osprey/full/DSC_8844.jpg
+    thumb: /photos/union-lake-osprey/thumb/DSC_8844.jpg
+    w: 2400
+    h: 2400
+    tw: 900
+    th: 900
+    taken: '2026-04-10T14:42:59'
+    taken_ts: 1775846579
+- slug: conowingo-eagles
+  title: Conowingo Dam Eagles
+  location: Conowingo, MD
+  cover: &id005
+    src: DSC_7165.jpg
+    full: /photos/conowingo-eagles/full/DSC_7165.jpg
+    thumb: /photos/conowingo-eagles/thumb/DSC_7165.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-13T08:58:37'
+    taken_ts: 1768312717
+  photos:
+  - *id005
+  - src: DSC_7187.jpg
+    full: /photos/conowingo-eagles/full/DSC_7187.jpg
+    thumb: /photos/conowingo-eagles/thumb/DSC_7187.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-13T09:08:41'
+    taken_ts: 1768313321
+  - src: DSC_7236.jpg
+    full: /photos/conowingo-eagles/full/DSC_7236.jpg
+    thumb: /photos/conowingo-eagles/thumb/DSC_7236.jpg
+    w: 2400
+    h: 1599
+    tw: 900
+    th: 600
+    taken: '2026-01-13T10:05:43'
+    taken_ts: 1768316743
+  - src: DSC_7336.jpg
+    full: /photos/conowingo-eagles/full/DSC_7336.jpg
+    thumb: /photos/conowingo-eagles/thumb/DSC_7336.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-13T10:57:25'
+    taken_ts: 1768319845
+  - src: DSC_7368.jpg
+    full: /photos/conowingo-eagles/full/DSC_7368.jpg
+    thumb: /photos/conowingo-eagles/thumb/DSC_7368.jpg
+    w: 2400
+    h: 1599
+    tw: 900
+    th: 600
+    taken: '2026-01-13T10:58:39'
+    taken_ts: 1768319919
+  - src: DSC_7457.jpg
+    full: /photos/conowingo-eagles/full/DSC_7457.jpg
+    thumb: /photos/conowingo-eagles/thumb/DSC_7457.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-13T12:05:21'
+    taken_ts: 1768323921
+  - src: DSC_7459.jpg
+    full: /photos/conowingo-eagles/full/DSC_7459.jpg
+    thumb: /photos/conowingo-eagles/thumb/DSC_7459.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-13T12:05:21'
+    taken_ts: 1768323921
+  - src: DSC_7614.jpg
+    full: /photos/conowingo-eagles/full/DSC_7614.jpg
+    thumb: /photos/conowingo-eagles/thumb/DSC_7614.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-13T12:43:08'
+    taken_ts: 1768326188
+  - src: DSC_7643.jpg
+    full: /photos/conowingo-eagles/full/DSC_7643.jpg
+    thumb: /photos/conowingo-eagles/thumb/DSC_7643.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-13T12:43:34'
+    taken_ts: 1768326214
+  - src: DSC_7686.jpg
+    full: /photos/conowingo-eagles/full/DSC_7686.jpg
+    thumb: /photos/conowingo-eagles/thumb/DSC_7686.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-13T12:44:32'
+    taken_ts: 1768326272
+  - src: DSC_7826.jpg
+    full: /photos/conowingo-eagles/full/DSC_7826.jpg
+    thumb: /photos/conowingo-eagles/thumb/DSC_7826.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-13T12:51:27'
+    taken_ts: 1768326687
+  - src: DSC_7897.jpg
+    full: /photos/conowingo-eagles/full/DSC_7897.jpg
+    thumb: /photos/conowingo-eagles/thumb/DSC_7897.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-13T13:05:31'
+    taken_ts: 1768327531
+  - src: DSC_8359.jpg
+    full: /photos/conowingo-eagles/full/DSC_8359.jpg
+    thumb: /photos/conowingo-eagles/thumb/DSC_8359.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-13T13:44:02'
+    taken_ts: 1768329842
+  - src: DSC_8368.jpg
+    full: /photos/conowingo-eagles/full/DSC_8368.jpg
+    thumb: /photos/conowingo-eagles/thumb/DSC_8368.jpg
+    w: 2144
+    h: 1429
+    tw: 900
+    th: 600
+    taken: '2026-01-13T13:44:17'
+    taken_ts: 1768329857
+  - src: DSC_8425.jpg
+    full: /photos/conowingo-eagles/full/DSC_8425.jpg
+    thumb: /photos/conowingo-eagles/thumb/DSC_8425.jpg
+    w: 1600
+    h: 2400
+    tw: 600
+    th: 900
+    taken: '2026-01-13T13:54:48'
+    taken_ts: 1768330488
+  - src: DSC_8494.jpg
+    full: /photos/conowingo-eagles/full/DSC_8494.jpg
+    thumb: /photos/conowingo-eagles/thumb/DSC_8494.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-13T14:42:30'
+    taken_ts: 1768333350
+- slug: snow
+  title: Snow
+  location: Princeton, NJ
+  cover: &id006
+    src: 2025-12-14 08.42.20.jpg
+    full: /photos/snow/full/2025-12-14 08.42.20.jpg
+    thumb: /photos/snow/thumb/2025-12-14 08.42.20.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-12-14T08:42:20'
+    taken_ts: 1765719740
+  photos:
+  - *id006
+  - src: 2025-12-14 10.14.20.jpg
+    full: /photos/snow/full/2025-12-14 10.14.20.jpg
+    thumb: /photos/snow/thumb/2025-12-14 10.14.20.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-12-14T10:14:20'
+    taken_ts: 1765725260
+  - src: 2025-12-14 10.26.41.jpg
+    full: /photos/snow/full/2025-12-14 10.26.41.jpg
+    thumb: /photos/snow/thumb/2025-12-14 10.26.41.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-12-14T10:26:41'
+    taken_ts: 1765726001
+  - src: 2025-12-14 10.27.04.jpg
+    full: /photos/snow/full/2025-12-14 10.27.04.jpg
+    thumb: /photos/snow/thumb/2025-12-14 10.27.04.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-12-14T10:27:04'
+    taken_ts: 1765726024
+  - src: 2025-12-14 10.36.15.jpg
+    full: /photos/snow/full/2025-12-14 10.36.15.jpg
+    thumb: /photos/snow/thumb/2025-12-14 10.36.15.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-12-14T10:36:15'
+    taken_ts: 1765726575
+  - src: 2025-12-14 10.37.54.jpg
+    full: /photos/snow/full/2025-12-14 10.37.54.jpg
+    thumb: /photos/snow/thumb/2025-12-14 10.37.54.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-12-14T10:37:54'
+    taken_ts: 1765726674
+  - src: 2025-12-14 10.40.10.jpg
+    full: /photos/snow/full/2025-12-14 10.40.10.jpg
+    thumb: /photos/snow/thumb/2025-12-14 10.40.10.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-12-14T10:40:10'
+    taken_ts: 1765726810
+  - src: DSC_7089.jpg
+    full: /photos/snow/full/DSC_7089.jpg
+    thumb: /photos/snow/thumb/DSC_7089.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-14T12:20:47'
+    taken_ts: 1765732847
+  - src: DSC_7091.jpg
+    full: /photos/snow/full/DSC_7091.jpg
+    thumb: /photos/snow/thumb/DSC_7091.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-14T12:20:48'
+    taken_ts: 1765732848
+  - src: DSC_7202.jpg
+    full: /photos/snow/full/DSC_7202.jpg
+    thumb: /photos/snow/thumb/DSC_7202.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-14T12:48:10'
+    taken_ts: 1765734490
+  - src: DSC_7279.jpg
+    full: /photos/snow/full/DSC_7279.jpg
+    thumb: /photos/snow/thumb/DSC_7279.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-14T12:51:30'
+    taken_ts: 1765734690
+  - src: DSC_7354.jpg
+    full: /photos/snow/full/DSC_7354.jpg
+    thumb: /photos/snow/thumb/DSC_7354.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-15T11:09:08'
+    taken_ts: 1765814948
+  - src: DSC_7384.jpg
+    full: /photos/snow/full/DSC_7384.jpg
+    thumb: /photos/snow/thumb/DSC_7384.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-15T11:09:58'
+    taken_ts: 1765814998
+  - src: DSC_7413.jpg
+    full: /photos/snow/full/DSC_7413.jpg
+    thumb: /photos/snow/thumb/DSC_7413.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-15T11:33:37'
+    taken_ts: 1765816417
+  - src: DSC_7554.jpg
+    full: /photos/snow/full/DSC_7554.jpg
+    thumb: /photos/snow/thumb/DSC_7554.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-15T11:57:26'
+    taken_ts: 1765817846
+  - src: DSC_7637.jpg
+    full: /photos/snow/full/DSC_7637.jpg
+    thumb: /photos/snow/thumb/DSC_7637.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-15T13:07:07'
+    taken_ts: 1765822027
+  - src: 2025-12-18 10.07.53.jpg
+    full: /photos/snow/full/2025-12-18 10.07.53.jpg
+    thumb: /photos/snow/thumb/2025-12-18 10.07.53.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-12-18T10:07:53'
+    taken_ts: 1766070473
+  - src: 2026-01-17 14.40.17.jpg
+    full: /photos/snow/full/2026-01-17 14.40.17.jpg
+    thumb: /photos/snow/thumb/2026-01-17 14.40.17.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2026-01-17T14:40:17'
+    taken_ts: 1768678817
+  - src: 2026-01-17 14.40.34.jpg
+    full: /photos/snow/full/2026-01-17 14.40.34.jpg
+    thumb: /photos/snow/thumb/2026-01-17 14.40.34.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2026-01-17T14:40:34'
+    taken_ts: 1768678834
+  - src: 2026-01-17 14.59.48.jpg
+    full: /photos/snow/full/2026-01-17 14.59.48.jpg
+    thumb: /photos/snow/thumb/2026-01-17 14.59.48.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2026-01-17T14:59:48'
+    taken_ts: 1768679988
+  - src: 2026-01-17 15.03.37.jpg
+    full: /photos/snow/full/2026-01-17 15.03.37.jpg
+    thumb: /photos/snow/thumb/2026-01-17 15.03.37.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2026-01-17T15:03:37'
+    taken_ts: 1768680217
+  - src: 2026-01-17 15.06.19.jpg
+    full: /photos/snow/full/2026-01-17 15.06.19.jpg
+    thumb: /photos/snow/thumb/2026-01-17 15.06.19.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2026-01-17T15:06:19'
+    taken_ts: 1768680379
+  - src: DSC_8656.jpg
+    full: /photos/snow/full/DSC_8656.jpg
+    thumb: /photos/snow/thumb/DSC_8656.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-18T16:52:17'
+    taken_ts: 1768773137
+  - src: DSC_8716.jpg
+    full: /photos/snow/full/DSC_8716.jpg
+    thumb: /photos/snow/thumb/DSC_8716.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-19T11:23:56'
+    taken_ts: 1768839836
+  - src: DSC_8758.jpg
+    full: /photos/snow/full/DSC_8758.jpg
+    thumb: /photos/snow/thumb/DSC_8758.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-19T11:25:18'
+    taken_ts: 1768839918
+  - src: DSC_8775.jpg
+    full: /photos/snow/full/DSC_8775.jpg
+    thumb: /photos/snow/thumb/DSC_8775.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-19T11:26:10'
+    taken_ts: 1768839970
+- slug: pole-farm
+  title: Pole Farm
+  location: Mercer Meadows, NJ
+  cover: &id007
+    src: DSC_5181.jpg
+    full: /photos/pole-farm/full/DSC_5181.jpg
+    thumb: /photos/pole-farm/thumb/DSC_5181.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-29T22:54:17'
+    taken_ts: 1764474857
+  photos:
+  - *id007
+  - src: DSC_5205.jpg
+    full: /photos/pole-farm/full/DSC_5205.jpg
+    thumb: /photos/pole-farm/thumb/DSC_5205.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-29T22:54:24'
+    taken_ts: 1764474864
+  - src: DSC_5242.jpg
+    full: /photos/pole-farm/full/DSC_5242.jpg
+    thumb: /photos/pole-farm/thumb/DSC_5242.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-29T22:54:26'
+    taken_ts: 1764474866
+  - src: DSC_5268.jpg
+    full: /photos/pole-farm/full/DSC_5268.jpg
+    thumb: /photos/pole-farm/thumb/DSC_5268.jpg
+    w: 2384
+    h: 1587
+    tw: 900
+    th: 599
+    taken: '2025-11-29T22:54:27'
+    taken_ts: 1764474867
+  - src: DSC_5349.jpg
+    full: /photos/pole-farm/full/DSC_5349.jpg
+    thumb: /photos/pole-farm/thumb/DSC_5349.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-29T22:54:30'
+    taken_ts: 1764474870
+  - src: DSC_5370.jpg
+    full: /photos/pole-farm/full/DSC_5370.jpg
+    thumb: /photos/pole-farm/thumb/DSC_5370.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-29T22:54:37'
+    taken_ts: 1764474877
+  - src: DSC_5402.jpg
+    full: /photos/pole-farm/full/DSC_5402.jpg
+    thumb: /photos/pole-farm/thumb/DSC_5402.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-29T22:54:40'
+    taken_ts: 1764474880
+  - src: DSC_5488.jpg
+    full: /photos/pole-farm/full/DSC_5488.jpg
+    thumb: /photos/pole-farm/thumb/DSC_5488.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-29T22:54:43'
+    taken_ts: 1764474883
+  - src: DSC_5508.jpg
+    full: /photos/pole-farm/full/DSC_5508.jpg
+    thumb: /photos/pole-farm/thumb/DSC_5508.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-29T22:54:51'
+    taken_ts: 1764474891
+  - src: DSC_5518.jpg
+    full: /photos/pole-farm/full/DSC_5518.jpg
+    thumb: /photos/pole-farm/thumb/DSC_5518.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-29T22:54:57'
+    taken_ts: 1764474897
+  - src: DSC_5545.jpg
+    full: /photos/pole-farm/full/DSC_5545.jpg
+    thumb: /photos/pole-farm/thumb/DSC_5545.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-29T22:55:02'
+    taken_ts: 1764474902
+  - src: DSC_5559.jpg
+    full: /photos/pole-farm/full/DSC_5559.jpg
+    thumb: /photos/pole-farm/thumb/DSC_5559.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-29T22:55:06'
+    taken_ts: 1764474906
+  - src: DSC_5585.jpg
+    full: /photos/pole-farm/full/DSC_5585.jpg
+    thumb: /photos/pole-farm/thumb/DSC_5585.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-29T22:55:09'
+    taken_ts: 1764474909
+  - src: DSC_5632.jpg
+    full: /photos/pole-farm/full/DSC_5632.jpg
+    thumb: /photos/pole-farm/thumb/DSC_5632.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-29T22:55:13'
+    taken_ts: 1764474913
+  - src: DSC_5633.jpg
+    full: /photos/pole-farm/full/DSC_5633.jpg
+    thumb: /photos/pole-farm/thumb/DSC_5633.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-29T22:55:23'
+    taken_ts: 1764474923
+  - src: DSC_5662.jpg
+    full: /photos/pole-farm/full/DSC_5662.jpg
+    thumb: /photos/pole-farm/thumb/DSC_5662.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-11-30T08:48:25'
+    taken_ts: 1764510505
+  - src: DSC_5682.jpg
+    full: /photos/pole-farm/full/DSC_5682.jpg
+    thumb: /photos/pole-farm/thumb/DSC_5682.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-11-30T08:52:58'
+    taken_ts: 1764510778
+  - src: DSC_5682_bw.jpg
+    full: /photos/pole-farm/full/DSC_5682_bw.jpg
+    thumb: /photos/pole-farm/thumb/DSC_5682_bw.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-11-30T08:52:58'
+    taken_ts: 1764510778
+  - src: DSC_6071.jpg
+    full: /photos/pole-farm/full/DSC_6071.jpg
+    thumb: /photos/pole-farm/thumb/DSC_6071.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-12-11T16:13:11'
+    taken_ts: 1765487591
+  - src: DSC_6078.jpg
+    full: /photos/pole-farm/full/DSC_6078.jpg
+    thumb: /photos/pole-farm/thumb/DSC_6078.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-12-11T16:13:13'
+    taken_ts: 1765487593
+  - src: DSC_6165.jpg
+    full: /photos/pole-farm/full/DSC_6165.jpg
+    thumb: /photos/pole-farm/thumb/DSC_6165.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-12-11T16:22:14'
+    taken_ts: 1765488134
+  - src: DSC_6255.jpg
+    full: /photos/pole-farm/full/DSC_6255.jpg
+    thumb: /photos/pole-farm/thumb/DSC_6255.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-12-11T16:35:57'
+    taken_ts: 1765488957
+  - src: DSC_6343.jpg
+    full: /photos/pole-farm/full/DSC_6343.jpg
+    thumb: /photos/pole-farm/thumb/DSC_6343.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-12-11T16:37:19'
+    taken_ts: 1765489039
+  - src: DSC_6573.jpg
+    full: /photos/pole-farm/full/DSC_6573.jpg
+    thumb: /photos/pole-farm/thumb/DSC_6573.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-12-11T16:45:11'
+    taken_ts: 1765489511
+  - src: DSC_6592.jpg
+    full: /photos/pole-farm/full/DSC_6592.jpg
+    thumb: /photos/pole-farm/thumb/DSC_6592.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-12-11T16:48:07'
+    taken_ts: 1765489687
+  - src: DSC_6714.jpg
+    full: /photos/pole-farm/full/DSC_6714.jpg
+    thumb: /photos/pole-farm/thumb/DSC_6714.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-12-11T17:02:19'
+    taken_ts: 1765490539
+  - src: DSC_7697.jpg
+    full: /photos/pole-farm/full/DSC_7697.jpg
+    thumb: /photos/pole-farm/thumb/DSC_7697.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-16T16:04:28'
+    taken_ts: 1765919068
+  - src: DSC_7744.jpg
+    full: /photos/pole-farm/full/DSC_7744.jpg
+    thumb: /photos/pole-farm/thumb/DSC_7744.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-16T16:09:46'
+    taken_ts: 1765919386
+  - src: DSC_7784.jpg
+    full: /photos/pole-farm/full/DSC_7784.jpg
+    thumb: /photos/pole-farm/thumb/DSC_7784.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-16T17:00:15'
+    taken_ts: 1765922415
+  - src: DSC_7842.jpg
+    full: /photos/pole-farm/full/DSC_7842.jpg
+    thumb: /photos/pole-farm/thumb/DSC_7842.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-16T17:10:54'
+    taken_ts: 1765923054
+  - src: DSC_7895.jpg
+    full: /photos/pole-farm/full/DSC_7895.jpg
+    thumb: /photos/pole-farm/thumb/DSC_7895.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-16T17:21:47'
+    taken_ts: 1765923707
+  - src: DSC_8005.jpg
+    full: /photos/pole-farm/full/DSC_8005.jpg
+    thumb: /photos/pole-farm/thumb/DSC_8005.jpg
+    w: 1557
+    h: 1946
+    tw: 720
+    th: 900
+    taken: '2025-12-16T17:26:08'
+    taken_ts: 1765923968
+  - src: DSC_8034.jpg
+    full: /photos/pole-farm/full/DSC_8034.jpg
+    thumb: /photos/pole-farm/thumb/DSC_8034.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-16T17:27:31'
+    taken_ts: 1765924051
+  - src: DSC_8599.jpg
+    full: /photos/pole-farm/full/DSC_8599.jpg
+    thumb: /photos/pole-farm/thumb/DSC_8599.jpg
+    w: 2292
+    h: 1528
+    tw: 900
+    th: 600
+    taken: '2025-12-21T16:26:28'
+    taken_ts: 1766352388
+  - src: DSC_8606.jpg
+    full: /photos/pole-farm/full/DSC_8606.jpg
+    thumb: /photos/pole-farm/thumb/DSC_8606.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-21T16:26:32'
+    taken_ts: 1766352392
+- slug: pole-farm-owl
+  title: Pole Farm Owl
+  location: Mercer Meadows, NJ
+  cover: &id008
+    src: DSC_8190.jpg
+    full: /photos/pole-farm-owl/full/DSC_8190.jpg
+    thumb: /photos/pole-farm-owl/thumb/DSC_8190.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-12-18T16:29:16'
+    taken_ts: 1766093356
+  photos:
+  - *id008
+  - src: DSC_8307.jpg
+    full: /photos/pole-farm-owl/full/DSC_8307.jpg
+    thumb: /photos/pole-farm-owl/thumb/DSC_8307.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-12-18T16:39:51'
+    taken_ts: 1766093991
+  - src: DSC_8320.jpg
+    full: /photos/pole-farm-owl/full/DSC_8320.jpg
+    thumb: /photos/pole-farm-owl/thumb/DSC_8320.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-12-18T16:40:07'
+    taken_ts: 1766094007
+- slug: pole-farm-mercer
+  title: Pole Farm & Mercer Lake
+  location: Mercer Meadows, NJ
+  cover: &id009
+    src: DSC_3255.jpg
+    full: /photos/pole-farm-mercer/full/DSC_3255.jpg
+    thumb: /photos/pole-farm-mercer/thumb/DSC_3255.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-22T21:42:12'
+    taken_ts: 1763865732
+  photos:
+  - *id009
+  - src: DSC_3324.jpg
+    full: /photos/pole-farm-mercer/full/DSC_3324.jpg
+    thumb: /photos/pole-farm-mercer/thumb/DSC_3324.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-22T21:42:18'
+    taken_ts: 1763865738
+  - src: DSC_3358.jpg
+    full: /photos/pole-farm-mercer/full/DSC_3358.jpg
+    thumb: /photos/pole-farm-mercer/thumb/DSC_3358.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-22T21:42:21'
+    taken_ts: 1763865741
+  - src: DSC_3386.jpg
+    full: /photos/pole-farm-mercer/full/DSC_3386.jpg
+    thumb: /photos/pole-farm-mercer/thumb/DSC_3386.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-22T21:42:30'
+    taken_ts: 1763865750
+  - src: DSC_3466.jpg
+    full: /photos/pole-farm-mercer/full/DSC_3466.jpg
+    thumb: /photos/pole-farm-mercer/thumb/DSC_3466.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-22T21:42:34'
+    taken_ts: 1763865754
+  - src: DSC_3475.jpg
+    full: /photos/pole-farm-mercer/full/DSC_3475.jpg
+    thumb: /photos/pole-farm-mercer/thumb/DSC_3475.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-22T21:42:42'
+    taken_ts: 1763865762
+- slug: carnegie-lake
+  title: Carnegie Lake
+  location: Princeton, NJ
+  cover: &id010
+    src: DSC_0849.jpg
+    full: /photos/carnegie-lake/full/DSC_0849.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_0849.jpg
+    w: 2400
+    h: 2400
+    tw: 900
+    th: 900
+    taken: '2025-11-01T11:54:48'
+    taken_ts: 1762012488
+  photos:
+  - *id010
+  - src: DSC_0895.jpg
+    full: /photos/carnegie-lake/full/DSC_0895.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_0895.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-01T11:56:35'
+    taken_ts: 1762012595
+  - src: DSC_0921.jpg
+    full: /photos/carnegie-lake/full/DSC_0921.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_0921.jpg
+    w: 1597
+    h: 2400
+    tw: 599
+    th: 900
+    taken: '2025-11-01T11:57:33'
+    taken_ts: 1762012653
+  - src: DSC_0996.jpg
+    full: /photos/carnegie-lake/full/DSC_0996.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_0996.jpg
+    w: 2309
+    h: 1537
+    tw: 900
+    th: 599
+    taken: '2025-11-01T12:05:36'
+    taken_ts: 1762013136
+  - src: DSC_1061.jpg
+    full: /photos/carnegie-lake/full/DSC_1061.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_1061.jpg
+    w: 1597
+    h: 2400
+    tw: 599
+    th: 900
+    taken: '2025-11-01T12:09:33'
+    taken_ts: 1762013373
+  - src: DSC_1065.jpg
+    full: /photos/carnegie-lake/full/DSC_1065.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_1065.jpg
+    w: 2309
+    h: 1537
+    tw: 900
+    th: 599
+    taken: '2025-11-01T12:09:44'
+    taken_ts: 1762013384
+  - src: DSC_1141.jpg
+    full: /photos/carnegie-lake/full/DSC_1141.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_1141.jpg
+    w: 2309
+    h: 1537
+    tw: 900
+    th: 599
+    taken: '2025-11-01T12:19:25'
+    taken_ts: 1762013965
+  - src: DSC_1185.jpg
+    full: /photos/carnegie-lake/full/DSC_1185.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_1185.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-01T12:25:45'
+    taken_ts: 1762014345
+  - src: DSC_1187.jpg
+    full: /photos/carnegie-lake/full/DSC_1187.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_1187.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-01T12:25:47'
+    taken_ts: 1762014347
+  - src: DSC_1193.jpg
+    full: /photos/carnegie-lake/full/DSC_1193.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_1193.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-01T12:25:48'
+    taken_ts: 1762014348
+  - src: DSC_1329.jpg
+    full: /photos/carnegie-lake/full/DSC_1329.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_1329.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-01T12:46:43'
+    taken_ts: 1762015603
+  - src: DSC_1405.jpg
+    full: /photos/carnegie-lake/full/DSC_1405.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_1405.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-01T12:56:42'
+    taken_ts: 1762016202
+  - src: DSC_1581.jpg
+    full: /photos/carnegie-lake/full/DSC_1581.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_1581.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-01T13:18:44'
+    taken_ts: 1762017524
+  - src: DSC_1598.jpg
+    full: /photos/carnegie-lake/full/DSC_1598.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_1598.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-01T13:20:49'
+    taken_ts: 1762017649
+  - src: DSC_1672.jpg
+    full: /photos/carnegie-lake/full/DSC_1672.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_1672.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-01T13:21:43'
+    taken_ts: 1762017703
+  - src: DSC_1772.jpg
+    full: /photos/carnegie-lake/full/DSC_1772.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_1772.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-01T14:10:08'
+    taken_ts: 1762020608
+  - src: DSC_1847.jpg
+    full: /photos/carnegie-lake/full/DSC_1847.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_1847.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-01T14:19:55'
+    taken_ts: 1762021195
+  - src: DSC_1864.jpg
+    full: /photos/carnegie-lake/full/DSC_1864.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_1864.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-01T14:32:29'
+    taken_ts: 1762021949
+  - src: DSC_1869.jpg
+    full: /photos/carnegie-lake/full/DSC_1869.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_1869.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-01T14:32:31'
+    taken_ts: 1762021951
+  - src: DSC_2011.jpg
+    full: /photos/carnegie-lake/full/DSC_2011.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_2011.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-02T11:10:46'
+    taken_ts: 1762099846
+  - src: DSC_2016.jpg
+    full: /photos/carnegie-lake/full/DSC_2016.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_2016.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-02T11:10:48'
+    taken_ts: 1762099848
+  - src: DSC_2067.jpg
+    full: /photos/carnegie-lake/full/DSC_2067.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_2067.jpg
+    w: 1597
+    h: 2400
+    tw: 599
+    th: 900
+    taken: '2025-11-02T11:12:31'
+    taken_ts: 1762099951
+  - src: DSC_2080.jpg
+    full: /photos/carnegie-lake/full/DSC_2080.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_2080.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-02T11:26:06'
+    taken_ts: 1762100766
+  - src: DSC_2090.jpg
+    full: /photos/carnegie-lake/full/DSC_2090.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_2090.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-02T11:47:56'
+    taken_ts: 1762102076
+  - src: DSC_2473.jpg
+    full: /photos/carnegie-lake/full/DSC_2473.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_2473.jpg
+    w: 1597
+    h: 2400
+    tw: 599
+    th: 900
+    taken: '2025-11-12T14:49:46'
+    taken_ts: 1762976986
+  - src: DSC_2609.jpg
+    full: /photos/carnegie-lake/full/DSC_2609.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_2609.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-12T15:01:25'
+    taken_ts: 1762977685
+  - src: DSC_2644.jpg
+    full: /photos/carnegie-lake/full/DSC_2644.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_2644.jpg
+    w: 1597
+    h: 2400
+    tw: 599
+    th: 900
+    taken: '2025-11-12T15:03:42'
+    taken_ts: 1762977822
+  - src: DSC_2719.jpg
+    full: /photos/carnegie-lake/full/DSC_2719.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_2719.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-12T15:22:58'
+    taken_ts: 1762978978
+  - src: DSC_2764.jpg
+    full: /photos/carnegie-lake/full/DSC_2764.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_2764.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-12T15:29:02'
+    taken_ts: 1762979342
+  - src: DSC_2799.jpg
+    full: /photos/carnegie-lake/full/DSC_2799.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_2799.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-12T15:34:52'
+    taken_ts: 1762979692
+  - src: DSC_2800.jpg
+    full: /photos/carnegie-lake/full/DSC_2800.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_2800.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-12T15:34:53'
+    taken_ts: 1762979693
+  - src: DSC_2850.jpg
+    full: /photos/carnegie-lake/full/DSC_2850.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_2850.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-12T15:35:58'
+    taken_ts: 1762979758
+  - src: DSC_2854.jpg
+    full: /photos/carnegie-lake/full/DSC_2854.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_2854.jpg
+    w: 1449
+    h: 2178
+    tw: 599
+    th: 900
+    taken: '2025-11-12T15:35:58'
+    taken_ts: 1762979758
+  - src: DSC_2876.jpg
+    full: /photos/carnegie-lake/full/DSC_2876.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_2876.jpg
+    w: 1542
+    h: 2317
+    tw: 599
+    th: 900
+    taken: '2025-11-12T15:37:30'
+    taken_ts: 1762979850
+  - src: DSC_3057.jpg
+    full: /photos/carnegie-lake/full/DSC_3057.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_3057.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-12T16:06:54'
+    taken_ts: 1762981614
+  - src: DSC_3070.jpg
+    full: /photos/carnegie-lake/full/DSC_3070.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_3070.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-12T16:06:59'
+    taken_ts: 1762981619
+  - src: DSC_3082.jpg
+    full: /photos/carnegie-lake/full/DSC_3082.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_3082.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-12T16:07:04'
+    taken_ts: 1762981624
+  - src: DSC_3083.jpg
+    full: /photos/carnegie-lake/full/DSC_3083.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_3083.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-12T16:07:04'
+    taken_ts: 1762981624
+  - src: DSC_3162.jpg
+    full: /photos/carnegie-lake/full/DSC_3162.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_3162.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-12T16:12:13'
+    taken_ts: 1762981933
+  - src: DSC_3191.jpg
+    full: /photos/carnegie-lake/full/DSC_3191.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_3191.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-12T16:14:17'
+    taken_ts: 1762982057
+  - src: DSC_4634.jpg
+    full: /photos/carnegie-lake/full/DSC_4634.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_4634.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-24T11:39:01'
+    taken_ts: 1764002341
+  - src: DSC_4825.jpg
+    full: /photos/carnegie-lake/full/DSC_4825.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_4825.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-24T12:43:56'
+    taken_ts: 1764006236
+  - src: DSC_4842.jpg
+    full: /photos/carnegie-lake/full/DSC_4842.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_4842.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-24T12:49:36'
+    taken_ts: 1764006576
+  - src: DSC_4932.jpg
+    full: /photos/carnegie-lake/full/DSC_4932.jpg
+    thumb: /photos/carnegie-lake/thumb/DSC_4932.jpg
+    w: 1597
+    h: 2400
+    tw: 599
+    th: 900
+    taken: '2025-11-24T13:00:37'
+    taken_ts: 1764007237
+- slug: carnegie-canal-oct
+  title: Carnegie Lake & D&R Canal
+  location: Princeton, NJ
+  cover: &id011
+    src: DSC_0257.jpg
+    full: /photos/carnegie-canal-oct/full/DSC_0257.jpg
+    thumb: /photos/carnegie-canal-oct/thumb/DSC_0257.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-22T21:40:29'
+    taken_ts: 1763865629
+  photos:
+  - *id011
+  - src: DSC_0309.jpg
+    full: /photos/carnegie-canal-oct/full/DSC_0309.jpg
+    thumb: /photos/carnegie-canal-oct/thumb/DSC_0309.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-22T21:40:36'
+    taken_ts: 1763865636
+  - src: DSC_0323.jpg
+    full: /photos/carnegie-canal-oct/full/DSC_0323.jpg
+    thumb: /photos/carnegie-canal-oct/thumb/DSC_0323.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-22T21:40:41'
+    taken_ts: 1763865641
+  - src: DSC_0402.jpg
+    full: /photos/carnegie-canal-oct/full/DSC_0402.jpg
+    thumb: /photos/carnegie-canal-oct/thumb/DSC_0402.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-22T21:40:44'
+    taken_ts: 1763865644
+  - src: DSC_0385.jpg
+    full: /photos/carnegie-canal-oct/full/DSC_0385.jpg
+    thumb: /photos/carnegie-canal-oct/thumb/DSC_0385.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-22T21:40:49'
+    taken_ts: 1763865649
+  - src: DSC_0654.jpg
+    full: /photos/carnegie-canal-oct/full/DSC_0654.jpg
+    thumb: /photos/carnegie-canal-oct/thumb/DSC_0654.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-22T21:40:52'
+    taken_ts: 1763865652
+- slug: backyard-birds-nov
+  title: Backyard Birds
+  location: Princeton, NJ
+  cover: &id012
+    src: DSC_3730.jpg
+    full: /photos/backyard-birds-nov/full/DSC_3730.jpg
+    thumb: /photos/backyard-birds-nov/thumb/DSC_3730.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-22T21:44:08'
+    taken_ts: 1763865848
+  photos:
+  - *id012
+  - src: DSC_3788.jpg
+    full: /photos/backyard-birds-nov/full/DSC_3788.jpg
+    thumb: /photos/backyard-birds-nov/thumb/DSC_3788.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-22T21:44:10'
+    taken_ts: 1763865850
+  - src: DSC_3789.jpg
+    full: /photos/backyard-birds-nov/full/DSC_3789.jpg
+    thumb: /photos/backyard-birds-nov/thumb/DSC_3789.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-22T21:44:12'
+    taken_ts: 1763865852
+  - src: DSC_3875.jpg
+    full: /photos/backyard-birds-nov/full/DSC_3875.jpg
+    thumb: /photos/backyard-birds-nov/thumb/DSC_3875.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-22T21:44:18'
+    taken_ts: 1763865858
+  - src: DSC_3920.jpg
+    full: /photos/backyard-birds-nov/full/DSC_3920.jpg
+    thumb: /photos/backyard-birds-nov/thumb/DSC_3920.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-22T21:44:23'
+    taken_ts: 1763865863
+  - src: DSC_4019.jpg
+    full: /photos/backyard-birds-nov/full/DSC_4019.jpg
+    thumb: /photos/backyard-birds-nov/thumb/DSC_4019.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-22T21:44:26'
+    taken_ts: 1763865866
+  - src: DSC_4956.jpg
+    full: /photos/backyard-birds-nov/full/DSC_4956.jpg
+    thumb: /photos/backyard-birds-nov/thumb/DSC_4956.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-25T20:24:43'
+    taken_ts: 1764120283
+  - src: DSC_5022.jpg
+    full: /photos/backyard-birds-nov/full/DSC_5022.jpg
+    thumb: /photos/backyard-birds-nov/thumb/DSC_5022.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-25T20:24:47'
+    taken_ts: 1764120287
+  - src: DSC_5047.jpg
+    full: /photos/backyard-birds-nov/full/DSC_5047.jpg
+    thumb: /photos/backyard-birds-nov/thumb/DSC_5047.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-25T20:24:53'
+    taken_ts: 1764120293
+  - src: DSC_5171.jpg
+    full: /photos/backyard-birds-nov/full/DSC_5171.jpg
+    thumb: /photos/backyard-birds-nov/thumb/DSC_5171.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-25T20:24:59'
+    taken_ts: 1764120299
+- slug: cattus-island
+  title: Cattus Island Park
+  location: Toms River, NJ
+  cover: &id013
+    src: DSC_4269.jpg
+    full: /photos/cattus-island/full/DSC_4269.jpg
+    thumb: /photos/cattus-island/thumb/DSC_4269.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-24T23:05:24'
+    taken_ts: 1764043524
+  photos:
+  - *id013
+  - src: DSC_4273.jpg
+    full: /photos/cattus-island/full/DSC_4273.jpg
+    thumb: /photos/cattus-island/thumb/DSC_4273.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-24T23:05:29'
+    taken_ts: 1764043529
+  - src: DSC_4296.jpg
+    full: /photos/cattus-island/full/DSC_4296.jpg
+    thumb: /photos/cattus-island/thumb/DSC_4296.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-24T23:05:33'
+    taken_ts: 1764043533
+  - src: DSC_4333.jpg
+    full: /photos/cattus-island/full/DSC_4333.jpg
+    thumb: /photos/cattus-island/thumb/DSC_4333.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-24T23:05:36'
+    taken_ts: 1764043536
+  - src: DSC_4370.jpg
+    full: /photos/cattus-island/full/DSC_4370.jpg
+    thumb: /photos/cattus-island/thumb/DSC_4370.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-24T23:05:46'
+    taken_ts: 1764043546
+  - src: DSC_4383.jpg
+    full: /photos/cattus-island/full/DSC_4383.jpg
+    thumb: /photos/cattus-island/thumb/DSC_4383.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-24T23:05:50'
+    taken_ts: 1764043550
+  - src: DSC_4433.jpg
+    full: /photos/cattus-island/full/DSC_4433.jpg
+    thumb: /photos/cattus-island/thumb/DSC_4433.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-24T23:05:59'
+    taken_ts: 1764043559
+  - src: DSC_4478.jpg
+    full: /photos/cattus-island/full/DSC_4478.jpg
+    thumb: /photos/cattus-island/thumb/DSC_4478.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-24T23:06:03'
+    taken_ts: 1764043563
+  - src: DSC_4492.jpg
+    full: /photos/cattus-island/full/DSC_4492.jpg
+    thumb: /photos/cattus-island/thumb/DSC_4492.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-24T23:06:08'
+    taken_ts: 1764043568
+  - src: DSC_4524.jpg
+    full: /photos/cattus-island/full/DSC_4524.jpg
+    thumb: /photos/cattus-island/thumb/DSC_4524.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-24T23:06:13'
+    taken_ts: 1764043573
+  - src: DSC_4526.jpg
+    full: /photos/cattus-island/full/DSC_4526.jpg
+    thumb: /photos/cattus-island/thumb/DSC_4526.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-24T23:06:17'
+    taken_ts: 1764043577
+  - src: DSC_4546.jpg
+    full: /photos/cattus-island/full/DSC_4546.jpg
+    thumb: /photos/cattus-island/thumb/DSC_4546.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-24T23:06:22'
+    taken_ts: 1764043582
+  - src: DSC_4551.jpg
+    full: /photos/cattus-island/full/DSC_4551.jpg
+    thumb: /photos/cattus-island/thumb/DSC_4551.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-24T23:06:29'
+    taken_ts: 1764043589
+  - src: DSC_4562.jpg
+    full: /photos/cattus-island/full/DSC_4562.jpg
+    thumb: /photos/cattus-island/thumb/DSC_4562.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-24T23:06:32'
+    taken_ts: 1764043592
+  - src: DSC_4591.jpg
+    full: /photos/cattus-island/full/DSC_4591.jpg
+    thumb: /photos/cattus-island/thumb/DSC_4591.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-24T23:06:35'
+    taken_ts: 1764043595
+  - src: DSC_4602.jpg
+    full: /photos/cattus-island/full/DSC_4602.jpg
+    thumb: /photos/cattus-island/thumb/DSC_4602.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-24T23:06:39'
+    taken_ts: 1764043599
+  - src: DSC_4607.jpg
+    full: /photos/cattus-island/full/DSC_4607.jpg
+    thumb: /photos/cattus-island/thumb/DSC_4607.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-24T23:06:41'
+    taken_ts: 1764043601
+  - src: DSC_4609.jpg
+    full: /photos/cattus-island/full/DSC_4609.jpg
+    thumb: /photos/cattus-island/thumb/DSC_4609.jpg
+    w: 1597
+    h: 2400
+    tw: 599
+    th: 900
+    taken: '2025-11-24T23:06:44'
+    taken_ts: 1764043604
+  - src: DSC_4610.jpg
+    full: /photos/cattus-island/full/DSC_4610.jpg
+    thumb: /photos/cattus-island/thumb/DSC_4610.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-24T23:06:46'
+    taken_ts: 1764043606
+- slug: charles-rogers
+  title: Charles H. Rogers Refuge
+  location: Princeton, NJ
+  cover: &id014
+    src: DSC_2175.jpg
+    full: /photos/charles-rogers/full/DSC_2175.jpg
+    thumb: /photos/charles-rogers/thumb/DSC_2175.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-08T10:12:56'
+    taken_ts: 1762614776
+  photos:
+  - *id014
+  - src: DSC_2184.jpg
+    full: /photos/charles-rogers/full/DSC_2184.jpg
+    thumb: /photos/charles-rogers/thumb/DSC_2184.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-08T10:35:35'
+    taken_ts: 1762616135
+  - src: DSC_2282.jpg
+    full: /photos/charles-rogers/full/DSC_2282.jpg
+    thumb: /photos/charles-rogers/thumb/DSC_2282.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-08T11:30:20'
+    taken_ts: 1762619420
+  - src: DSC_2299.jpg
+    full: /photos/charles-rogers/full/DSC_2299.jpg
+    thumb: /photos/charles-rogers/thumb/DSC_2299.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-08T11:31:54'
+    taken_ts: 1762619514
+  - src: DSC_2303.jpg
+    full: /photos/charles-rogers/full/DSC_2303.jpg
+    thumb: /photos/charles-rogers/thumb/DSC_2303.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-08T11:33:38'
+    taken_ts: 1762619618
+  - src: DSC_2396.jpg
+    full: /photos/charles-rogers/full/DSC_2396.jpg
+    thumb: /photos/charles-rogers/thumb/DSC_2396.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-08T11:51:29'
+    taken_ts: 1762620689
+  - src: DSC_2397.jpg
+    full: /photos/charles-rogers/full/DSC_2397.jpg
+    thumb: /photos/charles-rogers/thumb/DSC_2397.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-11-08T11:51:29'
+    taken_ts: 1762620689
+- slug: moon-nov
+  title: Moon
+  location: null
+  cover: &id015
+    src: DSC_2134.jpg
+    full: /photos/moon-nov/full/DSC_2134.jpg
+    thumb: /photos/moon-nov/thumb/DSC_2134.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-11-04T20:55:45'
+    taken_ts: 1762307745
+  photos:
+  - *id015
+- slug: canal-duke-farms
+  title: D&R Canal & Duke Farms
+  location: Hillsborough, NJ
+  cover: &id016
+    src: DSC_9168.jpg
+    full: /photos/canal-duke-farms/full/DSC_9168.jpg
+    thumb: /photos/canal-duke-farms/thumb/DSC_9168.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-23T09:47:40'
+    taken_ts: 1761227260
+  photos:
+  - *id016
+  - src: DSC_9180.jpg
+    full: /photos/canal-duke-farms/full/DSC_9180.jpg
+    thumb: /photos/canal-duke-farms/thumb/DSC_9180.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-23T09:48:36'
+    taken_ts: 1761227316
+  - src: DSC_9189.jpg
+    full: /photos/canal-duke-farms/full/DSC_9189.jpg
+    thumb: /photos/canal-duke-farms/thumb/DSC_9189.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-23T09:49:42'
+    taken_ts: 1761227382
+  - src: DSC_9221.jpg
+    full: /photos/canal-duke-farms/full/DSC_9221.jpg
+    thumb: /photos/canal-duke-farms/thumb/DSC_9221.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-23T10:09:20'
+    taken_ts: 1761228560
+  - src: DSC_9311.jpg
+    full: /photos/canal-duke-farms/full/DSC_9311.jpg
+    thumb: /photos/canal-duke-farms/thumb/DSC_9311.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-23T10:21:59'
+    taken_ts: 1761229319
+  - src: DSC_9358.jpg
+    full: /photos/canal-duke-farms/full/DSC_9358.jpg
+    thumb: /photos/canal-duke-farms/thumb/DSC_9358.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-23T10:38:34'
+    taken_ts: 1761230314
+  - src: DSC_9523.jpg
+    full: /photos/canal-duke-farms/full/DSC_9523.jpg
+    thumb: /photos/canal-duke-farms/thumb/DSC_9523.jpg
+    w: 1800
+    h: 2400
+    tw: 675
+    th: 900
+    taken: '2025-10-23T11:09:19'
+    taken_ts: 1761232159
+  - src: DSC_9607.jpg
+    full: /photos/canal-duke-farms/full/DSC_9607.jpg
+    thumb: /photos/canal-duke-farms/thumb/DSC_9607.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-10-23T11:24:08'
+    taken_ts: 1761233048
+  - src: DSC_9706.jpg
+    full: /photos/canal-duke-farms/full/DSC_9706.jpg
+    thumb: /photos/canal-duke-farms/thumb/DSC_9706.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-23T11:36:03'
+    taken_ts: 1761233763
+  - src: DSC_9751.jpg
+    full: /photos/canal-duke-farms/full/DSC_9751.jpg
+    thumb: /photos/canal-duke-farms/thumb/DSC_9751.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-23T11:49:16'
+    taken_ts: 1761234556
+  - src: DSC_9807.jpg
+    full: /photos/canal-duke-farms/full/DSC_9807.jpg
+    thumb: /photos/canal-duke-farms/thumb/DSC_9807.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-23T11:57:55'
+    taken_ts: 1761235075
+  - src: DSC_9862.jpg
+    full: /photos/canal-duke-farms/full/DSC_9862.jpg
+    thumb: /photos/canal-duke-farms/thumb/DSC_9862.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-23T12:00:44'
+    taken_ts: 1761235244
+  - src: DSC_9864.jpg
+    full: /photos/canal-duke-farms/full/DSC_9864.jpg
+    thumb: /photos/canal-duke-farms/thumb/DSC_9864.jpg
+    w: 1994
+    h: 2400
+    tw: 748
+    th: 900
+    taken: '2025-10-23T12:00:45'
+    taken_ts: 1761235245
+  - src: DSC_9902.jpg
+    full: /photos/canal-duke-farms/full/DSC_9902.jpg
+    thumb: /photos/canal-duke-farms/thumb/DSC_9902.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-23T12:02:18'
+    taken_ts: 1761235338
+  - src: DSC_0092.jpg
+    full: /photos/canal-duke-farms/full/DSC_0092.jpg
+    thumb: /photos/canal-duke-farms/thumb/DSC_0092.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-25T12:39:52'
+    taken_ts: 1761410392
+  - src: DSC_0169.jpg
+    full: /photos/canal-duke-farms/full/DSC_0169.jpg
+    thumb: /photos/canal-duke-farms/thumb/DSC_0169.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-25T12:42:15'
+    taken_ts: 1761410535
+  - src: DSC_0181.jpg
+    full: /photos/canal-duke-farms/full/DSC_0181.jpg
+    thumb: /photos/canal-duke-farms/thumb/DSC_0181.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-25T12:42:43'
+    taken_ts: 1761410563
+  - src: DSC_0204.jpg
+    full: /photos/canal-duke-farms/full/DSC_0204.jpg
+    thumb: /photos/canal-duke-farms/thumb/DSC_0204.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-25T12:43:35'
+    taken_ts: 1761410615
+- slug: princeton-tigers
+  title: Princeton Tigers
+  location: Princeton, NJ
+  cover: &id017
+    src: DSC_8546.jpg
+    full: /photos/princeton-tigers/full/DSC_8546.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8546.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-17T18:57:11'
+    taken_ts: 1760741831
+  photos:
+  - *id017
+  - src: DSC_8566.jpg
+    full: /photos/princeton-tigers/full/DSC_8566.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8566.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:03:46'
+    taken_ts: 1760742226
+  - src: DSC_8569.jpg
+    full: /photos/princeton-tigers/full/DSC_8569.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8569.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:04:18'
+    taken_ts: 1760742258
+  - src: DSC_8576.jpg
+    full: /photos/princeton-tigers/full/DSC_8576.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8576.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:05:40'
+    taken_ts: 1760742340
+  - src: DSC_8581.jpg
+    full: /photos/princeton-tigers/full/DSC_8581.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8581.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:08:25'
+    taken_ts: 1760742505
+  - src: DSC_8583.jpg
+    full: /photos/princeton-tigers/full/DSC_8583.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8583.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:08:34'
+    taken_ts: 1760742514
+  - src: DSC_8594.jpg
+    full: /photos/princeton-tigers/full/DSC_8594.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8594.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:12:09'
+    taken_ts: 1760742729
+  - src: DSC_8599.jpg
+    full: /photos/princeton-tigers/full/DSC_8599.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8599.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:12:45'
+    taken_ts: 1760742765
+  - src: DSC_8607.jpg
+    full: /photos/princeton-tigers/full/DSC_8607.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8607.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:13:23'
+    taken_ts: 1760742803
+  - src: DSC_8623.jpg
+    full: /photos/princeton-tigers/full/DSC_8623.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8623.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:18:12'
+    taken_ts: 1760743092
+  - src: DSC_8625.jpg
+    full: /photos/princeton-tigers/full/DSC_8625.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8625.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:18:17'
+    taken_ts: 1760743097
+  - src: DSC_8626.jpg
+    full: /photos/princeton-tigers/full/DSC_8626.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8626.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:18:18'
+    taken_ts: 1760743098
+  - src: DSC_8630.jpg
+    full: /photos/princeton-tigers/full/DSC_8630.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8630.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:24:51'
+    taken_ts: 1760743491
+  - src: DSC_8635.jpg
+    full: /photos/princeton-tigers/full/DSC_8635.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8635.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:25:30'
+    taken_ts: 1760743530
+  - src: DSC_8639.jpg
+    full: /photos/princeton-tigers/full/DSC_8639.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8639.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:27:10'
+    taken_ts: 1760743630
+  - src: DSC_8659.jpg
+    full: /photos/princeton-tigers/full/DSC_8659.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8659.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:31:05'
+    taken_ts: 1760743865
+  - src: DSC_8663.jpg
+    full: /photos/princeton-tigers/full/DSC_8663.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8663.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:31:56'
+    taken_ts: 1760743916
+  - src: DSC_8665.jpg
+    full: /photos/princeton-tigers/full/DSC_8665.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8665.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:33:04'
+    taken_ts: 1760743984
+  - src: DSC_8666.jpg
+    full: /photos/princeton-tigers/full/DSC_8666.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8666.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:33:06'
+    taken_ts: 1760743986
+  - src: DSC_8667.jpg
+    full: /photos/princeton-tigers/full/DSC_8667.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8667.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:33:10'
+    taken_ts: 1760743990
+  - src: DSC_8670.jpg
+    full: /photos/princeton-tigers/full/DSC_8670.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8670.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:33:35'
+    taken_ts: 1760744015
+  - src: DSC_8671.jpg
+    full: /photos/princeton-tigers/full/DSC_8671.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8671.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:34:12'
+    taken_ts: 1760744052
+  - src: DSC_8675.jpg
+    full: /photos/princeton-tigers/full/DSC_8675.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8675.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:35:11'
+    taken_ts: 1760744111
+  - src: DSC_8680.jpg
+    full: /photos/princeton-tigers/full/DSC_8680.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8680.jpg
+    w: 2400
+    h: 1540
+    tw: 900
+    th: 578
+    taken: '2025-10-17T19:36:35'
+    taken_ts: 1760744195
+  - src: DSC_8685.jpg
+    full: /photos/princeton-tigers/full/DSC_8685.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8685.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:37:17'
+    taken_ts: 1760744237
+  - src: DSC_8694.jpg
+    full: /photos/princeton-tigers/full/DSC_8694.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8694.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:38:10'
+    taken_ts: 1760744290
+  - src: DSC_8695.jpg
+    full: /photos/princeton-tigers/full/DSC_8695.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8695.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:38:17'
+    taken_ts: 1760744297
+  - src: DSC_8698.jpg
+    full: /photos/princeton-tigers/full/DSC_8698.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8698.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:38:28'
+    taken_ts: 1760744308
+  - src: DSC_8701.jpg
+    full: /photos/princeton-tigers/full/DSC_8701.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8701.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:39:32'
+    taken_ts: 1760744372
+  - src: DSC_8705.jpg
+    full: /photos/princeton-tigers/full/DSC_8705.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8705.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:39:56'
+    taken_ts: 1760744396
+  - src: DSC_8714.jpg
+    full: /photos/princeton-tigers/full/DSC_8714.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8714.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:43:15'
+    taken_ts: 1760744595
+  - src: DSC_8740.jpg
+    full: /photos/princeton-tigers/full/DSC_8740.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8740.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:47:14'
+    taken_ts: 1760744834
+  - src: DSC_8743.jpg
+    full: /photos/princeton-tigers/full/DSC_8743.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8743.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:48:01'
+    taken_ts: 1760744881
+  - src: DSC_8746.jpg
+    full: /photos/princeton-tigers/full/DSC_8746.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8746.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:48:21'
+    taken_ts: 1760744901
+  - src: DSC_8766.jpg
+    full: /photos/princeton-tigers/full/DSC_8766.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8766.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T19:51:01'
+    taken_ts: 1760745061
+  - src: DSC_8785.jpg
+    full: /photos/princeton-tigers/full/DSC_8785.jpg
+    thumb: /photos/princeton-tigers/thumb/DSC_8785.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-10-17T20:31:26'
+    taken_ts: 1760747486
+- slug: florida
+  title: Florida
+  location: null
+  cover: &id018
+    src: DSC_8887.jpg
+    full: /photos/florida/full/DSC_8887.jpg
+    thumb: /photos/florida/thumb/DSC_8887.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-25T12:34:11'
+    taken_ts: 1766684051
+  photos:
+  - *id018
+  - src: DSC_8891.jpg
+    full: /photos/florida/full/DSC_8891.jpg
+    thumb: /photos/florida/thumb/DSC_8891.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-25T12:48:47'
+    taken_ts: 1766684927
+  - src: DSC_8896.jpg
+    full: /photos/florida/full/DSC_8896.jpg
+    thumb: /photos/florida/thumb/DSC_8896.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-25T12:49:30'
+    taken_ts: 1766684970
+  - src: DSC_8902.jpg
+    full: /photos/florida/full/DSC_8902.jpg
+    thumb: /photos/florida/thumb/DSC_8902.jpg
+    w: 1800
+    h: 2400
+    tw: 675
+    th: 900
+    taken: '2025-12-25T12:50:27'
+    taken_ts: 1766685027
+  - src: DSC_8941.jpg
+    full: /photos/florida/full/DSC_8941.jpg
+    thumb: /photos/florida/thumb/DSC_8941.jpg
+    w: 2372
+    h: 1779
+    tw: 900
+    th: 675
+    taken: '2025-12-25T12:55:42'
+    taken_ts: 1766685342
+  - src: DSC_8976.jpg
+    full: /photos/florida/full/DSC_8976.jpg
+    thumb: /photos/florida/thumb/DSC_8976.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-25T13:01:56'
+    taken_ts: 1766685716
+  - src: DSC_9016.jpg
+    full: /photos/florida/full/DSC_9016.jpg
+    thumb: /photos/florida/thumb/DSC_9016.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-25T13:28:55'
+    taken_ts: 1766687335
+  - src: DSC_9184.jpg
+    full: /photos/florida/full/DSC_9184.jpg
+    thumb: /photos/florida/thumb/DSC_9184.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-25T14:38:19'
+    taken_ts: 1766691499
+  - src: DSC_9205.jpg
+    full: /photos/florida/full/DSC_9205.jpg
+    thumb: /photos/florida/thumb/DSC_9205.jpg
+    w: 2400
+    h: 1920
+    tw: 900
+    th: 720
+    taken: '2025-12-25T14:41:59'
+    taken_ts: 1766691719
+  - src: DSC_9210.jpg
+    full: /photos/florida/full/DSC_9210.jpg
+    thumb: /photos/florida/thumb/DSC_9210.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-25T14:42:59'
+    taken_ts: 1766691779
+  - src: DSC_9305.jpg
+    full: /photos/florida/full/DSC_9305.jpg
+    thumb: /photos/florida/thumb/DSC_9305.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-25T16:19:14'
+    taken_ts: 1766697554
+  - src: DSC_9625.jpg
+    full: /photos/florida/full/DSC_9625.jpg
+    thumb: /photos/florida/thumb/DSC_9625.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-27T12:54:36'
+    taken_ts: 1766858076
+  - src: DSC_9637.jpg
+    full: /photos/florida/full/DSC_9637.jpg
+    thumb: /photos/florida/thumb/DSC_9637.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-27T12:54:44'
+    taken_ts: 1766858084
+  - src: DSC_9648.jpg
+    full: /photos/florida/full/DSC_9648.jpg
+    thumb: /photos/florida/thumb/DSC_9648.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-27T12:56:58'
+    taken_ts: 1766858218
+  - src: DSC_9667.jpg
+    full: /photos/florida/full/DSC_9667.jpg
+    thumb: /photos/florida/thumb/DSC_9667.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-27T12:58:20'
+    taken_ts: 1766858300
+  - src: DSC_9674.jpg
+    full: /photos/florida/full/DSC_9674.jpg
+    thumb: /photos/florida/thumb/DSC_9674.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-27T12:59:53'
+    taken_ts: 1766858393
+  - src: DSC_9754.jpg
+    full: /photos/florida/full/DSC_9754.jpg
+    thumb: /photos/florida/thumb/DSC_9754.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-27T13:18:00'
+    taken_ts: 1766859480
+  - src: DSC_9930.jpg
+    full: /photos/florida/full/DSC_9930.jpg
+    thumb: /photos/florida/thumb/DSC_9930.jpg
+    w: 2264
+    h: 1509
+    tw: 900
+    th: 600
+    taken: '2025-12-27T15:39:50'
+    taken_ts: 1766867990
+  - src: DSC_9987.jpg
+    full: /photos/florida/full/DSC_9987.jpg
+    thumb: /photos/florida/thumb/DSC_9987.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-27T15:50:48'
+    taken_ts: 1766868648
+  - src: DSC_0101.jpg
+    full: /photos/florida/full/DSC_0101.jpg
+    thumb: /photos/florida/thumb/DSC_0101.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-27T17:32:00'
+    taken_ts: 1766874720
+  - src: DSC_0204.jpg
+    full: /photos/florida/full/DSC_0204.jpg
+    thumb: /photos/florida/thumb/DSC_0204.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-28T11:51:04'
+    taken_ts: 1766940664
+  - src: DSC_0212.jpg
+    full: /photos/florida/full/DSC_0212.jpg
+    thumb: /photos/florida/thumb/DSC_0212.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-28T11:51:21'
+    taken_ts: 1766940681
+  - src: DSC_0300.jpg
+    full: /photos/florida/full/DSC_0300.jpg
+    thumb: /photos/florida/thumb/DSC_0300.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-28T12:10:23'
+    taken_ts: 1766941823
+  - src: DSC_0570.jpg
+    full: /photos/florida/full/DSC_0570.jpg
+    thumb: /photos/florida/thumb/DSC_0570.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-28T13:13:58'
+    taken_ts: 1766945638
+  - src: DSC_0597.jpg
+    full: /photos/florida/full/DSC_0597.jpg
+    thumb: /photos/florida/thumb/DSC_0597.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-28T14:21:57'
+    taken_ts: 1766949717
+  - src: DSC_0608.jpg
+    full: /photos/florida/full/DSC_0608.jpg
+    thumb: /photos/florida/thumb/DSC_0608.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-28T14:22:29'
+    taken_ts: 1766949749
+  - src: DSC_0644.jpg
+    full: /photos/florida/full/DSC_0644.jpg
+    thumb: /photos/florida/thumb/DSC_0644.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-28T14:37:47'
+    taken_ts: 1766950667
+  - src: DSC_0652.jpg
+    full: /photos/florida/full/DSC_0652.jpg
+    thumb: /photos/florida/thumb/DSC_0652.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-28T14:38:28'
+    taken_ts: 1766950708
+  - src: DSC_0748.jpg
+    full: /photos/florida/full/DSC_0748.jpg
+    thumb: /photos/florida/thumb/DSC_0748.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-28T15:05:22'
+    taken_ts: 1766952322
+  - src: DSC_0805.jpg
+    full: /photos/florida/full/DSC_0805.jpg
+    thumb: /photos/florida/thumb/DSC_0805.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-28T15:05:50'
+    taken_ts: 1766952350
+  - src: DSC_1142.jpg
+    full: /photos/florida/full/DSC_1142.jpg
+    thumb: /photos/florida/thumb/DSC_1142.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-28T16:28:00'
+    taken_ts: 1766957280
+  - src: DSC_1146.jpg
+    full: /photos/florida/full/DSC_1146.jpg
+    thumb: /photos/florida/thumb/DSC_1146.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-28T16:28:02'
+    taken_ts: 1766957282
+  - src: DSC_1207.jpg
+    full: /photos/florida/full/DSC_1207.jpg
+    thumb: /photos/florida/thumb/DSC_1207.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-28T16:31:53'
+    taken_ts: 1766957513
+  - src: DSC_1265.jpg
+    full: /photos/florida/full/DSC_1265.jpg
+    thumb: /photos/florida/thumb/DSC_1265.jpg
+    w: 2400
+    h: 2400
+    tw: 900
+    th: 900
+    taken: '2025-12-28T16:38:29'
+    taken_ts: 1766957909
+  - src: DSC_1290.jpg
+    full: /photos/florida/full/DSC_1290.jpg
+    thumb: /photos/florida/thumb/DSC_1290.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-28T16:39:16'
+    taken_ts: 1766957956
+  - src: DSC_1293.jpg
+    full: /photos/florida/full/DSC_1293.jpg
+    thumb: /photos/florida/thumb/DSC_1293.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-28T16:39:17'
+    taken_ts: 1766957957
+  - src: DSC_1331.jpg
+    full: /photos/florida/full/DSC_1331.jpg
+    thumb: /photos/florida/thumb/DSC_1331.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-28T16:40:40'
+    taken_ts: 1766958040
+  - src: DSC_1525.jpg
+    full: /photos/florida/full/DSC_1525.jpg
+    thumb: /photos/florida/thumb/DSC_1525.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-29T12:06:20'
+    taken_ts: 1767027980
+  - src: DSC_1917.jpg
+    full: /photos/florida/full/DSC_1917.jpg
+    thumb: /photos/florida/thumb/DSC_1917.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-29T12:31:14'
+    taken_ts: 1767029474
+  - src: DSC_2112.jpg
+    full: /photos/florida/full/DSC_2112.jpg
+    thumb: /photos/florida/thumb/DSC_2112.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-29T12:36:25'
+    taken_ts: 1767029785
+  - src: DSC_2181.jpg
+    full: /photos/florida/full/DSC_2181.jpg
+    thumb: /photos/florida/thumb/DSC_2181.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-29T12:40:20'
+    taken_ts: 1767030020
+  - src: DSC_2516.jpg
+    full: /photos/florida/full/DSC_2516.jpg
+    thumb: /photos/florida/thumb/DSC_2516.jpg
+    w: 2345
+    h: 1563
+    tw: 900
+    th: 600
+    taken: '2025-12-31T12:20:47'
+    taken_ts: 1767201647
+  - src: DSC_2883.jpg
+    full: /photos/florida/full/DSC_2883.jpg
+    thumb: /photos/florida/thumb/DSC_2883.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-31T13:10:31'
+    taken_ts: 1767204631
+  - src: DSC_2972.jpg
+    full: /photos/florida/full/DSC_2972.jpg
+    thumb: /photos/florida/thumb/DSC_2972.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-12-31T13:32:26'
+    taken_ts: 1767205946
+  - src: DSC_3577.jpg
+    full: /photos/florida/full/DSC_3577.jpg
+    thumb: /photos/florida/thumb/DSC_3577.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-01T12:16:31'
+    taken_ts: 1767287791
+  - src: DSC_3732.jpg
+    full: /photos/florida/full/DSC_3732.jpg
+    thumb: /photos/florida/thumb/DSC_3732.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-01T12:36:59'
+    taken_ts: 1767289019
+  - src: DSC_3763.jpg
+    full: /photos/florida/full/DSC_3763.jpg
+    thumb: /photos/florida/thumb/DSC_3763.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-01T12:37:41'
+    taken_ts: 1767289061
+  - src: DSC_3785.jpg
+    full: /photos/florida/full/DSC_3785.jpg
+    thumb: /photos/florida/thumb/DSC_3785.jpg
+    w: 1475
+    h: 2212
+    tw: 600
+    th: 900
+    taken: '2026-01-01T12:37:49'
+    taken_ts: 1767289069
+  - src: DSC_3940.jpg
+    full: /photos/florida/full/DSC_3940.jpg
+    thumb: /photos/florida/thumb/DSC_3940.jpg
+    w: 1800
+    h: 2400
+    tw: 675
+    th: 900
+    taken: '2026-01-02T12:27:45'
+    taken_ts: 1767374865
+  - src: DSC_3963.jpg
+    full: /photos/florida/full/DSC_3963.jpg
+    thumb: /photos/florida/thumb/DSC_3963.jpg
+    w: 1800
+    h: 2400
+    tw: 675
+    th: 900
+    taken: '2026-01-02T12:28:41'
+    taken_ts: 1767374921
+  - src: DSC_4168.jpg
+    full: /photos/florida/full/DSC_4168.jpg
+    thumb: /photos/florida/thumb/DSC_4168.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T12:52:34'
+    taken_ts: 1767376354
+  - src: DSC_4198.jpg
+    full: /photos/florida/full/DSC_4198.jpg
+    thumb: /photos/florida/thumb/DSC_4198.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T12:55:09'
+    taken_ts: 1767376509
+  - src: DSC_4306.jpg
+    full: /photos/florida/full/DSC_4306.jpg
+    thumb: /photos/florida/thumb/DSC_4306.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T13:05:56'
+    taken_ts: 1767377156
+  - src: DSC_4333.jpg
+    full: /photos/florida/full/DSC_4333.jpg
+    thumb: /photos/florida/thumb/DSC_4333.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T13:07:27'
+    taken_ts: 1767377247
+  - src: DSC_4359.jpg
+    full: /photos/florida/full/DSC_4359.jpg
+    thumb: /photos/florida/thumb/DSC_4359.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T13:10:13'
+    taken_ts: 1767377413
+  - src: DSC_4372.jpg
+    full: /photos/florida/full/DSC_4372.jpg
+    thumb: /photos/florida/thumb/DSC_4372.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T13:11:56'
+    taken_ts: 1767377516
+  - src: DSC_4438.jpg
+    full: /photos/florida/full/DSC_4438.jpg
+    thumb: /photos/florida/thumb/DSC_4438.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T13:19:29'
+    taken_ts: 1767377969
+  - src: DSC_4450.jpg
+    full: /photos/florida/full/DSC_4450.jpg
+    thumb: /photos/florida/thumb/DSC_4450.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T13:19:43'
+    taken_ts: 1767377983
+  - src: DSC_4462.jpg
+    full: /photos/florida/full/DSC_4462.jpg
+    thumb: /photos/florida/thumb/DSC_4462.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T13:19:48'
+    taken_ts: 1767377988
+  - src: DSC_4483.jpg
+    full: /photos/florida/full/DSC_4483.jpg
+    thumb: /photos/florida/thumb/DSC_4483.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T13:19:51'
+    taken_ts: 1767377991
+  - src: DSC_4550.jpg
+    full: /photos/florida/full/DSC_4550.jpg
+    thumb: /photos/florida/thumb/DSC_4550.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T13:29:16'
+    taken_ts: 1767378556
+  - src: DSC_4562-2.jpg
+    full: /photos/florida/full/DSC_4562-2.jpg
+    thumb: /photos/florida/thumb/DSC_4562-2.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T13:32:09'
+    taken_ts: 1767378729
+  - src: DSC_4562.jpg
+    full: /photos/florida/full/DSC_4562.jpg
+    thumb: /photos/florida/thumb/DSC_4562.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T13:32:09'
+    taken_ts: 1767378729
+  - src: DSC_4621.jpg
+    full: /photos/florida/full/DSC_4621.jpg
+    thumb: /photos/florida/thumb/DSC_4621.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T13:46:46'
+    taken_ts: 1767379606
+  - src: DSC_4636.jpg
+    full: /photos/florida/full/DSC_4636.jpg
+    thumb: /photos/florida/thumb/DSC_4636.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T13:47:55'
+    taken_ts: 1767379675
+  - src: DSC_4673.jpg
+    full: /photos/florida/full/DSC_4673.jpg
+    thumb: /photos/florida/thumb/DSC_4673.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T13:57:00'
+    taken_ts: 1767380220
+  - src: DSC_4693-2.jpg
+    full: /photos/florida/full/DSC_4693-2.jpg
+    thumb: /photos/florida/thumb/DSC_4693-2.jpg
+    w: 2295
+    h: 1530
+    tw: 900
+    th: 600
+    taken: '2026-01-02T14:25:16'
+    taken_ts: 1767381916
+  - src: DSC_4693.jpg
+    full: /photos/florida/full/DSC_4693.jpg
+    thumb: /photos/florida/thumb/DSC_4693.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T14:25:16'
+    taken_ts: 1767381916
+  - src: DSC_4755.jpg
+    full: /photos/florida/full/DSC_4755.jpg
+    thumb: /photos/florida/thumb/DSC_4755.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T14:30:42'
+    taken_ts: 1767382242
+  - src: DSC_4760.jpg
+    full: /photos/florida/full/DSC_4760.jpg
+    thumb: /photos/florida/thumb/DSC_4760.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T14:30:54'
+    taken_ts: 1767382254
+  - src: DSC_4783.jpg
+    full: /photos/florida/full/DSC_4783.jpg
+    thumb: /photos/florida/thumb/DSC_4783.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T14:31:48'
+    taken_ts: 1767382308
+  - src: DSC_4853.jpg
+    full: /photos/florida/full/DSC_4853.jpg
+    thumb: /photos/florida/thumb/DSC_4853.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T14:35:25'
+    taken_ts: 1767382525
+  - src: DSC_4903.jpg
+    full: /photos/florida/full/DSC_4903.jpg
+    thumb: /photos/florida/thumb/DSC_4903.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T14:36:59'
+    taken_ts: 1767382619
+  - src: DSC_4927.jpg
+    full: /photos/florida/full/DSC_4927.jpg
+    thumb: /photos/florida/thumb/DSC_4927.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T14:38:38'
+    taken_ts: 1767382718
+  - src: DSC_5073.jpg
+    full: /photos/florida/full/DSC_5073.jpg
+    thumb: /photos/florida/thumb/DSC_5073.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T14:59:50'
+    taken_ts: 1767383990
+  - src: DSC_5113.jpg
+    full: /photos/florida/full/DSC_5113.jpg
+    thumb: /photos/florida/thumb/DSC_5113.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T16:11:54'
+    taken_ts: 1767388314
+  - src: DSC_5135.jpg
+    full: /photos/florida/full/DSC_5135.jpg
+    thumb: /photos/florida/thumb/DSC_5135.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-02T16:12:12'
+    taken_ts: 1767388332
+  - src: DSC_5632.jpg
+    full: /photos/florida/full/DSC_5632.jpg
+    thumb: /photos/florida/thumb/DSC_5632.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-04T14:00:49'
+    taken_ts: 1767553249
+  - src: DSC_5779.jpg
+    full: /photos/florida/full/DSC_5779.jpg
+    thumb: /photos/florida/thumb/DSC_5779.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-04T14:02:21'
+    taken_ts: 1767553341
+  - src: DSC_6122.jpg
+    full: /photos/florida/full/DSC_6122.jpg
+    thumb: /photos/florida/thumb/DSC_6122.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-04T14:12:27'
+    taken_ts: 1767553947
+  - src: DSC_6275.jpg
+    full: /photos/florida/full/DSC_6275.jpg
+    thumb: /photos/florida/thumb/DSC_6275.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-04T14:15:46'
+    taken_ts: 1767554146
+  - src: DSC_6485.jpg
+    full: /photos/florida/full/DSC_6485.jpg
+    thumb: /photos/florida/thumb/DSC_6485.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-04T14:18:56'
+    taken_ts: 1767554336
+  - src: DSC_6533.jpg
+    full: /photos/florida/full/DSC_6533.jpg
+    thumb: /photos/florida/thumb/DSC_6533.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-04T14:19:51'
+    taken_ts: 1767554391
+  - src: DSC_6556.jpg
+    full: /photos/florida/full/DSC_6556.jpg
+    thumb: /photos/florida/thumb/DSC_6556.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-01-04T14:21:54'
+    taken_ts: 1767554514
+  - src: DSC_6612.jpg
+    full: /photos/florida/full/DSC_6612.jpg
+    thumb: /photos/florida/thumb/DSC_6612.jpg
+    w: 2176
+    h: 1451
+    tw: 900
+    th: 600
+    taken: '2026-01-04T14:22:35'
+    taken_ts: 1767554555
+- slug: fall-2025
+  title: Fall
+  location: Princeton, NJ
+  cover: &id019
+    src: 20251005_115243.jpg
+    full: /photos/fall-2025/full/20251005_115243.jpg
+    thumb: /photos/fall-2025/thumb/20251005_115243.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-10-05T11:52:43'
+    taken_ts: 1759679563
+  photos:
+  - *id019
+  - src: 20251005_115438.jpg
+    full: /photos/fall-2025/full/20251005_115438.jpg
+    thumb: /photos/fall-2025/thumb/20251005_115438.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-10-05T11:54:38'
+    taken_ts: 1759679678
+  - src: 20251005_115446.jpg
+    full: /photos/fall-2025/full/20251005_115446.jpg
+    thumb: /photos/fall-2025/thumb/20251005_115446.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-10-05T11:54:46'
+    taken_ts: 1759679686
+  - src: 20251005_115453.jpg
+    full: /photos/fall-2025/full/20251005_115453.jpg
+    thumb: /photos/fall-2025/thumb/20251005_115453.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-10-05T11:54:53'
+    taken_ts: 1759679693
+  - src: 20251005_115527.jpg
+    full: /photos/fall-2025/full/20251005_115527.jpg
+    thumb: /photos/fall-2025/thumb/20251005_115527.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-10-05T11:55:27'
+    taken_ts: 1759679727
+  - src: 20251020_124720.jpg
+    full: /photos/fall-2025/full/20251020_124720.jpg
+    thumb: /photos/fall-2025/thumb/20251020_124720.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-10-20T12:47:20'
+    taken_ts: 1760978840
+  - src: 20251025_123157.jpg
+    full: /photos/fall-2025/full/20251025_123157.jpg
+    thumb: /photos/fall-2025/thumb/20251025_123157.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-10-25T12:31:57'
+    taken_ts: 1761409917
+  - src: 20251026_115921.jpg
+    full: /photos/fall-2025/full/20251026_115921.jpg
+    thumb: /photos/fall-2025/thumb/20251026_115921.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-10-26T11:59:21'
+    taken_ts: 1761494361
+  - src: 20251026_115940.jpg
+    full: /photos/fall-2025/full/20251026_115940.jpg
+    thumb: /photos/fall-2025/thumb/20251026_115940.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-10-26T11:59:40'
+    taken_ts: 1761494380
+  - src: 20251026_120006.jpg
+    full: /photos/fall-2025/full/20251026_120006.jpg
+    thumb: /photos/fall-2025/thumb/20251026_120006.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-10-26T12:00:06'
+    taken_ts: 1761494406
+  - src: 20251026_120458.jpg
+    full: /photos/fall-2025/full/20251026_120458.jpg
+    thumb: /photos/fall-2025/thumb/20251026_120458.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-10-26T12:04:58'
+    taken_ts: 1761494698
+  - src: 20251026_120533~2.jpg
+    full: /photos/fall-2025/full/20251026_120533~2.jpg
+    thumb: /photos/fall-2025/thumb/20251026_120533~2.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-10-26T12:05:33'
+    taken_ts: 1761494733
+  - src: 20251101_114830~2.jpg
+    full: /photos/fall-2025/full/20251101_114830~2.jpg
+    thumb: /photos/fall-2025/thumb/20251101_114830~2.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-11-01T11:48:30'
+    taken_ts: 1762012110
+  - src: 20251102_090009.jpg
+    full: /photos/fall-2025/full/20251102_090009.jpg
+    thumb: /photos/fall-2025/thumb/20251102_090009.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-11-02T09:00:09'
+    taken_ts: 1762092009
+  - src: 20251102_090150.jpg
+    full: /photos/fall-2025/full/20251102_090150.jpg
+    thumb: /photos/fall-2025/thumb/20251102_090150.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-11-02T09:01:50'
+    taken_ts: 1762092110
+  - src: 20251102_090211.jpg
+    full: /photos/fall-2025/full/20251102_090211.jpg
+    thumb: /photos/fall-2025/thumb/20251102_090211.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-11-02T09:02:12'
+    taken_ts: 1762092132
+- slug: june-birdfeeder
+  title: Bird Feeder
+  location: Princeton, NJ
+  cover: &id020
+    src: DSC_7332.jpg
+    full: /photos/june-birdfeeder/full/DSC_7332.jpg
+    thumb: /photos/june-birdfeeder/thumb/DSC_7332.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-06-19T17:04:34'
+    taken_ts: 1750367074
+  photos:
+  - *id020
+  - src: DSC_7417.jpg
+    full: /photos/june-birdfeeder/full/DSC_7417.jpg
+    thumb: /photos/june-birdfeeder/thumb/DSC_7417.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-06-19T17:23:19'
+    taken_ts: 1750368199
+  - src: DSC_7418.jpg
+    full: /photos/june-birdfeeder/full/DSC_7418.jpg
+    thumb: /photos/june-birdfeeder/thumb/DSC_7418.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-06-19T17:23:19'
+    taken_ts: 1750368199
+  - src: DSC_7488.jpg
+    full: /photos/june-birdfeeder/full/DSC_7488.jpg
+    thumb: /photos/june-birdfeeder/thumb/DSC_7488.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-06-19T17:26:37'
+    taken_ts: 1750368397
+  - src: DSC_7503.jpg
+    full: /photos/june-birdfeeder/full/DSC_7503.jpg
+    thumb: /photos/june-birdfeeder/thumb/DSC_7503.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-06-19T17:27:15'
+    taken_ts: 1750368435
+  - src: DSC_7555.jpg
+    full: /photos/june-birdfeeder/full/DSC_7555.jpg
+    thumb: /photos/june-birdfeeder/thumb/DSC_7555.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-06-19T17:30:50'
+    taken_ts: 1750368650
+  - src: DSC_7603.jpg
+    full: /photos/june-birdfeeder/full/DSC_7603.jpg
+    thumb: /photos/june-birdfeeder/thumb/DSC_7603.jpg
+    w: 2209
+    h: 1470
+    tw: 900
+    th: 599
+    taken: '2025-06-19T17:44:59'
+    taken_ts: 1750369499
+  - src: DSC_7612.jpg
+    full: /photos/june-birdfeeder/full/DSC_7612.jpg
+    thumb: /photos/june-birdfeeder/thumb/DSC_7612.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-06-19T17:51:55'
+    taken_ts: 1750369915
+- slug: watershed-institute
+  title: Watershed Institute
+  location: Pennington, NJ
+  cover: &id021
+    src: DSC_7618.jpg
+    full: /photos/watershed-institute/full/DSC_7618.jpg
+    thumb: /photos/watershed-institute/thumb/DSC_7618.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-06-20T19:33:58'
+    taken_ts: 1750462438
+  photos:
+  - *id021
+  - src: DSC_7629.jpg
+    full: /photos/watershed-institute/full/DSC_7629.jpg
+    thumb: /photos/watershed-institute/thumb/DSC_7629.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-06-20T19:34:34'
+    taken_ts: 1750462474
+  - src: DSC_7637.jpg
+    full: /photos/watershed-institute/full/DSC_7637.jpg
+    thumb: /photos/watershed-institute/thumb/DSC_7637.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-06-20T19:36:02'
+    taken_ts: 1750462562
+  - src: DSC_7692.jpg
+    full: /photos/watershed-institute/full/DSC_7692.jpg
+    thumb: /photos/watershed-institute/thumb/DSC_7692.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-06-20T19:39:19'
+    taken_ts: 1750462759
+  - src: DSC_7708.jpg
+    full: /photos/watershed-institute/full/DSC_7708.jpg
+    thumb: /photos/watershed-institute/thumb/DSC_7708.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-06-20T19:41:31'
+    taken_ts: 1750462891
+  - src: DSC_7714.jpg
+    full: /photos/watershed-institute/full/DSC_7714.jpg
+    thumb: /photos/watershed-institute/thumb/DSC_7714.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-06-20T19:43:17'
+    taken_ts: 1750462997
+  - src: DSC_7722.jpg
+    full: /photos/watershed-institute/full/DSC_7722.jpg
+    thumb: /photos/watershed-institute/thumb/DSC_7722.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-06-20T19:43:23'
+    taken_ts: 1750463003
+  - src: DSC_7759.jpg
+    full: /photos/watershed-institute/full/DSC_7759.jpg
+    thumb: /photos/watershed-institute/thumb/DSC_7759.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-06-20T20:14:36'
+    taken_ts: 1750464876
+  - src: DSC_7846.jpg
+    full: /photos/watershed-institute/full/DSC_7846.jpg
+    thumb: /photos/watershed-institute/thumb/DSC_7846.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-06-20T20:31:50'
+    taken_ts: 1750465910
+  - src: DSC_7850.jpg
+    full: /photos/watershed-institute/full/DSC_7850.jpg
+    thumb: /photos/watershed-institute/thumb/DSC_7850.jpg
+    w: 2400
+    h: 1597
+    tw: 900
+    th: 599
+    taken: '2025-06-20T20:32:38'
+    taken_ts: 1750465958
+  - src: DSC_7899.jpg
+    full: /photos/watershed-institute/full/DSC_7899.jpg
+    thumb: /photos/watershed-institute/thumb/DSC_7899.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-06-20T21:10:20'
+    taken_ts: 1750468220
+  - src: DSC_7912.jpg
+    full: /photos/watershed-institute/full/DSC_7912.jpg
+    thumb: /photos/watershed-institute/thumb/DSC_7912.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-06-20T21:11:11'
+    taken_ts: 1750468271
+- slug: spring-2025
+  title: Spring
+  location: Princeton, NJ
+  cover: &id022
+    src: 2025-04-05 16.26.07.jpg
+    full: /photos/spring-2025/full/2025-04-05 16.26.07.jpg
+    thumb: /photos/spring-2025/thumb/2025-04-05 16.26.07.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-04-05T16:26:07'
+    taken_ts: 1743884767
+  photos:
+  - *id022
+  - src: 2025-04-05 16.26.27.jpg
+    full: /photos/spring-2025/full/2025-04-05 16.26.27.jpg
+    thumb: /photos/spring-2025/thumb/2025-04-05 16.26.27.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-04-05T16:26:27'
+    taken_ts: 1743884787
+  - src: 2025-04-05 16.26.35.jpg
+    full: /photos/spring-2025/full/2025-04-05 16.26.35.jpg
+    thumb: /photos/spring-2025/thumb/2025-04-05 16.26.35.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-04-05T16:26:35'
+    taken_ts: 1743884795
+  - src: 2025-04-05 16.26.49.jpg
+    full: /photos/spring-2025/full/2025-04-05 16.26.49.jpg
+    thumb: /photos/spring-2025/thumb/2025-04-05 16.26.49.jpg
+    w: 2400
+    h: 1800
+    tw: 900
+    th: 675
+    taken: '2025-04-05T16:26:49'
+    taken_ts: 1743884809
+- slug: backyard-critters
+  title: Backyard Critters
+  location: Princeton, NJ
+  cover: &id023
+    src: DSC_5415.jpg
+    full: /photos/backyard-critters/full/DSC_5415.jpg
+    thumb: /photos/backyard-critters/thumb/DSC_5415.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2024-09-08T01:41:17'
+    taken_ts: 1725774077
+  photos:
+  - *id023
+  - src: DSC_1256.jpg
+    full: /photos/backyard-critters/full/DSC_1256.jpg
+    thumb: /photos/backyard-critters/thumb/DSC_1256.jpg
+    w: 2400
+    h: 1598
+    tw: 900
+    th: 599
+    taken: '2025-12-03T19:52:00'
+    taken_ts: 1764809520
+- slug: gazelle-valley
+  title: Gazelle Valley
+  location: Jerusalem
+  cover: &id024
+    src: DSC_8492.jpg
+    full: /photos/gazelle-valley/full/DSC_8492.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8492.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:10:18'
+    taken_ts: 1558141818
+  photos:
+  - *id024
+  - src: DSC_8494.jpg
+    full: /photos/gazelle-valley/full/DSC_8494.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8494.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:10:19'
+    taken_ts: 1558141819
+  - src: DSC_8500.jpg
+    full: /photos/gazelle-valley/full/DSC_8500.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8500.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:10:25'
+    taken_ts: 1558141825
+  - src: DSC_8509.jpg
+    full: /photos/gazelle-valley/full/DSC_8509.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8509.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:10:42'
+    taken_ts: 1558141842
+  - src: DSC_8515.jpg
+    full: /photos/gazelle-valley/full/DSC_8515.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8515.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:11:19'
+    taken_ts: 1558141879
+  - src: DSC_8516.jpg
+    full: /photos/gazelle-valley/full/DSC_8516.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8516.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:11:22'
+    taken_ts: 1558141882
+  - src: DSC_8521.jpg
+    full: /photos/gazelle-valley/full/DSC_8521.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8521.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:11:48'
+    taken_ts: 1558141908
+  - src: DSC_8528.jpg
+    full: /photos/gazelle-valley/full/DSC_8528.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8528.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:12:32'
+    taken_ts: 1558141952
+  - src: DSC_8534.jpg
+    full: /photos/gazelle-valley/full/DSC_8534.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8534.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:13:16'
+    taken_ts: 1558141996
+  - src: DSC_8550.jpg
+    full: /photos/gazelle-valley/full/DSC_8550.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8550.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:14:20'
+    taken_ts: 1558142060
+  - src: DSC_8559.jpg
+    full: /photos/gazelle-valley/full/DSC_8559.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8559.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:14:39'
+    taken_ts: 1558142079
+  - src: DSC_8569.jpg
+    full: /photos/gazelle-valley/full/DSC_8569.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8569.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:16:03'
+    taken_ts: 1558142163
+  - src: DSC_8579.jpg
+    full: /photos/gazelle-valley/full/DSC_8579.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8579.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:16:50'
+    taken_ts: 1558142210
+  - src: DSC_8623.jpg
+    full: /photos/gazelle-valley/full/DSC_8623.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8623.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:18:12'
+    taken_ts: 1558142292
+  - src: DSC_8628.jpg
+    full: /photos/gazelle-valley/full/DSC_8628.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8628.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:18:18'
+    taken_ts: 1558142298
+  - src: DSC_8663.jpg
+    full: /photos/gazelle-valley/full/DSC_8663.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8663.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:24:07'
+    taken_ts: 1558142647
+  - src: DSC_8697.jpg
+    full: /photos/gazelle-valley/full/DSC_8697.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8697.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:25:51'
+    taken_ts: 1558142751
+  - src: DSC_8805.jpg
+    full: /photos/gazelle-valley/full/DSC_8805.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8805.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:40:15'
+    taken_ts: 1558143615
+  - src: DSC_8816.jpg
+    full: /photos/gazelle-valley/full/DSC_8816.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8816.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:42:56'
+    taken_ts: 1558143776
+  - src: DSC_8822.jpg
+    full: /photos/gazelle-valley/full/DSC_8822.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8822.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:43:09'
+    taken_ts: 1558143789
+  - src: DSC_8839.jpg
+    full: /photos/gazelle-valley/full/DSC_8839.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8839.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:45:13'
+    taken_ts: 1558143913
+  - src: DSC_8842.jpg
+    full: /photos/gazelle-valley/full/DSC_8842.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8842.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:45:17'
+    taken_ts: 1558143917
+  - src: DSC_8843.jpg
+    full: /photos/gazelle-valley/full/DSC_8843.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8843.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:45:21'
+    taken_ts: 1558143921
+  - src: DSC_8853.jpg
+    full: /photos/gazelle-valley/full/DSC_8853.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8853.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:47:09'
+    taken_ts: 1558144029
+  - src: DSC_8869.jpg
+    full: /photos/gazelle-valley/full/DSC_8869.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8869.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:48:39'
+    taken_ts: 1558144119
+  - src: DSC_8874.jpg
+    full: /photos/gazelle-valley/full/DSC_8874.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8874.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:48:58'
+    taken_ts: 1558144138
+  - src: DSC_8875.jpg
+    full: /photos/gazelle-valley/full/DSC_8875.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8875.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:48:59'
+    taken_ts: 1558144139
+  - src: DSC_8882.jpg
+    full: /photos/gazelle-valley/full/DSC_8882.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8882.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:49:17'
+    taken_ts: 1558144157
+  - src: DSC_8884.jpg
+    full: /photos/gazelle-valley/full/DSC_8884.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8884.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:49:21'
+    taken_ts: 1558144161
+  - src: DSC_8892.jpg
+    full: /photos/gazelle-valley/full/DSC_8892.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8892.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T21:50:06'
+    taken_ts: 1558144206
+  - src: DSC_8982.jpg
+    full: /photos/gazelle-valley/full/DSC_8982.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_8982.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T22:00:57'
+    taken_ts: 1558144857
+  - src: DSC_9047.jpg
+    full: /photos/gazelle-valley/full/DSC_9047.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_9047.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T22:05:15'
+    taken_ts: 1558145115
+  - src: DSC_9073.jpg
+    full: /photos/gazelle-valley/full/DSC_9073.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_9073.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T22:07:18'
+    taken_ts: 1558145238
+  - src: DSC_9074.jpg
+    full: /photos/gazelle-valley/full/DSC_9074.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_9074.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T22:07:22'
+    taken_ts: 1558145242
+  - src: DSC_9084.jpg
+    full: /photos/gazelle-valley/full/DSC_9084.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_9084.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T22:08:31'
+    taken_ts: 1558145311
+  - src: DSC_9093.jpg
+    full: /photos/gazelle-valley/full/DSC_9093.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_9093.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T22:11:07'
+    taken_ts: 1558145467
+  - src: DSC_9095.jpg
+    full: /photos/gazelle-valley/full/DSC_9095.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_9095.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T22:11:31'
+    taken_ts: 1558145491
+  - src: DSC_9100.jpg
+    full: /photos/gazelle-valley/full/DSC_9100.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_9100.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T22:11:36'
+    taken_ts: 1558145496
+  - src: DSC_9121.jpg
+    full: /photos/gazelle-valley/full/DSC_9121.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_9121.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T22:15:38'
+    taken_ts: 1558145738
+  - src: DSC_9137.jpg
+    full: /photos/gazelle-valley/full/DSC_9137.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_9137.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T22:16:02'
+    taken_ts: 1558145762
+  - src: DSC_9209.jpg
+    full: /photos/gazelle-valley/full/DSC_9209.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_9209.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T22:30:46'
+    taken_ts: 1558146646
+  - src: DSC_9214.jpg
+    full: /photos/gazelle-valley/full/DSC_9214.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_9214.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T22:30:53'
+    taken_ts: 1558146653
+  - src: DSC_9218.jpg
+    full: /photos/gazelle-valley/full/DSC_9218.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_9218.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T22:30:56'
+    taken_ts: 1558146656
+  - src: DSC_9249.jpg
+    full: /photos/gazelle-valley/full/DSC_9249.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_9249.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T22:35:57'
+    taken_ts: 1558146957
+  - src: DSC_9250.jpg
+    full: /photos/gazelle-valley/full/DSC_9250.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_9250.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T22:35:57'
+    taken_ts: 1558146957
+  - src: DSC_9267.jpg
+    full: /photos/gazelle-valley/full/DSC_9267.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_9267.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T22:37:01'
+    taken_ts: 1558147021
+  - src: DSC_9274.jpg
+    full: /photos/gazelle-valley/full/DSC_9274.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_9274.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T22:37:28'
+    taken_ts: 1558147048
+  - src: DSC_9296.jpg
+    full: /photos/gazelle-valley/full/DSC_9296.jpg
+    thumb: /photos/gazelle-valley/thumb/DSC_9296.jpg
+    w: 2048
+    h: 1365
+    tw: 900
+    th: 600
+    taken: '2019-05-17T22:38:11'
+    taken_ts: 1558147091
