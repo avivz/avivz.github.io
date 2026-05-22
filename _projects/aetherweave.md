@@ -2,7 +2,6 @@
 layout: project
 title: "AetherWeave"
 subtitle: "Stake-backed peer discovery"
-status: active
 collaborators:
   - name: Kaya Alpturer
     url: https://kalpturer.github.io/
@@ -60,6 +59,13 @@ That signal drives the eclipse-detection mechanism. If a node's table comes out 
 
 Our central result is about *partitioning* the honest network. Informally: suppose an adversary controls some fraction $\alpha$ of the stake, knows every honest node's private seeds, and can drop arbitrary messages between honest nodes; and suppose each node's expected overlay degree grows like $\Omega(\log n)$. Then with overwhelming probability, for every way the adversary tries to split the honest nodes into two groups, either some node on one side has an overlay connection to the other (so the partition fails), or a large fraction of the smaller side raises the eclipse-detection alarm. In other words: against the strongest adversary we could write down, a successful partition is highly visible.
 
+<figure style="margin:1.8em auto; max-width:600px;">
+  <img src="/images/aetherweave/overlay-cut.png" alt="Overlay resistance across an honest cut" style="display:block; width:100%; height:auto; margin:0 auto; border:0;">
+  <figcaption style="margin-top:0.7em; font-size:0.9em; color:#555; text-align:left; line-height:1.45;">
+    Two outcomes when the adversary tries to split honest nodes across a cut $(A,B)$, with $A$ the smaller side. <b>Left:</b> the adversary removes every overlay edge crossing the cut, but then most nodes in $A$ see anomalously sparse tables and raise the attack-detection flag ($\delta$). <b>Right:</b> some sampled $A \to B$ overlay edges survive, so the partition fails outright. The theorem rules out the third possibility — a silent, undetected partition.
+  </figcaption>
+</figure>
+
 We also have a mean-field analysis giving a closed-form picture of when the gossip layer converges. The condition is
 
 $$s^2(1 - \alpha) > 1,$$
@@ -72,6 +78,13 @@ Naively, tying network participation to stake is a privacy regression — every 
 
 A node's network public key is derived deterministically from the same secret that controls its stake deposit, but you cannot go from the network key back to the deposit without breaking the underlying zk-proof system. When a node serves peer records, it includes a fresh zk-proof saying *"this network key is backed by some deposit in the staking contract"*, without saying which one. A peer table looks like a list of pseudonyms with fresh stake proofs, not a list of validators with their IPs.
 
+<figure style="margin:1.8em auto; max-width:600px;">
+  <img src="/images/aetherweave/key-derivation.png" alt="Key derivation: NetPk and StakeID are unlinkable identifiers derived from the same secret" style="display:block; max-width:400px; width:100%; height:auto; margin:0 auto; border:0;">
+  <figcaption style="margin-top:0.7em; font-size:0.9em; color:#555; text-align:left; line-height:1.45;">
+    From a single master secret $sk$, a node derives both its network key-pair $(NetSk, NetPk)$ and a stake identity $StakeID$. The two live in separate worlds — $NetPk$ appears in peer records on the wire, $StakeID$ appears in the on-chain staking contract — and you cannot bridge them without inverting the hash. The zk-proof $\pi_{stake}$ attests that $NetPk$ is backed by *some* deposit, without saying which.
+  </figcaption>
+</figure>
+
 Unlinkability holds *only as long as a node behaves honestly*. The slashing mechanism works by requiring each request to carry a cryptographic share of a slashing secret tied to a bounded commitment to the requester's full set of intended recipients that round. If a node ever issues two batches with different commitments in the same round — which is what request spam requires — anyone who sees both shares can reconstruct the slashing secret, identify the offending deposit, and burn it. Honest behavior keeps the shares apart; dishonest behavior glues them together and gives up your identity.
 
 A subtle point: the slice seed has to stay private from individual responders, otherwise an adversarial responder learns what the requester is looking for and learns something about their table. One way to achieve this is to evaluate the slice predicate inside a TEE so the responder's host never sees the requester's seed. That's what lets responses stay small ($s^2$ records). A trust-free alternative is private information retrieval, which removes the hardware assumption at a bandwidth cost — sending responses roughly the size of the responder's table rather than $s^2$. So the $O(s\sqrt{n})$ communication cost and the TEE assumption are coupled.
@@ -79,3 +92,28 @@ A subtle point: the slice seed has to stay private from individual responders, o
 ## The prototype
 
 We forked [Prysm](https://github.com/OffchainLabs/prysm) and replaced its discovery layer with AetherWeave, with a Solidity staking contract and Circom/Groth16 stake and slashing proofs verified off-chain. Code and a separate Python event-driven simulator are on GitHub: [aetherweave-artifact](https://github.com/CedArctic/aetherweave-artifact), [aetherweave_simulator](https://github.com/CedArctic/aetherweave_simulator).
+
+Record propagation through the gossip layer behaves like an epidemic: a freshly-joining node is initially invisible, then its record gets handed to a few peers each round, those peers hand it to a few more, and after a handful of rounds the node has saturated to its target representation in the network — $s\sqrt{n}$ peer tables holding its record, matching what the protocol predicts.
+
+<figure style="margin:1.8em auto; max-width:600px;">
+  <img src="/images/aetherweave/bootstrapping.png" alt="A joining node's record propagating through the gossip layer" style="display:block; width:100%; height:auto; margin:0 auto; border:0;">
+  <figcaption style="margin-top:0.7em; font-size:0.9em; color:#555; text-align:left; line-height:1.45;">
+    Bootstrapping at $n = 10{,}000$, $s\sqrt{n} = 400$. The number of peer tables holding the joining node's record grows along the classic S-curve of an epidemic — slow start, exponential takeoff once enough peers know it, then saturation at the protocol's target $s\sqrt{n}$ within about five rounds.
+  </figcaption>
+</figure>
+
+The end-to-end prototype on a forked Prysm shows that the protocol's per-round costs are modest on top of an already-running consensus client. CPU usage scales linearly with $\sqrt{n}$ as predicted; network bandwidth tracks the baseline Ethereum client with a small additive offset.
+
+<figure style="margin:1.8em auto; max-width:600px;">
+  <img src="/images/aetherweave/cpu-vs-baseline.png" alt="Per-round CPU utilization vs baseline Ethereum client" style="display:block; width:100%; height:auto; margin:0 auto; border:0;">
+  <figcaption style="margin-top:0.7em; font-size:0.9em; color:#555; text-align:left; line-height:1.45;">
+    Per-round CPU utilization of a Prysm node running AetherWeave vs. an idle Prysm node doing no consensus work ("Baseline"), for simulated network sizes $n \in \{100, 225, 400, 625\}$ and with record-proof caching enabled at $n=100$. Rounds here are deliberately short (2 minutes) to stress the protocol; under longer, more realistic round lengths the average CPU overhead would drop proportionally, since most per-round costs (proof generation, ZK verification, share calculation) happen once per round regardless of round length.
+  </figcaption>
+</figure>
+
+<figure style="margin:1.8em auto; max-width:600px;">
+  <img src="/images/aetherweave/network-vs-baseline.png" alt="Per-round network RX rate vs baseline Ethereum client" style="display:block; width:100%; height:auto; margin:0 auto; border:0;">
+  <figcaption style="margin-top:0.7em; font-size:0.9em; color:#555; text-align:left; line-height:1.45;">
+    Per-round receive bandwidth vs. an idle Prysm node. AetherWeave's traffic profile mirrors the baseline with a small additive offset that grows like $\sqrt{n}$ — the protocol does not impose a qualitatively different traffic shape on the host.
+  </figcaption>
+</figure>
