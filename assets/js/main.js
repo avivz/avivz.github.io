@@ -184,7 +184,8 @@ document.addEventListener('DOMContentLoaded', function () {
     { label: 'B\u2002Talks', page: 'talks.html' },
     { label: 'C\u2002Reception Hours', page: 'counseling.html' },
     { label: 'D\u2002Notes', page: '/notes/' },
-    { label: 'E\u2002Research Projects', page: '/projects/' }
+    { label: 'E\u2002Research Projects', page: '/projects/' },
+    { label: 'F\u2002Photography', page: '/photography/' }
   ];
 
   var currentPage = window.location.pathname.split('/').pop() || 'index.html';

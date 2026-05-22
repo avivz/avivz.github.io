@@ -1,7 +1,76 @@
+- slug: high-rocks
+  title: High Rocks Vista & Delaware Canal
+  location: PA
+  cover: &id001
+    src: DSC_8198.jpg
+    full: /photos/high-rocks/full/DSC_8198.jpg
+    thumb: /photos/high-rocks/thumb/DSC_8198.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-05-15T10:28:50'
+    taken_ts: 1778855330
+  photos:
+  - *id001
+  - src: DSC_8275.jpg
+    full: /photos/high-rocks/full/DSC_8275.jpg
+    thumb: /photos/high-rocks/thumb/DSC_8275.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-05-15T10:32:16'
+    taken_ts: 1778855536
+  - src: DSC_8287.jpg
+    full: /photos/high-rocks/full/DSC_8287.jpg
+    thumb: /photos/high-rocks/thumb/DSC_8287.jpg
+    w: 2400
+    h: 1920
+    tw: 900
+    th: 720
+    taken: '2026-05-15T10:51:28'
+    taken_ts: 1778856688
+  - src: DSC_8608.jpg
+    full: /photos/high-rocks/full/DSC_8608.jpg
+    thumb: /photos/high-rocks/thumb/DSC_8608.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-05-15T13:52:35'
+    taken_ts: 1778867555
+  - src: DSC_8645.jpg
+    full: /photos/high-rocks/full/DSC_8645.jpg
+    thumb: /photos/high-rocks/thumb/DSC_8645.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-05-15T13:55:46'
+    taken_ts: 1778867746
+  - src: DSC_8751.jpg
+    full: /photos/high-rocks/full/DSC_8751.jpg
+    thumb: /photos/high-rocks/thumb/DSC_8751.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-05-15T14:13:23'
+    taken_ts: 1778868803
+  - src: DSC_8860.jpg
+    full: /photos/high-rocks/full/DSC_8860.jpg
+    thumb: /photos/high-rocks/thumb/DSC_8860.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2026-05-15T14:40:56'
+    taken_ts: 1778870456
 - slug: cemetery-fox
   title: Cemetery Fox
   location: Princeton, NJ
-  cover: &id001
+  cover: &id002
     src: DSC_4839.jpg
     full: /photos/cemetery-fox/full/DSC_4839.jpg
     thumb: /photos/cemetery-fox/thumb/DSC_4839.jpg
@@ -12,7 +81,7 @@
     taken: '2026-04-20T09:53:37'
     taken_ts: 1776693217
   photos:
-  - *id001
+  - *id002
   - src: DSC_4981.jpg
     full: /photos/cemetery-fox/full/DSC_4981.jpg
     thumb: /photos/cemetery-fox/thumb/DSC_4981.jpg
@@ -97,7 +166,7 @@
 - slug: fox
   title: Fox
   location: Princeton, NJ
-  cover: &id002
+  cover: &id003
     src: DSC_2061.jpg
     full: /photos/fox/full/DSC_2061.jpg
     thumb: /photos/fox/thumb/DSC_2061.jpg
@@ -108,7 +177,7 @@
     taken: '2026-03-23T10:21:32'
     taken_ts: 1774275692
   photos:
-  - *id002
+  - *id003
   - src: DSC_2062.jpg
     full: /photos/fox/full/DSC_2062.jpg
     thumb: /photos/fox/thumb/DSC_2062.jpg
@@ -175,7 +244,7 @@
 - slug: bombay-hook
   title: Bombay Hook
   location: Smyrna, DE
-  cover: &id003
+  cover: &id004
     src: DSC_3427.jpg
     full: /photos/bombay-hook/full/DSC_3427.jpg
     thumb: /photos/bombay-hook/thumb/DSC_3427.jpg
@@ -186,7 +255,7 @@
     taken: '2026-04-16T09:16:00'
     taken_ts: 1776345360
   photos:
-  - *id003
+  - *id004
   - src: DSC_3434.jpg
     full: /photos/bombay-hook/full/DSC_3434.jpg
     thumb: /photos/bombay-hook/thumb/DSC_3434.jpg
@@ -397,7 +466,7 @@
 - slug: union-lake-osprey
   title: Union Lake Osprey
   location: Millville, NJ
-  cover: &id004
+  cover: &id005
     src: DSC_6780.jpg
     full: /photos/union-lake-osprey/full/DSC_6780.jpg
     thumb: /photos/union-lake-osprey/thumb/DSC_6780.jpg
@@ -408,7 +477,7 @@
     taken: '2026-04-10T08:16:10'
     taken_ts: 1775823370
   photos:
-  - *id004
+  - *id005
   - src: DSC_6839.jpg
     full: /photos/union-lake-osprey/full/DSC_6839.jpg
     thumb: /photos/union-lake-osprey/thumb/DSC_6839.jpg
@@ -610,7 +679,7 @@
 - slug: conowingo-eagles
   title: Conowingo Dam Eagles
   location: Conowingo, MD
-  cover: &id005
+  cover: &id006
     src: DSC_7165.jpg
     full: /photos/conowingo-eagles/full/DSC_7165.jpg
     thumb: /photos/conowingo-eagles/thumb/DSC_7165.jpg
@@ -621,7 +690,7 @@
     taken: '2026-01-13T08:58:37'
     taken_ts: 1768312717
   photos:
-  - *id005
+  - *id006
   - src: DSC_7187.jpg
     full: /photos/conowingo-eagles/full/DSC_7187.jpg
     thumb: /photos/conowingo-eagles/thumb/DSC_7187.jpg
@@ -760,7 +829,7 @@
 - slug: snow
   title: Snow
   location: Princeton, NJ
-  cover: &id006
+  cover: &id007
     src: 2025-12-14 08.42.20.jpg
     full: /photos/snow/full/2025-12-14 08.42.20.jpg
     thumb: /photos/snow/thumb/2025-12-14 08.42.20.jpg
@@ -771,7 +840,7 @@
     taken: '2025-12-14T08:42:20'
     taken_ts: 1765719740
   photos:
-  - *id006
+  - *id007
   - src: 2025-12-14 10.14.20.jpg
     full: /photos/snow/full/2025-12-14 10.14.20.jpg
     thumb: /photos/snow/thumb/2025-12-14 10.14.20.jpg
@@ -1000,7 +1069,7 @@
 - slug: pole-farm
   title: Pole Farm
   location: Mercer Meadows, NJ
-  cover: &id007
+  cover: &id008
     src: DSC_5181.jpg
     full: /photos/pole-farm/full/DSC_5181.jpg
     thumb: /photos/pole-farm/thumb/DSC_5181.jpg
@@ -1011,7 +1080,7 @@
     taken: '2025-11-29T22:54:17'
     taken_ts: 1764474857
   photos:
-  - *id007
+  - *id008
   - src: DSC_5205.jpg
     full: /photos/pole-farm/full/DSC_5205.jpg
     thumb: /photos/pole-farm/thumb/DSC_5205.jpg
@@ -1321,7 +1390,7 @@
 - slug: pole-farm-owl
   title: Pole Farm Owl
   location: Mercer Meadows, NJ
-  cover: &id008
+  cover: &id009
     src: DSC_8190.jpg
     full: /photos/pole-farm-owl/full/DSC_8190.jpg
     thumb: /photos/pole-farm-owl/thumb/DSC_8190.jpg
@@ -1332,7 +1401,7 @@
     taken: '2025-12-18T16:29:16'
     taken_ts: 1766093356
   photos:
-  - *id008
+  - *id009
   - src: DSC_8307.jpg
     full: /photos/pole-farm-owl/full/DSC_8307.jpg
     thumb: /photos/pole-farm-owl/thumb/DSC_8307.jpg
@@ -1354,7 +1423,7 @@
 - slug: pole-farm-mercer
   title: Pole Farm & Mercer Lake
   location: Mercer Meadows, NJ
-  cover: &id009
+  cover: &id010
     src: DSC_3255.jpg
     full: /photos/pole-farm-mercer/full/DSC_3255.jpg
     thumb: /photos/pole-farm-mercer/thumb/DSC_3255.jpg
@@ -1365,7 +1434,7 @@
     taken: '2025-11-22T21:42:12'
     taken_ts: 1763865732
   photos:
-  - *id009
+  - *id010
   - src: DSC_3324.jpg
     full: /photos/pole-farm-mercer/full/DSC_3324.jpg
     thumb: /photos/pole-farm-mercer/thumb/DSC_3324.jpg
@@ -1414,7 +1483,7 @@
 - slug: carnegie-lake
   title: Carnegie Lake
   location: Princeton, NJ
-  cover: &id010
+  cover: &id011
     src: DSC_0849.jpg
     full: /photos/carnegie-lake/full/DSC_0849.jpg
     thumb: /photos/carnegie-lake/thumb/DSC_0849.jpg
@@ -1425,7 +1494,7 @@
     taken: '2025-11-01T11:54:48'
     taken_ts: 1762012488
   photos:
-  - *id010
+  - *id011
   - src: DSC_0895.jpg
     full: /photos/carnegie-lake/full/DSC_0895.jpg
     thumb: /photos/carnegie-lake/thumb/DSC_0895.jpg
@@ -1816,7 +1885,7 @@
 - slug: carnegie-canal-oct
   title: Carnegie Lake & D&R Canal
   location: Princeton, NJ
-  cover: &id011
+  cover: &id012
     src: DSC_0257.jpg
     full: /photos/carnegie-canal-oct/full/DSC_0257.jpg
     thumb: /photos/carnegie-canal-oct/thumb/DSC_0257.jpg
@@ -1827,7 +1896,7 @@
     taken: '2025-11-22T21:40:29'
     taken_ts: 1763865629
   photos:
-  - *id011
+  - *id012
   - src: DSC_0309.jpg
     full: /photos/carnegie-canal-oct/full/DSC_0309.jpg
     thumb: /photos/carnegie-canal-oct/thumb/DSC_0309.jpg
@@ -1876,7 +1945,7 @@
 - slug: backyard-birds-nov
   title: Backyard Birds
   location: Princeton, NJ
-  cover: &id012
+  cover: &id013
     src: DSC_3730.jpg
     full: /photos/backyard-birds-nov/full/DSC_3730.jpg
     thumb: /photos/backyard-birds-nov/thumb/DSC_3730.jpg
@@ -1887,7 +1956,7 @@
     taken: '2025-11-22T21:44:08'
     taken_ts: 1763865848
   photos:
-  - *id012
+  - *id013
   - src: DSC_3788.jpg
     full: /photos/backyard-birds-nov/full/DSC_3788.jpg
     thumb: /photos/backyard-birds-nov/thumb/DSC_3788.jpg
@@ -1972,7 +2041,7 @@
 - slug: cattus-island
   title: Cattus Island Park
   location: Toms River, NJ
-  cover: &id013
+  cover: &id014
     src: DSC_4269.jpg
     full: /photos/cattus-island/full/DSC_4269.jpg
     thumb: /photos/cattus-island/thumb/DSC_4269.jpg
@@ -1983,7 +2052,7 @@
     taken: '2025-11-24T23:05:24'
     taken_ts: 1764043524
   photos:
-  - *id013
+  - *id014
   - src: DSC_4273.jpg
     full: /photos/cattus-island/full/DSC_4273.jpg
     thumb: /photos/cattus-island/thumb/DSC_4273.jpg
@@ -2149,7 +2218,7 @@
 - slug: charles-rogers
   title: Charles H. Rogers Refuge
   location: Princeton, NJ
-  cover: &id014
+  cover: &id015
     src: DSC_2175.jpg
     full: /photos/charles-rogers/full/DSC_2175.jpg
     thumb: /photos/charles-rogers/thumb/DSC_2175.jpg
@@ -2160,7 +2229,7 @@
     taken: '2025-11-08T10:12:56'
     taken_ts: 1762614776
   photos:
-  - *id014
+  - *id015
   - src: DSC_2184.jpg
     full: /photos/charles-rogers/full/DSC_2184.jpg
     thumb: /photos/charles-rogers/thumb/DSC_2184.jpg
@@ -2218,7 +2287,7 @@
 - slug: moon-nov
   title: Moon
   location: null
-  cover: &id015
+  cover: &id016
     src: DSC_2134.jpg
     full: /photos/moon-nov/full/DSC_2134.jpg
     thumb: /photos/moon-nov/thumb/DSC_2134.jpg
@@ -2229,11 +2298,11 @@
     taken: '2025-11-04T20:55:45'
     taken_ts: 1762307745
   photos:
-  - *id015
+  - *id016
 - slug: canal-duke-farms
   title: D&R Canal & Duke Farms
-  location: Hillsborough, NJ
-  cover: &id016
+  location: NJ
+  cover: &id017
     src: DSC_9168.jpg
     full: /photos/canal-duke-farms/full/DSC_9168.jpg
     thumb: /photos/canal-duke-farms/thumb/DSC_9168.jpg
@@ -2244,7 +2313,7 @@
     taken: '2025-10-23T09:47:40'
     taken_ts: 1761227260
   photos:
-  - *id016
+  - *id017
   - src: DSC_9180.jpg
     full: /photos/canal-duke-farms/full/DSC_9180.jpg
     thumb: /photos/canal-duke-farms/thumb/DSC_9180.jpg
@@ -2399,9 +2468,9 @@
     taken: '2025-10-25T12:43:35'
     taken_ts: 1761410615
 - slug: princeton-tigers
-  title: Princeton Tigers
+  title: Princeton Tigers and Grotesques
   location: Princeton, NJ
-  cover: &id017
+  cover: &id018
     src: DSC_8546.jpg
     full: /photos/princeton-tigers/full/DSC_8546.jpg
     thumb: /photos/princeton-tigers/thumb/DSC_8546.jpg
@@ -2412,7 +2481,7 @@
     taken: '2025-10-17T18:57:11'
     taken_ts: 1760741831
   photos:
-  - *id017
+  - *id018
   - src: DSC_8566.jpg
     full: /photos/princeton-tigers/full/DSC_8566.jpg
     thumb: /photos/princeton-tigers/thumb/DSC_8566.jpg
@@ -2731,7 +2800,7 @@
 - slug: florida
   title: Florida
   location: null
-  cover: &id018
+  cover: &id019
     src: DSC_8887.jpg
     full: /photos/florida/full/DSC_8887.jpg
     thumb: /photos/florida/thumb/DSC_8887.jpg
@@ -2742,7 +2811,7 @@
     taken: '2025-12-25T12:34:11'
     taken_ts: 1766684051
   photos:
-  - *id018
+  - *id019
   - src: DSC_8891.jpg
     full: /photos/florida/full/DSC_8891.jpg
     thumb: /photos/florida/thumb/DSC_8891.jpg
@@ -3502,7 +3571,7 @@
 - slug: fall-2025
   title: Fall
   location: Princeton, NJ
-  cover: &id019
+  cover: &id020
     src: 20251005_115243.jpg
     full: /photos/fall-2025/full/20251005_115243.jpg
     thumb: /photos/fall-2025/thumb/20251005_115243.jpg
@@ -3513,7 +3582,7 @@
     taken: '2025-10-05T11:52:43'
     taken_ts: 1759679563
   photos:
-  - *id019
+  - *id020
   - src: 20251005_115438.jpg
     full: /photos/fall-2025/full/20251005_115438.jpg
     thumb: /photos/fall-2025/thumb/20251005_115438.jpg
@@ -3652,7 +3721,7 @@
 - slug: june-birdfeeder
   title: Bird Feeder
   location: Princeton, NJ
-  cover: &id020
+  cover: &id021
     src: DSC_7332.jpg
     full: /photos/june-birdfeeder/full/DSC_7332.jpg
     thumb: /photos/june-birdfeeder/thumb/DSC_7332.jpg
@@ -3663,7 +3732,7 @@
     taken: '2025-06-19T17:04:34'
     taken_ts: 1750367074
   photos:
-  - *id020
+  - *id021
   - src: DSC_7417.jpg
     full: /photos/june-birdfeeder/full/DSC_7417.jpg
     thumb: /photos/june-birdfeeder/thumb/DSC_7417.jpg
@@ -3730,7 +3799,7 @@
 - slug: watershed-institute
   title: Watershed Institute
   location: Pennington, NJ
-  cover: &id021
+  cover: &id022
     src: DSC_7618.jpg
     full: /photos/watershed-institute/full/DSC_7618.jpg
     thumb: /photos/watershed-institute/thumb/DSC_7618.jpg
@@ -3741,7 +3810,7 @@
     taken: '2025-06-20T19:33:58'
     taken_ts: 1750462438
   photos:
-  - *id021
+  - *id022
   - src: DSC_7629.jpg
     full: /photos/watershed-institute/full/DSC_7629.jpg
     thumb: /photos/watershed-institute/thumb/DSC_7629.jpg
@@ -3844,7 +3913,7 @@
 - slug: spring-2025
   title: Spring
   location: Princeton, NJ
-  cover: &id022
+  cover: &id023
     src: 2025-04-05 16.26.07.jpg
     full: /photos/spring-2025/full/2025-04-05 16.26.07.jpg
     thumb: /photos/spring-2025/thumb/2025-04-05 16.26.07.jpg
@@ -3855,7 +3924,7 @@
     taken: '2025-04-05T16:26:07'
     taken_ts: 1743884767
   photos:
-  - *id022
+  - *id023
   - src: 2025-04-05 16.26.27.jpg
     full: /photos/spring-2025/full/2025-04-05 16.26.27.jpg
     thumb: /photos/spring-2025/thumb/2025-04-05 16.26.27.jpg
@@ -3886,7 +3955,7 @@
 - slug: backyard-critters
   title: Backyard Critters
   location: Princeton, NJ
-  cover: &id023
+  cover: &id024
     src: DSC_5415.jpg
     full: /photos/backyard-critters/full/DSC_5415.jpg
     thumb: /photos/backyard-critters/thumb/DSC_5415.jpg
@@ -3897,7 +3966,7 @@
     taken: '2024-09-08T01:41:17'
     taken_ts: 1725774077
   photos:
-  - *id023
+  - *id024
   - src: DSC_1256.jpg
     full: /photos/backyard-critters/full/DSC_1256.jpg
     thumb: /photos/backyard-critters/thumb/DSC_1256.jpg
@@ -3910,7 +3979,7 @@
 - slug: gazelle-valley
   title: Gazelle Valley
   location: Jerusalem
-  cover: &id024
+  cover: &id025
     src: DSC_8492.jpg
     full: /photos/gazelle-valley/full/DSC_8492.jpg
     thumb: /photos/gazelle-valley/thumb/DSC_8492.jpg
@@ -3921,7 +3990,7 @@
     taken: '2019-05-17T21:10:18'
     taken_ts: 1558141818
   photos:
-  - *id024
+  - *id025
   - src: DSC_8494.jpg
     full: /photos/gazelle-valley/full/DSC_8494.jpg
     thumb: /photos/gazelle-valley/thumb/DSC_8494.jpg

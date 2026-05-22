@@ -31,6 +31,11 @@ source_dir: /mnt/c/Dropbox/PersonalArchive/SelectedPhotography
 
 galleries:
   # ---- 2026 ----
+  - slug: high-rocks
+    dir: 2026_05_HighRocksVista_DelawareCanal
+    title: High Rocks Vista & Delaware Canal
+    location: PA
+
   - slug: cemetery-fox
     dir: 2026_04_CemeteryFox
     title: Cemetery Fox
@@ -124,11 +129,11 @@ galleries:
   - slug: canal-duke-farms
     dir: "Oct_2025_D&R_Canal_and_Duke_Farms"
     title: D&R Canal & Duke Farms
-    location: Hillsborough, NJ
+    location: NJ
 
   - slug: princeton-tigers
     dir: Oct_2025_Princeton_Tigers
-    title: Princeton Tigers
+    title: Princeton Tigers and Grotesques
     location: Princeton, NJ
 
   # ---- Earlier 2025 ----
