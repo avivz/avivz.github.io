@@ -17,4 +17,4 @@ jobs:
         with:
           root: .
           css: false
-          blacklist: _layouts _posts notes projects
+          blacklist: _layouts _posts notes projects photography

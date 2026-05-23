@@ -70,7 +70,7 @@ Ink elements inside `.fade-in` containers animate on scroll via IntersectionObse
 Always run HTML validation locally before committing and before pushing:
 
 ```sh
-html5validator --root . --match "*.html" --blacklist _layouts _posts notes projects
+html5validator --root . --match "*.html" --blacklist _layouts _posts notes projects photography
 ```
 
 Validate **all** HTML files, not just the one being edited. This is also enforced in CI via `.github/workflows/validate.yml`.
@@ -91,7 +91,7 @@ The site has a Jekyll layer for blog posts and research project pages, separate 
 - **`notes/index.html`** — Blog listing page (Jekyll frontmatter)
 - **`projects/index.html`** — Projects listing page (Jekyll frontmatter)
 
-Notes/projects pages use the same typography (Computer Modern, Caveat) but a simpler layout via `notes.css`. They include MathJax 3 (tex-svg) for math rendering. Files under `notes/` and `projects/` are excluded from HTML validation (they contain Liquid templates).
+Notes/projects pages use the same typography (Computer Modern, Caveat) but a simpler layout via `notes.css`. They include MathJax 3 (tex-svg) for math rendering. Files under `notes/`, `projects/`, and `photography/` are excluded from HTML validation (they contain Liquid templates).
 
 ## Key Files
 
