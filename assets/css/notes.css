@@ -866,7 +866,14 @@ body.layout-gallery .page-footer {
   .gallery-grid { --row-h: 180px; --min-per-row: 2; }
 }
 @media (max-width: 560px) {
-  .gallery-grid { --row-h: 140px; --min-per-row: 1; }
+  .gallery-grid { flex-direction: column; }
+  .gallery-grid::after { display: none; }
+  .gallery-item {
+    flex: none;
+    width: 100%;
+    height: auto;
+    aspect-ratio: var(--w) / var(--h);
+  }
 }
 
 /* ===== Responsive ===== */
