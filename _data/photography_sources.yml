@@ -161,6 +161,11 @@ galleries:
     title: Spring
     location: Princeton, NJ
 
+  - slug: grand-canyon
+    dir: 2025_04_GrandCanyonTrip
+    title: Grand Canyon
+    location: Arizona
+
   - slug: backyard-critters
     dir: 2025_Backyard_Critters
     title: Backyard Critters

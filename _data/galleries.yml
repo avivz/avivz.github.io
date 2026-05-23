@@ -3952,10 +3952,178 @@
     th: 675
     taken: '2025-04-05T16:26:49'
     taken_ts: 1743884809
+- slug: grand-canyon
+  title: Grand Canyon
+  location: Arizona
+  cover: &id024
+    src: DSC_9080.jpg
+    full: /photos/grand-canyon/full/DSC_9080.jpg
+    thumb: /photos/grand-canyon/thumb/DSC_9080.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-04-11T03:55:21'
+    taken_ts: 1744358121
+  photos:
+  - *id024
+  - src: DSC_9081.jpg
+    full: /photos/grand-canyon/full/DSC_9081.jpg
+    thumb: /photos/grand-canyon/thumb/DSC_9081.jpg
+    w: 2400
+    h: 2400
+    tw: 900
+    th: 900
+    taken: '2025-04-11T03:55:45'
+    taken_ts: 1744358145
+  - src: DSC_9165.jpg
+    full: /photos/grand-canyon/full/DSC_9165.jpg
+    thumb: /photos/grand-canyon/thumb/DSC_9165.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-04-11T04:45:56'
+    taken_ts: 1744361156
+  - src: DSC_9176.jpg
+    full: /photos/grand-canyon/full/DSC_9176.jpg
+    thumb: /photos/grand-canyon/thumb/DSC_9176.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-04-11T04:58:19'
+    taken_ts: 1744361899
+  - src: DSC_9344.jpg
+    full: /photos/grand-canyon/full/DSC_9344.jpg
+    thumb: /photos/grand-canyon/thumb/DSC_9344.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-04-12T00:57:19'
+    taken_ts: 1744433839
+  - src: DSC_9349.jpg
+    full: /photos/grand-canyon/full/DSC_9349.jpg
+    thumb: /photos/grand-canyon/thumb/DSC_9349.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-04-12T00:58:35'
+    taken_ts: 1744433915
+  - src: DSC_9362.jpg
+    full: /photos/grand-canyon/full/DSC_9362.jpg
+    thumb: /photos/grand-canyon/thumb/DSC_9362.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-04-12T01:03:31'
+    taken_ts: 1744434211
+  - src: DSC_9377.jpg
+    full: /photos/grand-canyon/full/DSC_9377.jpg
+    thumb: /photos/grand-canyon/thumb/DSC_9377.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-04-12T01:09:36'
+    taken_ts: 1744434576
+  - src: DSC_9381.jpg
+    full: /photos/grand-canyon/full/DSC_9381.jpg
+    thumb: /photos/grand-canyon/thumb/DSC_9381.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-04-12T01:12:46'
+    taken_ts: 1744434766
+  - src: DSC_9424.jpg
+    full: /photos/grand-canyon/full/DSC_9424.jpg
+    thumb: /photos/grand-canyon/thumb/DSC_9424.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-04-12T01:26:30'
+    taken_ts: 1744435590
+  - src: DSC_9452.jpg
+    full: /photos/grand-canyon/full/DSC_9452.jpg
+    thumb: /photos/grand-canyon/thumb/DSC_9452.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-04-12T02:41:20'
+    taken_ts: 1744440080
+  - src: DSC_9511.jpg
+    full: /photos/grand-canyon/full/DSC_9511.jpg
+    thumb: /photos/grand-canyon/thumb/DSC_9511.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-04-12T23:51:36'
+    taken_ts: 1744516296
+  - src: DSC_9814.jpg
+    full: /photos/grand-canyon/full/DSC_9814.jpg
+    thumb: /photos/grand-canyon/thumb/DSC_9814.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-04-14T21:48:43'
+    taken_ts: 1744681723
+  - src: DSC_9886.jpg
+    full: /photos/grand-canyon/full/DSC_9886.jpg
+    thumb: /photos/grand-canyon/thumb/DSC_9886.jpg
+    w: 2400
+    h: 1920
+    tw: 900
+    th: 720
+    taken: '2025-04-14T21:58:21'
+    taken_ts: 1744682301
+  - src: DSC_9973.jpg
+    full: /photos/grand-canyon/full/DSC_9973.jpg
+    thumb: /photos/grand-canyon/thumb/DSC_9973.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-04-14T23:45:32'
+    taken_ts: 1744688732
+  - src: DSC_0012.jpg
+    full: /photos/grand-canyon/full/DSC_0012.jpg
+    thumb: /photos/grand-canyon/thumb/DSC_0012.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-04-14T23:46:49'
+    taken_ts: 1744688809
+  - src: DSC_0046.jpg
+    full: /photos/grand-canyon/full/DSC_0046.jpg
+    thumb: /photos/grand-canyon/thumb/DSC_0046.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-04-14T23:51:07'
+    taken_ts: 1744689067
+  - src: DSC_0066.jpg
+    full: /photos/grand-canyon/full/DSC_0066.jpg
+    thumb: /photos/grand-canyon/thumb/DSC_0066.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-04-15T00:03:38'
+    taken_ts: 1744689818
 - slug: backyard-critters
   title: Backyard Critters
   location: Princeton, NJ
-  cover: &id024
+  cover: &id025
     src: DSC_5415.jpg
     full: /photos/backyard-critters/full/DSC_5415.jpg
     thumb: /photos/backyard-critters/thumb/DSC_5415.jpg
@@ -3966,7 +4134,7 @@
     taken: '2024-09-08T01:41:17'
     taken_ts: 1725774077
   photos:
-  - *id024
+  - *id025
   - src: DSC_1256.jpg
     full: /photos/backyard-critters/full/DSC_1256.jpg
     thumb: /photos/backyard-critters/thumb/DSC_1256.jpg
@@ -3979,7 +4147,7 @@
 - slug: gazelle-valley
   title: Gazelle Valley
   location: Jerusalem
-  cover: &id025
+  cover: &id026
     src: DSC_8492.jpg
     full: /photos/gazelle-valley/full/DSC_8492.jpg
     thumb: /photos/gazelle-valley/thumb/DSC_8492.jpg
@@ -3990,7 +4158,7 @@
     taken: '2019-05-17T21:10:18'
     taken_ts: 1558141818
   photos:
-  - *id025
+  - *id026
   - src: DSC_8494.jpg
     full: /photos/gazelle-valley/full/DSC_8494.jpg
     thumb: /photos/gazelle-valley/thumb/DSC_8494.jpg

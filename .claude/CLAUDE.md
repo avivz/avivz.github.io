@@ -93,6 +93,38 @@ The site has a Jekyll layer for blog posts and research project pages, separate 
 
 Notes/projects pages use the same typography (Computer Modern, Caveat) but a simpler layout via `notes.css`. They include MathJax 3 (tex-svg) for math rendering. Files under `notes/`, `projects/`, and `photography/` are excluded from HTML validation (they contain Liquid templates).
 
+## Photography Galleries
+
+Photo galleries under `/photography/` are driven by `scripts/build_galleries.py`. Source JPEGs live outside the repo (Dropbox: `/mnt/c/Dropbox/PersonalArchive/SelectedPhotography/`); the script resizes them, extracts EXIF dates, and writes the manifest Jekyll consumes.
+
+### Adding a new gallery
+
+1. **Drop photos** into a new subdir under `/mnt/c/Dropbox/PersonalArchive/SelectedPhotography/`.
+2. **Add an entry** to `_data/photography_sources.yml`:
+   ```yaml
+   - slug: my-shoot              # required, becomes /photography/<slug>/
+     dir: 2026_05_MyShoot        # required, source subdir name (or list of dirs to merge)
+     title: My Shoot             # required
+     location: Somewhere, NJ     # optional, shown in lightbox caption
+     thumb: DSC_1234.jpg         # optional, cover thumbnail (defaults to first photo)
+     exclude:                    # optional, filenames to skip
+       - DSC_9999.jpg
+   ```
+3. **Build**: `uv run scripts/build_galleries.py` (or `--only <slug>` to limit). PEP 723 inline deps — `uv` installs Pillow + PyYAML automatically. Reruns are incremental (mtime-based skip).
+4. **Commit** the generated files: `_data/galleries.yml`, `photos/<slug>/`, and the stub `photography/<slug>.html`. `_data/photography_sources.yml` is the only file you hand-edit.
+
+### Key files
+
+- **`_data/photography_sources.yml`** — source-of-truth config (edit this)
+- **`_data/galleries.yml`** — generated manifest (do not edit)
+- **`scripts/build_galleries.py`** — resizer + manifest generator
+- **`scripts/README.md`** — full reference (cover override, exclusions, merged dirs, footprint, etc.)
+- **`_layouts/photography.html`** — gallery index card grid
+- **`_layouts/gallery.html`** — single gallery page (PhotoSwipe lightbox)
+- **`photos/<slug>/{full,thumb}/`** — generated, committed (full = 2400px long edge, thumb = 900px)
+
+Gallery ordering on the index follows entry order in `photography_sources.yml`.
+
 ## Key Files
 
 - **`index.html`** — Homepage: bio, selected papers (newest-first), margin annotations
