@@ -31,6 +31,11 @@ source_dir: /mnt/c/Dropbox/PersonalArchive/SelectedPhotography
 
 galleries:
   # ---- 2026 ----
+  - slug: bombay-hook-may
+    dir: 2026_05_BombayHook
+    title: Bombay Hook (May)
+    location: Smyrna, DE
+
   - slug: high-rocks
     dir: 2026_05_HighRocksVista_DelawareCanal
     title: High Rocks Vista & Delaware Canal
