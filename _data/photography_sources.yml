@@ -62,6 +62,13 @@ galleries:
     dir: 2026_04_Union_Lake_Dam_Osprey
     title: Union Lake Osprey
     location: Millville, NJ
+    thumb: DSC_8214.jpg
+
+  - slug: union-lake-osprey-2
+    dir: 2026_04_Osprey2
+    title: Union Lake Osprey II
+    location: Millville, NJ
+    thumb: DSC_1503.jpg
 
   - slug: conowingo-eagles
     dir: 2026_1_ConowingoDamEagles
