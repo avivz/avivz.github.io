@@ -168,6 +168,12 @@ galleries:
     title: Watershed Institute
     location: Pennington, NJ
 
+  - slug: west-coast-trip
+    dir: July_2025_WestCoastTrip
+    title: West Coast Trip
+    location: Yellowstone, Tetons, Seattle & California
+    thumb: DSC_8333.jpg
+
   - slug: spring-2025
     dir: Spring_2025_photos
     title: Spring

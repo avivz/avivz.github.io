@@ -4408,10 +4408,583 @@
     th: 599
     taken: '2025-06-20T21:11:11'
     taken_ts: 1750468271
+- slug: west-coast-trip
+  title: West Coast Trip
+  location: Yellowstone, Tetons, Seattle & California
+  cover: &id025
+    src: DSC_8333.jpg
+    full: /photos/west-coast-trip/full/DSC_8333.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_8333.jpg
+    w: 2400
+    h: 1920
+    tw: 900
+    th: 720
+    taken: '2025-06-28T00:03:32'
+    taken_ts: 1751083412
+  photos:
+  - src: DSC_8232.jpg
+    full: /photos/west-coast-trip/full/DSC_8232.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_8232.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-06-27T23:53:48'
+    taken_ts: 1751082828
+  - src: DSC_8236.jpg
+    full: /photos/west-coast-trip/full/DSC_8236.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_8236.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-06-27T23:54:14'
+    taken_ts: 1751082854
+  - src: DSC_8268.jpg
+    full: /photos/west-coast-trip/full/DSC_8268.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_8268.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-06-27T23:57:41'
+    taken_ts: 1751083061
+  - src: DSC_8290.jpg
+    full: /photos/west-coast-trip/full/DSC_8290.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_8290.jpg
+    w: 2400
+    h: 1920
+    tw: 900
+    th: 720
+    taken: '2025-06-27T23:58:58'
+    taken_ts: 1751083138
+  - src: DSC_8319.jpg
+    full: /photos/west-coast-trip/full/DSC_8319.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_8319.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-06-28T00:01:58'
+    taken_ts: 1751083318
+  - *id025
+  - src: DSC_8687.jpg
+    full: /photos/west-coast-trip/full/DSC_8687.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_8687.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-06-28T18:59:53'
+    taken_ts: 1751151593
+  - src: DSC_8703.jpg
+    full: /photos/west-coast-trip/full/DSC_8703.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_8703.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-06-28T19:04:09'
+    taken_ts: 1751151849
+  - src: DSC_8976.jpg
+    full: /photos/west-coast-trip/full/DSC_8976.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_8976.jpg
+    w: 2244
+    h: 2244
+    tw: 900
+    th: 900
+    taken: '2025-06-28T22:44:14'
+    taken_ts: 1751165054
+  - src: DSC_9008.jpg
+    full: /photos/west-coast-trip/full/DSC_9008.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_9008.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-06-28T23:25:27'
+    taken_ts: 1751167527
+  - src: DSC_9043.jpg
+    full: /photos/west-coast-trip/full/DSC_9043.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_9043.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-06-29T00:25:59'
+    taken_ts: 1751171159
+  - src: DSC_9117.jpg
+    full: /photos/west-coast-trip/full/DSC_9117.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_9117.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-06-29T00:30:46'
+    taken_ts: 1751171446
+  - src: DSC_9223.jpg
+    full: /photos/west-coast-trip/full/DSC_9223.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_9223.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-06-29T01:27:42'
+    taken_ts: 1751174862
+  - src: DSC_9440.jpg
+    full: /photos/west-coast-trip/full/DSC_9440.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_9440.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-06-29T02:57:28'
+    taken_ts: 1751180248
+  - src: DSC_9685.jpg
+    full: /photos/west-coast-trip/full/DSC_9685.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_9685.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-06-29T08:54:20'
+    taken_ts: 1751201660
+  - src: DSC_9715.jpg
+    full: /photos/west-coast-trip/full/DSC_9715.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_9715.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-06-29T19:02:24'
+    taken_ts: 1751238144
+  - src: DSC_9806.jpg
+    full: /photos/west-coast-trip/full/DSC_9806.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_9806.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-06-29T20:49:12'
+    taken_ts: 1751244552
+  - src: DSC_9879.jpg
+    full: /photos/west-coast-trip/full/DSC_9879.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_9879.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-06-29T20:51:53'
+    taken_ts: 1751244713
+  - src: DSC_9893.jpg
+    full: /photos/west-coast-trip/full/DSC_9893.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_9893.jpg
+    w: 2400
+    h: 1920
+    tw: 900
+    th: 720
+    taken: '2025-06-29T21:11:30'
+    taken_ts: 1751245890
+  - src: DSC_9895.jpg
+    full: /photos/west-coast-trip/full/DSC_9895.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_9895.jpg
+    w: 2400
+    h: 1920
+    tw: 900
+    th: 720
+    taken: '2025-06-29T21:11:47'
+    taken_ts: 1751245907
+  - src: DSC_0677.jpg
+    full: /photos/west-coast-trip/full/DSC_0677.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_0677.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-06-30T19:32:05'
+    taken_ts: 1751326325
+  - src: DSC_0685.jpg
+    full: /photos/west-coast-trip/full/DSC_0685.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_0685.jpg
+    w: 2400
+    h: 1920
+    tw: 900
+    th: 720
+    taken: '2025-06-30T19:33:16'
+    taken_ts: 1751326396
+  - src: DSC_0692.jpg
+    full: /photos/west-coast-trip/full/DSC_0692.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_0692.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-06-30T19:35:45'
+    taken_ts: 1751326545
+  - src: DSC_0724.jpg
+    full: /photos/west-coast-trip/full/DSC_0724.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_0724.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-06-30T19:54:17'
+    taken_ts: 1751327657
+  - src: DSC_0751.jpg
+    full: /photos/west-coast-trip/full/DSC_0751.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_0751.jpg
+    w: 2400
+    h: 1920
+    tw: 900
+    th: 720
+    taken: '2025-06-30T19:56:38'
+    taken_ts: 1751327798
+  - src: DSC_1096.jpg
+    full: /photos/west-coast-trip/full/DSC_1096.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_1096.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-01T04:43:38'
+    taken_ts: 1751359418
+  - src: DSC_1132.jpg
+    full: /photos/west-coast-trip/full/DSC_1132.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_1132.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-01T04:45:29'
+    taken_ts: 1751359529
+  - src: DSC_1235.jpg
+    full: /photos/west-coast-trip/full/DSC_1235.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_1235.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-01T05:14:57'
+    taken_ts: 1751361297
+  - src: DSC_1345.jpg
+    full: /photos/west-coast-trip/full/DSC_1345.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_1345.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-02T01:51:31'
+    taken_ts: 1751435491
+  - src: DSC_1362.jpg
+    full: /photos/west-coast-trip/full/DSC_1362.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_1362.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-02T01:51:50'
+    taken_ts: 1751435510
+  - src: DSC_1443.jpg
+    full: /photos/west-coast-trip/full/DSC_1443.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_1443.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-02T02:06:03'
+    taken_ts: 1751436363
+  - src: DSC_1488.jpg
+    full: /photos/west-coast-trip/full/DSC_1488.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_1488.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-02T03:14:39'
+    taken_ts: 1751440479
+  - src: DSC_1509.jpg
+    full: /photos/west-coast-trip/full/DSC_1509.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_1509.jpg
+    w: 2400
+    h: 1920
+    tw: 900
+    th: 720
+    taken: '2025-07-02T03:35:25'
+    taken_ts: 1751441725
+  - src: DSC_1554.jpg
+    full: /photos/west-coast-trip/full/DSC_1554.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_1554.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-02T04:07:47'
+    taken_ts: 1751443667
+  - src: DSC_1684.jpg
+    full: /photos/west-coast-trip/full/DSC_1684.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_1684.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-02T20:30:56'
+    taken_ts: 1751502656
+  - src: DSC_2708.jpg
+    full: /photos/west-coast-trip/full/DSC_2708.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_2708.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-05T07:58:21'
+    taken_ts: 1751716701
+  - src: DSC_2736.jpg
+    full: /photos/west-coast-trip/full/DSC_2736.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_2736.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-05T08:06:18'
+    taken_ts: 1751717178
+  - src: DSC_2749.jpg
+    full: /photos/west-coast-trip/full/DSC_2749.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_2749.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-05T08:09:50'
+    taken_ts: 1751717390
+  - src: DSC_2767.jpg
+    full: /photos/west-coast-trip/full/DSC_2767.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_2767.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-05T21:26:24'
+    taken_ts: 1751765184
+  - src: DSC_2777.jpg
+    full: /photos/west-coast-trip/full/DSC_2777.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_2777.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-05T21:29:27'
+    taken_ts: 1751765367
+  - src: DSC_2791.jpg
+    full: /photos/west-coast-trip/full/DSC_2791.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_2791.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-05T21:31:47'
+    taken_ts: 1751765507
+  - src: DSC_2793.jpg
+    full: /photos/west-coast-trip/full/DSC_2793.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_2793.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-05T21:32:31'
+    taken_ts: 1751765551
+  - src: DSC_2799.jpg
+    full: /photos/west-coast-trip/full/DSC_2799.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_2799.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-05T21:33:37'
+    taken_ts: 1751765617
+  - src: DSC_2808.jpg
+    full: /photos/west-coast-trip/full/DSC_2808.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_2808.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-05T21:38:38'
+    taken_ts: 1751765918
+  - src: DSC_2814.jpg
+    full: /photos/west-coast-trip/full/DSC_2814.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_2814.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-05T21:40:01'
+    taken_ts: 1751766001
+  - src: DSC_2820.jpg
+    full: /photos/west-coast-trip/full/DSC_2820.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_2820.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-05T21:41:15'
+    taken_ts: 1751766075
+  - src: DSC_2825.jpg
+    full: /photos/west-coast-trip/full/DSC_2825.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_2825.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-05T21:43:52'
+    taken_ts: 1751766232
+  - src: DSC_2839.jpg
+    full: /photos/west-coast-trip/full/DSC_2839.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_2839.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-05T21:49:48'
+    taken_ts: 1751766588
+  - src: DSC_3215.jpg
+    full: /photos/west-coast-trip/full/DSC_3215.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_3215.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-10T03:37:42'
+    taken_ts: 1752133062
+  - src: DSC_3416.jpg
+    full: /photos/west-coast-trip/full/DSC_3416.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_3416.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-10T22:27:52'
+    taken_ts: 1752200872
+  - src: DSC_3489.jpg
+    full: /photos/west-coast-trip/full/DSC_3489.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_3489.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-10T22:57:44'
+    taken_ts: 1752202664
+  - src: DSC_4112.jpg
+    full: /photos/west-coast-trip/full/DSC_4112.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_4112.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-14T22:10:45'
+    taken_ts: 1752545445
+  - src: DSC_4151.jpg
+    full: /photos/west-coast-trip/full/DSC_4151.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_4151.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-14T22:23:40'
+    taken_ts: 1752546220
+  - src: DSC_4162.jpg
+    full: /photos/west-coast-trip/full/DSC_4162.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_4162.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-14T22:23:59'
+    taken_ts: 1752546239
+  - src: DSC_4248.jpg
+    full: /photos/west-coast-trip/full/DSC_4248.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_4248.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-14T23:36:22'
+    taken_ts: 1752550582
+  - src: DSC_4306.jpg
+    full: /photos/west-coast-trip/full/DSC_4306.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_4306.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-15T00:40:41'
+    taken_ts: 1752554441
+  - src: DSC_4343.jpg
+    full: /photos/west-coast-trip/full/DSC_4343.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_4343.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-15T00:47:47'
+    taken_ts: 1752554867
+  - src: DSC_4410.jpg
+    full: /photos/west-coast-trip/full/DSC_4410.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_4410.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-15T00:58:54'
+    taken_ts: 1752555534
+  - src: DSC_4426.jpg
+    full: /photos/west-coast-trip/full/DSC_4426.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_4426.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-15T01:00:01'
+    taken_ts: 1752555601
+  - src: DSC_4448.jpg
+    full: /photos/west-coast-trip/full/DSC_4448.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_4448.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-15T01:02:24'
+    taken_ts: 1752555744
+  - src: DSC_4568.jpg
+    full: /photos/west-coast-trip/full/DSC_4568.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_4568.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-15T01:54:15'
+    taken_ts: 1752558855
+  - src: DSC_4770.jpg
+    full: /photos/west-coast-trip/full/DSC_4770.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_4770.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-15T02:32:54'
+    taken_ts: 1752561174
+  - src: DSC_4836.jpg
+    full: /photos/west-coast-trip/full/DSC_4836.jpg
+    thumb: /photos/west-coast-trip/thumb/DSC_4836.jpg
+    w: 2400
+    h: 1600
+    tw: 900
+    th: 600
+    taken: '2025-07-15T02:36:32'
+    taken_ts: 1752561392
 - slug: spring-2025
   title: Spring
   location: Princeton, NJ
-  cover: &id025
+  cover: &id026
     src: 2025-04-05 16.26.07.jpg
     full: /photos/spring-2025/full/2025-04-05 16.26.07.jpg
     thumb: /photos/spring-2025/thumb/2025-04-05 16.26.07.jpg
@@ -4422,7 +4995,7 @@
     taken: '2025-04-05T16:26:07'
     taken_ts: 1743884767
   photos:
-  - *id025
+  - *id026
   - src: 2025-04-05 16.26.27.jpg
     full: /photos/spring-2025/full/2025-04-05 16.26.27.jpg
     thumb: /photos/spring-2025/thumb/2025-04-05 16.26.27.jpg
@@ -4453,7 +5026,7 @@
 - slug: canyons
   title: Canyons
   location: Arizona, Utah, Nevada
-  cover: &id026
+  cover: &id027
     src: DSC_9080.jpg
     full: /photos/canyons/full/DSC_9080.jpg
     thumb: /photos/canyons/thumb/DSC_9080.jpg
@@ -4464,7 +5037,7 @@
     taken: '2025-04-11T03:55:21'
     taken_ts: 1744358121
   photos:
-  - *id026
+  - *id027
   - src: DSC_9081.jpg
     full: /photos/canyons/full/DSC_9081.jpg
     thumb: /photos/canyons/thumb/DSC_9081.jpg
@@ -4621,7 +5194,7 @@
 - slug: backyard-critters
   title: Backyard Critters
   location: Princeton, NJ
-  cover: &id027
+  cover: &id028
     src: DSC_5415.jpg
     full: /photos/backyard-critters/full/DSC_5415.jpg
     thumb: /photos/backyard-critters/thumb/DSC_5415.jpg
@@ -4632,7 +5205,7 @@
     taken: '2024-09-08T01:41:17'
     taken_ts: 1725774077
   photos:
-  - *id027
+  - *id028
   - src: DSC_1256.jpg
     full: /photos/backyard-critters/full/DSC_1256.jpg
     thumb: /photos/backyard-critters/thumb/DSC_1256.jpg
@@ -4645,7 +5218,7 @@
 - slug: gazelle-valley
   title: Gazelle Valley
   location: Jerusalem
-  cover: &id028
+  cover: &id029
     src: DSC_8492.jpg
     full: /photos/gazelle-valley/full/DSC_8492.jpg
     thumb: /photos/gazelle-valley/thumb/DSC_8492.jpg
@@ -4656,7 +5229,7 @@
     taken: '2019-05-17T21:10:18'
     taken_ts: 1558141818
   photos:
-  - *id028
+  - *id029
   - src: DSC_8494.jpg
     full: /photos/gazelle-valley/full/DSC_8494.jpg
     thumb: /photos/gazelle-valley/thumb/DSC_8494.jpg
