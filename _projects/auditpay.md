@@ -4,6 +4,7 @@ title: "AuditPay"
 subtitle: "Anonymous payments with a bounded, hidden audit"
 collaborators:
   - name: Elkana Tovey
+    url: https://elkanatovey.github.io
   - name: Yossi Gilad
     url: https://www.cs.huji.ac.il/~yossigi/
   - name: Aviv Zohar
