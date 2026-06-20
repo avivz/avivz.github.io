@@ -49,7 +49,7 @@ Edit one slide's narration, rebuild, and only that slide's audio gets re-synthes
 Here's an example — a presentation about the Basel Problem, built in conversation with Claude and compiled by SlideSonnet:
 
 <div class="video-embed">
-<iframe src="https://www.youtube.com/embed/IkzeCoDuU5o" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/pjjHS9vhjpk" allowfullscreen></iframe>
 </div>
 
 ## My entry into vibe coding
