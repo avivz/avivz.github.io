@@ -9,7 +9,7 @@ authors:
 tags: [LLMs, tools, slidesonnet]
 ---
 
-I vibe-coded a tool that compiles Markdown slides into narrated lecture videos. Along the way I ran into some interesting questions — about flipped classrooms, AI voices, and fact-checking generated content. Here are some of my thoughts.
+I vibe-coded a tool that turns a finished slide deck into a narrated lecture video — keeping the spoken script in plain text you can edit and version-control alongside the slides. Along the way I ran into some interesting questions — about flipped classrooms, AI voices, and fact-checking generated content. Here are some of my thoughts.
 
 ## Why lectures need to change
 
@@ -29,22 +29,20 @@ What I wanted was something more like compiling code: text in, video out. Edit t
 
 ## Enter SlideSonnet
 
-[SlideSonnet](https://github.com/avivz/slideSonnet) is the tool I built for this. You write your slides in [MARP](https://marp.app/) Markdown or LaTeX Beamer, add narration as comments in the source, and run a build command. Out comes an MP4 with synthesized speech, timed to each slide, with subtitles.
+[SlideSonnet](https://github.com/avivz/slideSonnet) is the tool I built for this. It inverts the usual flow: your slides stay a frozen PDF (I compile mine from LaTeX Beamer), and the narration lives in a separate plain-text *sidecar* file, keyed to each slide by a stable id. Run a build command and out comes an MP4 with synthesized speech, timed to each slide, with subtitles.
 
-The narration lives right next to the content it describes:
+The narration is a git-diffable file — one block per slide:
 
-```markdown
-# Euler's Theorem
-
-Every connected graph has an Eulerian circuit
-if and only if every vertex has even degree.
-
-<!-- say: This is one of the oldest results in
-     graph theory. Euler proved it in 1736, motivated
-     by the famous Königsberg bridge problem. -->
+```
+@euler-theorem
+  utterance:
+    text: This is one of the oldest results in graph theory.
+      Euler proved it in 1736, motivated by the famous
+      Königsberg bridge problem.
+  pause: 0.8
 ```
 
-Edit one slide's narration, rebuild, and only that slide's audio gets re-synthesized. Switch TTS backends without changing your slides. Chain modules together via a playlist file. The whole thing is designed around the idea that lecture content should be as easy to iterate on as source code.
+Each slide carries a stable id — an invisible marker stamped into the PDF by a small LaTeX macro — and the sidecar references that id. The slide source stays untouched; nothing about the narration leaks into it. Edit one slide's narration, rebuild, and only that slide's audio gets re-synthesized. Switch TTS backends without touching the script. The whole thing is designed around the idea that lecture content should be as easy to iterate on as source code.
 
 Here's an example — a presentation about the Basel Problem, built in conversation with Claude and compiled by SlideSonnet:
 
@@ -60,7 +58,7 @@ Why? Two reasons:
 
 **It's a real project with a real use case.** I actually need this tool. It solves a genuine problem I face as a lecturer. That matters because the interesting questions about vibe coding don't surface when you're building a to-do app — they surface when you hit real-world complexity: edge cases in FFmpeg encoding, subtitle timing drift, caching logic that needs to handle partial rebuilds.
 
-**It's low risk.** This is key. SlideSonnet isn't a real-time system where a bug means downtime. It's not handling user data or financial transactions. There are no significant security concerns — it reads Markdown files and produces videos. If the code has an inelegant corner or an unnecessary abstraction, nobody gets hurt. The worst case is a build that fails, and you re-run it. For a first serious vibe-coding project, you want exactly this profile: real enough to be interesting, forgiving enough that imperfect code is fine.
+**It's low risk.** This is key. SlideSonnet isn't a real-time system where a bug means downtime. It's not handling user data or financial transactions. There are no significant security concerns — it reads a PDF and a text file and produces videos. If the code has an inelegant corner or an unnecessary abstraction, nobody gets hurt. The worst case is a build that fails, and you re-run it. For a first serious vibe-coding project, you want exactly this profile: real enough to be interesting, forgiving enough that imperfect code is fine.
 
 The experience confirmed much of what people say about vibe coding, and added some nuance. The pipeline is conceptually straightforward (parse slides → synthesize speech → compose video → concatenate), but the details are fiddly: FFmpeg incantations, TTS API quirks, content-hash caching, incremental builds, and this complexity means you cannot just get there in one shot.
 
@@ -84,7 +82,7 @@ The video above is a presentation about the Basel Problem — the story of how E
 
 $$\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$$
 
-The presentation was itself vibe-coded — not generated in one shot, but shaped through conversation. I asked Claude to simplify certain sections, expand others, adjust the tone. The MARP Markdown format is natural for this kind of back-and-forth — just structured text with math notation and narration annotations, no visual layout to hallucinate. The result is a 31-slide presentation covering the full historical arc: Mengoli posing the problem in 1650, Bernoulli's public admission of defeat, Euler's brilliant proof by factoring $\sin(x)/x$ as an infinite product, with multiple voices including a "Bernoulli" for the historical quotes.
+The presentation was itself vibe-coded — not generated in one shot, but shaped through conversation. I asked Claude to simplify certain sections, expand others, adjust the tone. The plain-text narration sidecar is natural for this kind of back-and-forth — just structured text I could ask Claude to revise line by line, with no visual layout to wrangle. The result is a 31-slide presentation covering the full historical arc: Mengoli posing the problem in 1650, Bernoulli's public admission of defeat, Euler's brilliant proof by factoring $\sin(x)/x$ as an infinite product, with multiple voices including a "Bernoulli" for the historical quotes.
 
 Getting from zero to a finished video was harder than I expected. Pronunciation was a particular struggle — mathematical terms, historical names, and especially so because I was simultaneously experimenting with a Hebrew narration version. I hope and expect this part of the process will get smoother over time.
 
