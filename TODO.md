@@ -16,3 +16,17 @@
       doi:10.1016/j.isci.2026.116909): local PDF added at
       `pubs/2026/personality_questionnaires_llm.pdf`. Still to do: fill in
       volume/issue in the BibTeX once the article is assigned to an issue.
+
+## Hosting / infrastructure
+
+- [ ] **HTTPS enforcement on GitHub Pages** (noted 2026-09-15): `https://avivz.github.io/`
+      301-redirects to plain `http://www.avivz.net/`, and only then does Cloudflare bounce
+      to HTTPS. GitHub's "Enforce HTTPS" checkbox is unavailable because the domain is
+      Cloudflare-proxied (`is_https_eligible: false` in the Pages health check), so this
+      is a dashboard change, not a repo change. Pick one:
+      - **Keep Cloudflare proxy** (easier): in the Cloudflare dashboard confirm
+        "Always Use HTTPS" is on, SSL mode is "Full", and enable HSTS (site currently
+        sends no `Strict-Transport-Security` header).
+      - **Move TLS to GitHub**: set both DNS records to DNS-only (grey cloud) —
+        `www` CNAME → `avivz.github.io`, apex A → 185.199.108/109/110/111.153 — wait for
+        GitHub to issue a cert, then tick "Enforce HTTPS" in Settings → Pages.

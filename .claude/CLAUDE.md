@@ -68,9 +68,11 @@ Ink elements inside `.fade-in` containers animate on scroll via IntersectionObse
 ## TODO File
 
 `TODO.md` at the repo root tracks pending website chores (it is in the `exclude:` list in
-`_config.yml`, so it is committed but never published to GitHub Pages). Periodically — e.g.
-whenever working on publications or at the start of a publications-related task — read `TODO.md`
-and check whether any items are now actionable. It notably tracks preprints awaiting a
+`_config.yml`, so it is committed but never published to GitHub Pages). **At the start of any
+editing session on this site, read `TODO.md` and briefly remind the user of open items**,
+flagging any that are now actionable. In particular the "Hosting / infrastructure" section
+holds dashboard-side tasks (Cloudflare / GitHub Pages settings) that cannot be fixed in the
+repo, so the user must be reminded to do them by hand. It notably tracks preprints awaiting a
 camera-ready / proceedings version: when a paper currently linked to ePrint/arXiv gets its final
 published version, update the corresponding entry in `publications.html` and tick the item off.
 
