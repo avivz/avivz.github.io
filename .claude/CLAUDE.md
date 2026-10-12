@@ -89,7 +89,7 @@ Validate **all** HTML files, not just the one being edited. This is also enforce
 ## CSS
 
 CSS is plain (no SCSS build step). Two stylesheets:
-- **`assets/css/main.css`** — Styles for the main site (homepage, publications, talks, counseling)
+- **`assets/css/main.css`** — Styles for the main site (homepage, publications, talks, reception hours)
 - **`assets/css/notes.css`** — Styles for the Jekyll-powered notes/projects pages
 
 ## Jekyll Blog & Projects
@@ -141,10 +141,11 @@ Gallery ordering on the index follows entry order in `photography_sources.yml`.
 - **`index.html`** — Homepage: bio, selected papers (newest-first), margin annotations
 - **`publications.html`** — All publications (~2100 lines); each entry uses `pub-entry` structure
 - **`talks.html`** — Embedded talk videos in a responsive grid
-- **`counseling.html`** — Sabbatical/reception hours notice
+- **`reception.html`** — Reception hours: current courses + embedded Google Calendar (agenda view)
+- **`counseling.html`** — Redirect to `reception.html` (old URL, still linked from the AI Code course site)
 - **`assets/css/main.css`** — Main site styles (single file, no preprocessor)
 - **`assets/css/notes.css`** — Notes/projects styles
-- **`c.html`** — Redirect to `counseling.html`
+- **`c.html`** — Redirect to `reception.html`
 - **`assets/js/main.js`** — Dynamic date, scroll fade-in (IntersectionObserver), active nav link, margin note positioning, random ink tilts, camera-ready toggle (localStorage), BibTeX toggle
 
 ## Publication Entry Structure

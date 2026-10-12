@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', function () {
     { sep: true },
     { label: 'A\u2002Publications', page: 'publications.html' },
     { label: 'B\u2002Talks', page: 'talks.html' },
-    { label: 'C\u2002Reception Hours', page: 'counseling.html' },
+    { label: 'C\u2002Reception Hours', page: 'reception.html' },
     { label: 'D\u2002Notes', page: '/notes/' },
     { label: 'E\u2002Research Projects', page: '/projects/' },
     { label: 'F\u2002Photography', page: '/photography/' }

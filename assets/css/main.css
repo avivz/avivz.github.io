@@ -832,21 +832,33 @@ h3.subsection-heading {
   border-color: #c0392b;
 }
 
-/* ===== Counseling Page ===== */
-.counseling-content p {
+/* ===== Reception Hours Page ===== */
+.reception-content p {
   font-size: 1rem;
   line-height: 1.72;
 }
 
-.counseling-content a {
+.reception-content a {
   color: #1a1a1a;
   text-decoration: none;
   border-bottom: 0.6pt solid #999;
 }
 
-.counseling-content a:hover {
+.reception-content a:hover {
   color: #c0392b;
   border-color: #c0392b;
+}
+
+.reception-calendar {
+  background: #f5f5f5;
+  border: 0.6pt solid #ccc;
+  padding: 0.5rem;
+  margin: 1.2rem 0 1rem;
+}
+
+.reception-calendar iframe {
+  display: block;
+  border: none;
 }
 
 /* ===== Footnotes ===== */
